@@ -3,7 +3,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 const [page, resume, portrait, hosting] = await Promise.all([
   readFile("index.html", "utf8"),
   readFile("public/curriculo-eduarda-reis.pdf"),
-  readFile("public/eduarda-reis-noite-lunar.png"),
+  readFile("public/eduarda-reis-noite-lunar.jpg"),
   readFile(".openai/hosting.json", "utf8"),
 ]);
 
@@ -36,10 +36,10 @@ export default {
         },
       });
     }
-    if (url.pathname === "/eduarda-reis-noite-lunar.png") {
+    if (url.pathname === "/eduarda-reis-noite-lunar.jpg") {
       return new Response(portraitBytes(), {
         headers: {
-          "content-type": "image/png",
+          "content-type": "image/jpeg",
           "cache-control": "public, max-age=31536000, immutable",
         },
       });
