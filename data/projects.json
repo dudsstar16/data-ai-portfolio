@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "projects": [
+    {
+      "id": "report-automation",
+      "title": "Relatórios de Faturamento com Python",
+      "category": "automation",
+      "technologies": ["Python", "Pandas", "OpenPyXL", "PyAutoGUI"],
+      "url": "https://github.com/dudsstar16/automacao-relatorios-faturamento-python",
+      "summary": "Automação de extração, análise, consolidação e envio de relatórios."
+    },
+    {
+      "id": "power-bi-dashboard-portfolio",
+      "title": "Portfólio de Dashboards em Power BI",
+      "category": "business-intelligence",
+      "technologies": ["Power BI", "DAX", "Power Query", "KPIs"],
+      "url": "https://sites.google.com/view/portflioeduardareis/in%C3%ADcio",
+      "summary": "Dashboards interativos para análise de indicadores e apoio à decisão."
+    },
+    {
+      "id": "pokemon-tcg-data-modeling",
+      "title": "Pokémon TCG Database Modeling",
+      "category": "data-modeling",
+      "technologies": ["PostgreSQL", "SQL", "Modelagem", "Views"],
+      "url": "https://github.com/dudsstar16/pokemon-tcg-database-postgresql",
+      "summary": "Modelo relacional normalizado com views para análises reutilizáveis."
+    },
+    {
+      "id": "banco-em-escuta",
+      "title": "Banco em Escuta",
+      "category": "customer-analytics",
+      "technologies": ["React", "TypeScript", "NPS", "CSAT"],
+      "url": "https://github.com/dudsstar16/meus-desafios-criativos-dio",
+      "summary": "Dashboard de dados fictícios para acompanhar experiência e retenção de clientes."
+    },
+    {
+      "id": "dados-ia-decisoes-humanas",
+      "title": "Dados + IA: inteligência que impulsiona decisões humanas",
+      "category": "data-and-ai",
+      "technologies": ["HTML", "JavaScript", "IA Generativa", "IBGE"],
+      "url": "https://github.com/dudsstar16/lab-natty-or-not-desafio-DIO",
+      "summary": "Dashboard e e-book sobre mercado de trabalho com IA generativa e validação humana."
+    },
+    {
+      "id": "horizon-2012-data-lab",
+      "title": "Horizon 2012 — Laboratório de Dados",
+      "category": "data-engineering",
+      "technologies": ["Python", "CSV", "QA", "Dashboards"],
+      "url": "https://github.com/dudsstar16/data-horizon-lab-DIO",
+      "summary": "Pipeline reprodutível de higienização, QA e geração de dashboard a partir de base limpa."
+    }
+  ]
+}

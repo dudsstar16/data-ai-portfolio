@@ -2,8 +2,8 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const [page, resume, portrait, hosting] = await Promise.all([
   readFile("index.html", "utf8"),
-  readFile("public/curriculo-eduarda-reis.pdf"),
-  readFile("public/eduarda-reis-noite-lunar.jpg"),
+  readFile("public/documents/curriculo-eduarda-reis.pdf"),
+  readFile("public/images/eduarda-reis-noite-lunar.jpg"),
   readFile(".openai/hosting.json", "utf8"),
 ]);
 
@@ -27,7 +27,7 @@ function portraitBytes() {
 export default {
   fetch(request) {
     const url = new URL(request.url);
-    if (url.pathname === "/curriculo-eduarda-reis.pdf" || url.pathname === "/public/curriculo-eduarda-reis.pdf") {
+    if (url.pathname === "/curriculo-eduarda-reis.pdf" || url.pathname === "/documents/curriculo-eduarda-reis.pdf" || url.pathname === "/public/documents/curriculo-eduarda-reis.pdf") {
       return new Response(resumeBytes(), {
         headers: {
           "content-type": "application/pdf",
@@ -36,7 +36,7 @@ export default {
         },
       });
     }
-    if (url.pathname === "/eduarda-reis-noite-lunar.jpg" || url.pathname === "/public/eduarda-reis-noite-lunar.jpg") {
+    if (url.pathname === "/eduarda-reis-noite-lunar.jpg" || url.pathname === "/images/eduarda-reis-noite-lunar.jpg" || url.pathname === "/public/images/eduarda-reis-noite-lunar.jpg") {
       return new Response(portraitBytes(), {
         headers: {
           "content-type": "image/jpeg",
