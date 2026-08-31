@@ -8,7 +8,8 @@ Esta pasta organiza a produção do currículo para candidaturas a **Analista de
 - `02-fonte/`: conteúdo editável do currículo.
 - `03-layout/`: página HTML usada para gerar o PDF público.
 - `04-revisao/`: critérios editoriais e explicações de termos.
-- `05-arquivo/`: versão anterior preservada para consulta.
+- `05-raw_arquivo/`: versão anterior preservada para consulta.
+- `06-certificados/`: certificados profissionais.
 
 ## Como usar
 

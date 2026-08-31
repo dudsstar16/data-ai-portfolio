@@ -64,10 +64,10 @@ Analista de Dados com experiência prática em Business Intelligence, automaçã
 
 ## Formação
 
-- **Pós-graduação em Ciência de Dados** — UDF | Em andamento, 2026
-- **Residência em Inteligência Artificial** — Universidade de Brasília (UnB), Campus Gama | Em andamento, 2026
-- **Formação Back-End em Python** — Bolsa Futuro Digital, Instituto Federal de Brasília | Em andamento, 2026
-- **Análise e Desenvolvimento de Sistemas** — Universidade Católica de Brasília | Concluído, 2021-2024
+- **Pós-graduação em Ciência de Dados** — UDF | 08/2026 - atual
+- **Residência em Inteligência Artificial** — Universidade de Brasília (UnB), Campus Gama | 17/08/2026 - atual
+- **Formação Back-End em Python** — Bolsa Futuro Digital, Instituto Federal de Brasília | 13/05/2026 - 30/10/2026
+- **Análise e Desenvolvimento de Sistemas** — Universidade Católica de Brasília | 08/2022 - 12/2024
 
 ## Idiomas
 

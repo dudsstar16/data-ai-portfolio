@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node scripts/check.mjs && npm run build"
+    "check": "node scripts/check.mjs && npm run build",
+    "sync:github": "node scripts/sync-github-projects.mjs",
+    "sync:certificates": "node scripts/sync-certificates.mjs",
+    "content:sync": "npm run sync:github && npm run sync:certificates"
   }
 }

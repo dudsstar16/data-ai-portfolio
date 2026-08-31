@@ -1,53 +1,269 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "projects": [
     {
       "id": "report-automation",
       "title": "Relatórios de Faturamento com Python",
       "category": "automation",
-      "technologies": ["Python", "Pandas", "OpenPyXL", "PyAutoGUI"],
+      "categoryLabel": "Automação",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "OpenPyXL",
+        "PyAutoGUI"
+      ],
       "url": "https://github.com/dudsstar16/automacao-relatorios-faturamento-python",
-      "summary": "Automação de extração, análise, consolidação e envio de relatórios."
+      "summary": "Fluxo end-to-end para extração, análise, consolidação e envio automático de relatórios.",
+      "linkLabel": "Ver código",
+      "image": null,
+      "imageAlt": null,
+      "status": "published",
+      "displayOrder": 1
     },
     {
       "id": "power-bi-dashboard-portfolio",
       "title": "Portfólio de Dashboards em Power BI",
       "category": "business-intelligence",
-      "technologies": ["Power BI", "DAX", "Power Query", "KPIs"],
+      "categoryLabel": "Business Intelligence",
+      "technologies": [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "KPIs"
+      ],
       "url": "https://sites.google.com/view/portflioeduardareis/in%C3%ADcio",
-      "summary": "Dashboards interativos para análise de indicadores e apoio à decisão."
+      "summary": "Dashboards interativos para análise de indicadores e apoio à tomada de decisão.",
+      "linkLabel": "Explorar dashboards",
+      "image": null,
+      "imageAlt": null,
+      "status": "published",
+      "displayOrder": 2
     },
     {
       "id": "pokemon-tcg-data-modeling",
       "title": "Pokémon TCG Database Modeling",
       "category": "data-modeling",
-      "technologies": ["PostgreSQL", "SQL", "Modelagem", "Views"],
+      "categoryLabel": "Banco de dados",
+      "technologies": [
+        "PostgreSQL",
+        "SQL",
+        "Modelagem",
+        "Views"
+      ],
       "url": "https://github.com/dudsstar16/pokemon-tcg-database-postgresql",
-      "summary": "Modelo relacional normalizado com views para análises reutilizáveis."
+      "summary": "Modelo relacional em PostgreSQL com normalização, dados estruturados e views para análises reutilizáveis.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "published",
+      "displayOrder": 3
     },
     {
       "id": "banco-em-escuta",
       "title": "Banco em Escuta",
       "category": "customer-analytics",
-      "technologies": ["React", "TypeScript", "NPS", "CSAT"],
+      "categoryLabel": "Customer Analytics",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "NPS",
+        "CSAT"
+      ],
       "url": "https://github.com/dudsstar16/meus-desafios-criativos-dio",
-      "summary": "Dashboard de dados fictícios para acompanhar experiência e retenção de clientes."
+      "summary": "Dashboard analítico com dados bancários fictícios para acompanhar NPS, CSAT, CES e sinais de retenção.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "published",
+      "displayOrder": 4
     },
     {
       "id": "dados-ia-decisoes-humanas",
       "title": "Dados + IA: inteligência que impulsiona decisões humanas",
       "category": "data-and-ai",
-      "technologies": ["HTML", "JavaScript", "IA Generativa", "IBGE"],
+      "categoryLabel": "Dados & IA",
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "IA Generativa",
+        "IBGE"
+      ],
       "url": "https://github.com/dudsstar16/lab-natty-or-not-desafio-DIO",
-      "summary": "Dashboard e e-book sobre mercado de trabalho com IA generativa e validação humana."
+      "summary": "Dashboard interativo e e-book sobre indicadores do mercado de trabalho, unindo IA generativa e validação humana.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "published",
+      "displayOrder": 5
     },
     {
       "id": "horizon-2012-data-lab",
       "title": "Horizon 2012 — Laboratório de Dados",
       "category": "data-engineering",
-      "technologies": ["Python", "CSV", "QA", "Dashboards"],
+      "categoryLabel": "Engenharia de dados",
+      "technologies": [
+        "Python",
+        "CSV",
+        "QA",
+        "Dashboards"
+      ],
       "url": "https://github.com/dudsstar16/data-horizon-lab-DIO",
-      "summary": "Pipeline reprodutível de higienização, QA e geração de dashboard a partir de base limpa."
+      "summary": "Projeto completo com dados brutos, dicionários semânticos, higienização reprodutível, QA e dashboard gerado a partir da base limpa.",
+      "linkLabel": "Ver projeto",
+      "image": null,
+      "imageAlt": null,
+      "status": "published",
+      "displayOrder": 6
+    },
+    {
+      "id": "data-ai-portfolio",
+      "title": "data-ai-portfolio",
+      "category": "review",
+      "categoryLabel": "Revisar",
+      "technologies": [
+        "HTML"
+      ],
+      "url": "https://github.com/dudsstar16/data-ai-portfolio",
+      "summary": "Descrição de apresentação pendente de revisão.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "review",
+      "displayOrder": null,
+      "github": {
+        "repositoryId": 1348431961,
+        "defaultBranch": "master",
+        "createdAt": "2026-08-27T11:54:20Z",
+        "updatedAt": "2026-08-30T22:58:13Z"
+      }
+    },
+    {
+      "id": "ifb-estudos",
+      "title": "IFB-Estudos",
+      "category": "review",
+      "categoryLabel": "Revisar",
+      "technologies": [
+        "Python"
+      ],
+      "url": "https://github.com/dudsstar16/IFB-Estudos",
+      "summary": "aula curso python back-end",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "review",
+      "displayOrder": null,
+      "github": {
+        "repositoryId": 1279116538,
+        "defaultBranch": "main",
+        "createdAt": "2026-06-24T11:44:02Z",
+        "updatedAt": "2026-08-24T21:40:16Z"
+      }
+    },
+    {
+      "id": "estudos-de-python",
+      "title": "Estudos-de-Python",
+      "category": "review",
+      "categoryLabel": "Revisar",
+      "technologies": [
+        "Python"
+      ],
+      "url": "https://github.com/dudsstar16/Estudos-de-Python",
+      "summary": "Descrição de apresentação pendente de revisão.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "review",
+      "displayOrder": null,
+      "github": {
+        "repositoryId": 1326717395,
+        "defaultBranch": "main",
+        "createdAt": "2026-08-07T13:38:35Z",
+        "updatedAt": "2026-08-11T00:12:08Z"
+      }
+    },
+    {
+      "id": "dio-customer-feedback-insights",
+      "title": "dio-customer-feedback-insights",
+      "category": "review",
+      "categoryLabel": "Revisar",
+      "technologies": [],
+      "url": "https://github.com/dudsstar16/dio-customer-feedback-insights",
+      "summary": "Descrição de apresentação pendente de revisão.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "review",
+      "displayOrder": null,
+      "github": {
+        "repositoryId": 1323473110,
+        "defaultBranch": "main",
+        "createdAt": "2026-08-05T00:04:00Z",
+        "updatedAt": "2026-08-05T00:13:35Z"
+      }
+    },
+    {
+      "id": "miniguia-python-notebooklm",
+      "title": "miniguia-python-notebooklm",
+      "category": "review",
+      "categoryLabel": "Revisar",
+      "technologies": [],
+      "url": "https://github.com/dudsstar16/miniguia-python-notebooklm",
+      "summary": "Projeto desenvolvido durante o desafio da DIO com o objetivo de construir uma base de conhecimento utilizando o Google NotebookLM para apoiar os estudos de Python voltados para Análise de Dados, Automação de Processos e Ciência de Dados.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "review",
+      "displayOrder": null,
+      "github": {
+        "repositoryId": 1301592468,
+        "defaultBranch": "main",
+        "createdAt": "2026-07-15T12:29:17Z",
+        "updatedAt": "2026-07-16T00:53:17Z"
+      }
+    },
+    {
+      "id": "ciencia-de-dados-iesb",
+      "title": "ciencia-de-dados-iesb",
+      "category": "review",
+      "categoryLabel": "Revisar",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "url": "https://github.com/dudsstar16/ciencia-de-dados-iesb",
+      "summary": "Repositório destinado aos estudos e projetos da disciplina de Ciência de Dados e IA",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "review",
+      "displayOrder": null,
+      "github": {
+        "repositoryId": 1179785988,
+        "defaultBranch": "main",
+        "createdAt": "2026-03-12T11:31:40Z",
+        "updatedAt": "2026-05-04T02:05:00Z"
+      }
+    },
+    {
+      "id": "programacao-em-c-fundamentos",
+      "title": "programacao-em-c-fundamentos",
+      "category": "review",
+      "categoryLabel": "Revisar",
+      "technologies": [
+        "C"
+      ],
+      "url": "https://github.com/dudsstar16/programacao-em-c-fundamentos",
+      "summary": "Descrição de apresentação pendente de revisão.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "review",
+      "displayOrder": null,
+      "github": {
+        "repositoryId": 1187603151,
+        "defaultBranch": "main",
+        "createdAt": "2026-03-20T23:18:47Z",
+        "updatedAt": "2026-03-20T23:32:39Z"
+      }
     }
   ]
 }
