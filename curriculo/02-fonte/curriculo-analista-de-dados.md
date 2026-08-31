@@ -27,10 +27,10 @@ Analista de Dados com experiência prática em Business Intelligence, automaçã
 - Automatizo mais de 10 relatórios recorrentes em Python e apoio processos de ETL, reduzindo o tempo de processamento de 1 a 2 horas para menos de 5 minutos.
 
 ### Líder de Pesquisa e Desenvolvimento de Dados — DatAí
-**09/2025 - atual | Empresa Júnior de Dados | Voluntária**
+**08/2025 - 08/2026 | Empresa Júnior de Dados | Voluntária**
 
-- Coordeno pesquisa e desenvolvimento em 3 projetos colaborativos, organizando prioridades, requisitos e entregas com uma equipe de até 4 pessoas.
-- Pesquiso, prototipo e desenvolvo soluções orientadas a dados para 6 desafios de negócio, acompanhando 3 iniciativas multidisciplinares.
+- Coordenei pesquisa e desenvolvimento em 3 projetos colaborativos, organizando prioridades, requisitos e entregas com uma equipe de até 4 pessoas.
+- Pesquisei, prototipei e desenvolvi soluções orientadas a dados para 6 desafios de negócio, acompanhando 3 iniciativas multidisciplinares.
 
 ### Estagiária de Análise de Dados — BRB, Banco de Brasília
 **07/2025 - 01/2026**
