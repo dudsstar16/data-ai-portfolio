@@ -3,89 +3,510 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eduarda Reis — Currículo</title>
+  <title>Eduarda Reis - Currículo</title>
   <style>
-    @page { size: A4; margin: 10mm 11mm; }
+    @page { size: A4; margin: 0; }
+    :root {
+      --ink: #111827;
+      --muted: #58657a;
+      --quiet: #7e899b;
+      --line: #dfe6e2;
+      --surface: #f5f8f6;
+      --paper: #ffffff;
+      --accent: #52b788;
+      --accent-ink: #176b4a;
+      --accent-soft: #eaf7f0;
+      --sans: Inter, "Segoe UI Variable Text", "Segoe UI", Arial, sans-serif;
+      --mono: "Cascadia Mono", "SFMono-Regular", Consolas, monospace;
+    }
     * { box-sizing: border-box; }
-    body { margin: 0; color: #172033; background: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 9.2pt; line-height: 1.3; }
-    header { border-bottom: 2px solid #2357a5; padding-bottom: 7px; margin-bottom: 8px; }
-    h1 { margin: 0; color: #102f5b; font-size: 23.5pt; letter-spacing: -.5pt; }
-    .role { margin-top: 2px; color: #2357a5; font-size: 11pt; font-weight: 700; }
-    .contact { margin-top: 4px; color: #4b5565; font-size: 8.6pt; }
-    .contact a { color: inherit; text-decoration: none; }
-    h2 { margin: 8px 0 3px; color: #102f5b; border-bottom: 1px solid #cbd8eb; font-size: 10.2pt; letter-spacing: .25pt; text-transform: uppercase; }
-    p { margin: 0; }
-    .skills { font-size: 8.8pt; }
-    .experience, .project { break-inside: avoid; margin: 4px 0; }
-    .heading { display: flex; justify-content: space-between; gap: 10px; font-weight: 700; }
-    .title { color: #1a3d70; }
-    .date { flex: 0 0 auto; color: #50647f; font-size: 8.3pt; }
-    .meta { color: #4b5565; font-size: 8.3pt; }
-    ul { margin: 2px 0 0; padding-left: 13px; }
-    li { margin: 1px 0; }
-    .project strong { color: #1a3d70; }
-    .project a { color: #2357a5; text-decoration: none; }
-    .education { font-size: 8.5pt; }
-    .education span { display: inline; }
-    .dot { color: #7a8799; padding: 0 3px; }
+    html { background: #e8eeea; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #e8eeea;
+      font-family: var(--sans);
+      font-size: 9.15pt;
+      line-height: 1.43;
+      letter-spacing: -.012em;
+    }
+    a { color: inherit; text-decoration: none; }
+    p, h1, h2, h3, ul { margin: 0; }
+    .resume-page {
+      position: relative;
+      width: 210mm;
+      height: 297mm;
+      margin: 20px auto;
+      padding: 14mm;
+      overflow: hidden;
+      background: var(--paper);
+      box-shadow: 0 24px 72px rgba(18, 42, 30, .14);
+    }
+    .resume-page:first-of-type { break-after: page; page-break-after: always; }
+    .page-topline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8mm;
+    }
+    .eyebrow, .folio, .section-title, .meta, .date, .tag, .certification-list {
+      font-family: var(--mono);
+    }
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      color: var(--accent-ink);
+      font-size: 7.1pt;
+      font-weight: 750;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before {
+      width: 20px;
+      height: 2px;
+      background: var(--accent);
+      content: "";
+    }
+    .folio {
+      color: var(--quiet);
+      font-size: 6.8pt;
+      font-weight: 700;
+      letter-spacing: .08em;
+    }
+    .resume-header {
+      padding-bottom: 6mm;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 {
+      margin: 3mm 0 1.4mm;
+      font-size: 29pt;
+      line-height: .98;
+      letter-spacing: -.064em;
+    }
+    .role {
+      color: var(--accent-ink);
+      font-size: 11.1pt;
+      font-weight: 760;
+      letter-spacing: -.026em;
+    }
+    .summary {
+      max-width: 164mm;
+      margin-top: 2.7mm;
+      color: var(--muted);
+      font-size: 9pt;
+      line-height: 1.48;
+    }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3px 13px;
+      margin-top: 3.4mm;
+      color: var(--muted);
+      font: 650 7.2pt/1.45 var(--mono);
+      letter-spacing: -.03em;
+    }
+    .contact a {
+      border-bottom: 1px solid #c9d8d0;
+    }
+    .content-grid {
+      display: grid;
+      grid-template-columns: 30% minmax(0, 1fr);
+      gap: 9mm;
+      margin-top: 6mm;
+    }
+    .sidebar {
+      min-width: 0;
+      padding-right: 7mm;
+      border-right: 1px solid var(--line);
+    }
+    .section + .section { margin-top: 5.8mm; }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 2.4mm;
+      color: var(--ink);
+      font-size: 7.2pt;
+      font-weight: 800;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+    .section-title::after {
+      height: 1px;
+      flex: 1;
+      background: var(--line);
+      content: "";
+    }
+    .sidebar-copy {
+      color: var(--muted);
+      font-size: 8.35pt;
+      line-height: 1.5;
+    }
+    .skill-block + .skill-block { margin-top: 2.5mm; }
+    .skill-label {
+      display: block;
+      margin-bottom: .8mm;
+      color: var(--accent-ink);
+      font-size: 7.75pt;
+      font-weight: 780;
+    }
+    .skill-copy {
+      color: var(--muted);
+      font-size: 7.5pt;
+      line-height: 1.45;
+    }
+    .experience + .experience { margin-top: 6mm; }
+    .entry-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: start;
+    }
+    .entry-title {
+      font-size: 9.4pt;
+      font-weight: 790;
+      line-height: 1.18;
+      letter-spacing: -.028em;
+    }
+    .date {
+      padding-top: 1px;
+      color: var(--accent-ink);
+      font-size: 7pt;
+      font-weight: 760;
+      white-space: nowrap;
+    }
+    .meta {
+      margin-top: 1mm;
+      color: var(--quiet);
+      font-size: 7.05pt;
+      font-weight: 650;
+      letter-spacing: -.025em;
+    }
+    ul {
+      margin-top: 1.6mm;
+      padding-left: 3.6mm;
+      color: var(--muted);
+      font-size: 8.25pt;
+    }
+    li { margin: 1.25mm 0; padding-left: .8mm; }
+    li::marker { color: var(--accent-ink); }
+    .metric { color: var(--accent-ink); font-weight: 800; }
+    .continuation-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 8mm;
+      padding-bottom: 4.5mm;
+      border-bottom: 1px solid var(--line);
+    }
+    .continuation-name {
+      font-size: 15pt;
+      font-weight: 820;
+      line-height: 1;
+      letter-spacing: -.045em;
+    }
+    .continuation-role {
+      margin-top: 1.2mm;
+      color: var(--accent-ink);
+      font-size: 7.6pt;
+      font-weight: 720;
+    }
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .tag {
+      padding: 3px 5px;
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      background: var(--surface);
+      color: #405068;
+      font-size: 6.55pt;
+      font-weight: 670;
+      line-height: 1.2;
+      letter-spacing: -.035em;
+    }
+    .tag.accent {
+      border-color: #b9e4ce;
+      background: var(--accent-soft);
+      color: var(--accent-ink);
+    }
+    .language + .language { margin-top: 2.3mm; }
+    .language strong {
+      display: block;
+      color: var(--ink);
+      font-size: 8pt;
+    }
+    .language span {
+      display: block;
+      margin-top: .5mm;
+      color: var(--muted);
+      font-size: 7.35pt;
+      line-height: 1.42;
+    }
+    .certification-list {
+      color: var(--muted);
+      font-size: 7pt;
+      line-height: 1.52;
+    }
+    .project + .project { margin-top: 5.7mm; }
+    .project-name {
+      font-size: 9.2pt;
+      font-weight: 790;
+      line-height: 1.18;
+      letter-spacing: -.026em;
+    }
+    .project-kicker {
+      display: block;
+      margin-top: .8mm;
+      color: var(--accent-ink);
+      font: 720 6.8pt/1.35 var(--mono);
+    }
+    .project-copy {
+      margin-top: 1.3mm;
+      color: var(--muted);
+      font-size: 8.15pt;
+      line-height: 1.45;
+    }
+    .project-copy + .project-copy { margin-top: 1mm; }
+    .project-link {
+      color: var(--accent-ink);
+      font-weight: 760;
+      border-bottom: 1px solid #b9d8c8;
+    }
+    .education-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3mm 5mm;
+    }
+    .education-item {
+      color: var(--muted);
+      font-size: 7.45pt;
+      line-height: 1.38;
+    }
+    .education-item strong {
+      display: block;
+      color: var(--ink);
+      font-size: 8pt;
+      line-height: 1.22;
+    }
+    .education-status {
+      display: inline-block;
+      margin-top: .8mm;
+      color: var(--accent-ink);
+      font: 740 6.7pt/1.3 var(--mono);
+      text-transform: uppercase;
+    }
+    .experience, .project, .section, .education-item { break-inside: avoid; }
+    .resume-page:nth-of-type(2) .sidebar .section + .section { margin-top: 9mm; }
+    .resume-page:nth-of-type(2) main .section + .section { margin-top: 8mm; }
+    @media screen and (max-width: 760px) {
+      html, body { background: #fff; }
+      .resume-page {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        margin: 0;
+        padding: 28px 22px;
+        overflow: visible;
+        box-shadow: none;
+      }
+      .resume-page + .resume-page { border-top: 10px solid var(--surface); }
+      .content-grid { grid-template-columns: 1fr; gap: 30px; }
+      .sidebar { padding: 0; border: 0; }
+      .education-list { grid-template-columns: 1fr; }
+      .entry-head { grid-template-columns: 1fr; gap: 3px; }
+      .contact { gap: 6px 12px; }
+    }
+    @media print {
+      html, body { background: #fff; }
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .resume-page {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        box-shadow: none;
+      }
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Eduarda Reis</h1>
-    <div class="role">Analista de Dados | Business Intelligence | Automação e IA Aplicada</div>
-    <div class="contact">Brasília, DF <span class="dot">•</span> eduardareisworkspace@gmail.com <span class="dot">•</span> linkedin.com/in/eduarda-reis-95b95624a <span class="dot">•</span> github.com/dudsstar16</div>
-  </header>
+  <section class="resume-page" aria-label="Currículo de Eduarda Reis, página 1 de 2">
+    <header class="resume-header">
+      <div class="page-topline">
+        <p class="eyebrow">Dados · BI · Automação · IA aplicada</p>
+        <p class="folio">01 / 02</p>
+      </div>
+      <h1>Eduarda Reis</h1>
+      <p class="role">Analista de Dados | Business Intelligence | Automação e IA Aplicada</p>
+      <p class="summary">Analista de Dados com experiência prática em Business Intelligence, automação e análise de dados em contextos de atendimento e operações. Transformo bases em indicadores, dashboards e rotinas automatizadas para apoiar decisões, com atenção à qualidade da informação e à confiabilidade de soluções de IA aplicada.</p>
+      <nav class="contact" aria-label="Contatos profissionais">
+        <span>Brasília, DF</span>
+        <a href="tel:+5561993194102">+55 (61) 99319-4102</a>
+        <a href="mailto:eduardareisworkspace@gmail.com">eduardareisworkspace@gmail.com</a>
+        <a href="https://www.linkedin.com/in/eduarda-reis-95b95624a/">LinkedIn</a>
+        <a href="https://github.com/dudsstar16">GitHub</a>
+        <a href="https://sites.google.com/view/portflioeduardareis/in%C3%ADcio">Portfólio</a>
+      </nav>
+    </header>
 
-  <section>
-    <h2>Resumo</h2>
-    <p>Analista de Dados em início de carreira com experiência em Power BI, SQL, Python, ETL e qualidade de dados. Transformo bases operacionais em dashboards, indicadores e automações para apoiar decisões de negócio. Desenvolvo também soluções de IA aplicada com foco em validação de saídas, uso responsável e experiência do usuário.</p>
-  </section>
+    <div class="content-grid">
+      <aside class="sidebar" aria-label="Perfil e competências">
+        <section class="section">
+          <h2 class="section-title">Perfil</h2>
+          <p class="sidebar-copy">Atuação prática do tratamento à comunicação do dado: preparo e valido bases, construo indicadores, automatizo rotinas e traduzo análises em informação útil para o negócio.</p>
+        </section>
 
-  <section>
-    <h2>Competências</h2>
-    <p class="skills"><strong>Dados e BI:</strong> Power BI, DAX, Power Query, SQL, modelagem de dados, ETL, análise exploratória e qualidade de dados. <strong>Automação:</strong> Python, Pandas, OpenPyXL, PyAutoGUI, Git e GitHub. <strong>IA aplicada:</strong> engenharia de prompts, agentes de IA, LLMs, guardrails, saídas estruturadas, fallback, revisão humana, testes automatizados e troubleshooting.</p>
-  </section>
+        <section class="section">
+          <h2 class="section-title">Competências técnicas</h2>
+          <div class="skill-block">
+            <span class="skill-label">Dados &amp; BI</span>
+            <p class="skill-copy">Power BI, DAX, Power Query, SQL, modelagem de dados, ETL, análise exploratória e qualidade de dados.</p>
+          </div>
+          <div class="skill-block">
+            <span class="skill-label">Python &amp; Automação</span>
+            <p class="skill-copy">Python, Pandas, OpenPyXL, PyAutoGUI, Git e GitHub.</p>
+          </div>
+          <div class="skill-block">
+            <span class="skill-label">IA Aplicada</span>
+            <p class="skill-copy">LLMs, engenharia de prompts, agentes de IA, guardrails, saídas estruturadas, fallback, revisão humana e testes automatizados.</p>
+          </div>
+          <div class="skill-block">
+            <span class="skill-label">Negócios &amp; CX</span>
+            <p class="skill-copy">NPS, CES, CSAT, CX/UX, indicadores de atendimento e comunicação de insights.</p>
+          </div>
+        </section>
+      </aside>
 
-  <section>
-    <h2>Experiência profissional</h2>
-    <div class="experience">
-      <div class="heading"><span class="title">Estagiária de Análise de Dados — CNP Seguros Holding</span><span class="date">2026 - atual</span></div>
-      <div class="meta">Dados e Relacionamento com o Cliente</div>
-      <ul>
-        <li>Desenvolvo e mantenho 12 dashboards em Power BI, consolidando dados de 2 fontes para acompanhar indicadores de atendimento, NPS e CES para públicos internos e externos.</li>
-        <li>Trato e valido 3 bases das Centrais de Atendimento e realizo análises diárias de NPS e CES para monitoramentos e apresentações gerenciais.</li>
-        <li>Automatizo mais de 10 relatórios recorrentes em Python, reduzindo o tempo de processamento de 1 a 2 horas para menos de 5 minutos.</li>
-      </ul>
+      <main aria-label="Experiência profissional">
+        <section class="section">
+          <h2 class="section-title">Experiência profissional</h2>
+
+          <article class="experience">
+            <div class="entry-head">
+              <h3 class="entry-title">Estagiária de Análise de Dados</h3>
+              <time class="date">2026 - atual</time>
+            </div>
+            <p class="meta">CNP Seguros Holding · Dados e Relacionamento com o Cliente</p>
+            <ul>
+              <li>Desenvolvo e mantenho <strong class="metric">12 dashboards</strong> em Power BI, consolidando <strong class="metric">2 fontes</strong> para acompanhar atendimento, NPS e CES.</li>
+              <li>Consolido, trato e valido <strong class="metric">3 bases</strong> das Centrais de Atendimento para monitoramentos e apresentações gerenciais.</li>
+              <li>Analiso diariamente NPS e CES para identificar tendências e oportunidades de melhoria na experiência do cliente.</li>
+              <li>Automatizo <strong class="metric">10+ relatórios</strong> em Python e apoio processos de ETL, reduzindo o processamento de <strong class="metric">1-2 horas para menos de 5 minutos</strong>.</li>
+            </ul>
+          </article>
+
+          <article class="experience">
+            <div class="entry-head">
+              <h3 class="entry-title">Líder de Pesquisa e Desenvolvimento de Dados</h3>
+              <time class="date">09/2025 - atual</time>
+            </div>
+            <p class="meta">DatAí · Empresa Júnior de Dados · Voluntária</p>
+            <ul>
+              <li>Coordeno pesquisa e desenvolvimento em <strong class="metric">3 projetos</strong>, organizando prioridades, requisitos e entregas com uma equipe de <strong class="metric">até 4 pessoas</strong>.</li>
+              <li>Pesquiso, prototipo e desenvolvo soluções orientadas a dados para <strong class="metric">6 desafios de negócio</strong> em 3 iniciativas multidisciplinares.</li>
+            </ul>
+          </article>
+
+          <article class="experience">
+            <div class="entry-head">
+              <h3 class="entry-title">Estagiária de Análise de Dados</h3>
+              <time class="date">07/2025 - 01/2026</time>
+            </div>
+            <p class="meta">BRB · Banco de Brasília</p>
+            <ul>
+              <li>Tratei, manipulei e analisei <strong class="metric">10+ bases</strong> operacionais, totalizando <strong class="metric">27+ milhões de linhas</strong>.</li>
+              <li>Integrei <strong class="metric">4 fontes</strong> em <strong class="metric">10+ análises exploratórias</strong> e contribuí para a construção de <strong class="metric">3 indicadores</strong> e relatórios.</li>
+              <li>Otimizei rotinas aplicáveis de preparação, reduzindo atividades que levavam horas para <strong class="metric">menos de 5 minutos</strong>.</li>
+            </ul>
+          </article>
+        </section>
+      </main>
     </div>
-    <div class="experience">
-      <div class="heading"><span class="title">Líder de Pesquisa e Desenvolvimento de Dados — DatAí</span><span class="date">09/2025 - atual</span></div>
-      <div class="meta">Empresa Júnior de Dados | Voluntária</div>
-      <ul>
-        <li>Coordeno pesquisa e desenvolvimento em 3 projetos, apoiando equipe de até 4 pessoas na definição de prioridades, requisitos e entregas.</li>
-        <li>Pesquiso, prototipo e organizo soluções orientadas a dados para 6 desafios de negócio e 3 iniciativas multidisciplinares.</li>
-      </ul>
-    </div>
-    <div class="experience">
-      <div class="heading"><span class="title">Estagiária de Análise de Dados — BRB, Banco de Brasília</span><span class="date">07/2025 - 01/2026</span></div>
-      <ul>
-        <li>Tratei e analisei mais de 10 bases operacionais, somando mais de 27 milhões de linhas, para análises internas.</li>
-        <li>Apoiei a construção de 3 indicadores e relatórios para áreas do banco e realizei mais de 10 análises exploratórias, integrando 4 fontes de dados.</li>
-      </ul>
-    </div>
   </section>
 
-  <section>
-    <h2>Projetos selecionados</h2>
-    <div class="project"><strong>Sintonia Musical AI — Projeto acadêmico em andamento, UnB</strong> <span class="meta">| TypeScript, Next.js, OpenAI API, Spotify API, D1</span><br>Agente conversacional de recomendação musical com interpretação híbrida, engenharia de prompts com JSON estruturado, guardrails de confiança mínima de 90%, fallback local, revisão humana e testes automatizados.</div>
-    <div class="project"><strong>Relatórios de Faturamento com Python</strong> <span class="meta">| Python, Pandas, OpenPyXL, PyAutoGUI</span><br>Automatizei 4 etapas de um relatório diário, reduzindo o processo de 30 minutos para menos de 5 minutos e poupando cerca de 25 minutos por execução. <a href="https://github.com/dudsstar16/automacao-relatorios-faturamento-python">GitHub</a></div>
-    <div class="project"><strong>Portfólio de Dashboards em Power BI</strong> <span class="meta">| Power BI, DAX, Power Query</span><br>Desenvolvi mais de 10 dashboards interativos com dados CSV, Excel, JSON e bancos de dados para análise de indicadores. <a href="https://sites.google.com/view/portflioeduardareis/in%C3%ADcio">Portfólio</a></div>
-    <div class="project"><strong>Horizon 2012 — Laboratório de Dados</strong> <span class="meta">| Python, CSV, QA, Dashboards</span><br>Validei 4 regras de qualidade sobre mais de 300 registros e gerei uma base limpa para dashboard e análises reprodutíveis. <a href="https://github.com/dudsstar16/data-horizon-lab-DIO">GitHub</a></div>
-  </section>
+  <section class="resume-page" aria-label="Currículo de Eduarda Reis, página 2 de 2">
+    <header class="continuation-header">
+      <div>
+        <p class="continuation-name">Eduarda Reis</p>
+        <p class="continuation-role">Dados · Business Intelligence · Automação · IA Aplicada</p>
+      </div>
+      <p class="folio">02 / 02</p>
+    </header>
 
-  <section>
-    <h2>Formação complementar</h2>
-    <p class="education"><strong>Pós-graduação em Ciência de Dados</strong> — UDF, em andamento (2026)<span class="dot">•</span><strong>Residência em Inteligência Artificial</strong> — UnB, em andamento (2026)<span class="dot">•</span><strong>Análise e Desenvolvimento de Sistemas</strong> — UCB, 2021-2024<span class="dot">•</span><strong>Formação Back-End em Python</strong> — IFB, em andamento (2026)</p>
+    <div class="content-grid">
+      <aside class="sidebar" aria-label="Ferramentas, idiomas e certificações">
+        <section class="section">
+          <h2 class="section-title">Ferramentas</h2>
+          <div class="tag-list">
+            <span class="tag accent">Power BI</span>
+            <span class="tag accent">SQL</span>
+            <span class="tag accent">Python</span>
+            <span class="tag">DAX</span>
+            <span class="tag">Power Query</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">OpenPyXL</span>
+            <span class="tag">PyAutoGUI</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title">Idiomas</h2>
+          <p class="language"><strong>Português - Nativo</strong></p>
+          <p class="language"><strong>Inglês - Fluente</strong><span>Vivência internacional de 3 anos em Londres, Reino Unido.</span></p>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title">Certificações</h2>
+          <p class="certification-list">Cálculos com DAX · ETL no Power Query · Visualização e análise no Power BI · Fundamentos de IA · Modelos de Linguagem de Grande Escala · Engenharia de Prompts · Processo de ETL com Excel e Power Query · Consultas SQL com Copilot · Git e GitHub</p>
+        </section>
+      </aside>
+
+      <main aria-label="Projetos e formação">
+        <section class="section">
+          <h2 class="section-title">Projetos em destaque</h2>
+
+          <article class="project">
+            <h3 class="project-name">Sintonia Musical AI</h3>
+            <span class="project-kicker">TypeScript · Next.js · OpenAI API · Spotify API · D1 · Testes</span>
+            <p class="project-copy">Agente conversacional de recomendação musical com interpretação híbrida: regras determinísticas para casos simples e IA opcional, mediante consentimento, para mensagens ambíguas.</p>
+            <p class="project-copy"><strong class="metric">Diferencial:</strong> saída JSON estruturada, guardrail de confiança mínima de 90%, fallback local, revisão humana e tratamento de falhas para preservar confiabilidade e experiência do usuário.</p>
+          </article>
+
+          <article class="project">
+            <h3 class="project-name">Relatórios de Faturamento com Python</h3>
+            <span class="project-kicker">Python · Pandas · OpenPyXL · PyAutoGUI</span>
+            <p class="project-copy">Automação de 4 etapas de extração, análise, consolidação e envio de relatório diário, reduzindo o processo de <strong class="metric">30 minutos para menos de 5 minutos</strong>. <a class="project-link" href="https://github.com/dudsstar16/automacao-relatorios-faturamento-python">Código</a></p>
+          </article>
+
+          <article class="project">
+            <h3 class="project-name">Portfólio de Dashboards em Power BI</h3>
+            <span class="project-kicker">Power BI · DAX · Power Query · KPIs</span>
+            <p class="project-copy">Mais de <strong class="metric">10 dashboards</strong> interativos com dados de CSV, Excel, JSON e bancos de dados para analisar indicadores por período, região, produto ou canal. <a class="project-link" href="https://sites.google.com/view/portflioeduardareis/in%C3%ADcio">Dashboards</a></p>
+          </article>
+
+          <article class="project">
+            <h3 class="project-name">Horizon 2012 - Laboratório de Dados</h3>
+            <span class="project-kicker">Python · CSV · QA · Dashboards</span>
+            <p class="project-copy">Documentação e validação de <strong class="metric">4 regras de qualidade</strong> sobre <strong class="metric">300+ registros</strong>, gerando uma base limpa e confiável para dashboard e análises reprodutíveis. <a class="project-link" href="https://github.com/dudsstar16/data-horizon-lab-DIO">Projeto</a></p>
+          </article>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title">Formação acadêmica</h2>
+          <div class="education-list">
+            <p class="education-item"><strong>Pós-graduação em Ciência de Dados</strong>UDF<span class="education-status">Em andamento · 2026</span></p>
+            <p class="education-item"><strong>Residência em Inteligência Artificial</strong>Universidade de Brasília · Campus Gama<span class="education-status">Em andamento · 2026</span></p>
+            <p class="education-item"><strong>Formação Back-End em Python</strong>Bolsa Futuro Digital · Instituto Federal de Brasília<span class="education-status">Em andamento · 2026</span></p>
+            <p class="education-item"><strong>Análise e Desenvolvimento de Sistemas</strong>Universidade Católica de Brasília<span class="education-status">Concluído · 2021-2024</span></p>
+          </div>
+        </section>
+      </main>
+    </div>
   </section>
 </body>
 </html>

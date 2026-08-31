@@ -3,7 +3,7 @@
 ## Ordem correta
 
 1. Atualize `curriculo/02-fonte/curriculo-analista-de-dados.md` com os fatos e métricas confirmados.
-2. Ajuste `curriculo/03-layout/curriculo-analista-de-dados.html` para a versão visual de uma página.
+2. Ajuste `curriculo/03-layout/curriculo-analista-de-dados.html` para a versão visual de duas páginas A4.
 3. Exporte o HTML para `public/documents/curriculo-eduarda-reis.pdf`.
 4. Rode `npm run check` para incluir o PDF novo no build.
 
@@ -13,7 +13,7 @@
 - Métricas têm contexto e podem ser explicadas em entrevista.
 - Resultados confidenciais são agregados ou removidos.
 - Termos como guardrails, fallback e troubleshooting aparecem ligados a uma prática real.
-- O título profissional permanece amplo: **Analista de Dados**.
+- O título profissional permanece amplo e pesquisável: **Analista de Dados | Business Intelligence | Automação e IA Aplicada**.
 
 ## Arquivos numerados
 
