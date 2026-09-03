@@ -1,5 +1,33 @@
 # Repository Guidelines
 
+## AI Quick Start (leia primeiro)
+
+Este é um portfólio estático de uma única página. Não faça varredura ampla: consulte somente a fonte relacionada à tarefa.
+
+| Necessidade | Fonte de verdade | Ação |
+| --- | --- | --- |
+| Interface/site | `index.html`, `data/projects.json`, `data/certificates.json` | Preserve o layout; o site renderiza apenas itens curados/publicados. |
+| Currículo | `curriculo/02-fonte/`, `curriculo/03-layout/`, `public/documents/curriculo-eduarda-reis.pdf` | Rode `npm run content:automate` quando a mudança vier de conteúdo. |
+| Carreira | `data/career-profile.json`, `curriculo/04-revisao/painel-profissional.md` | Use `$data-analyst-career-advisor`; não invente fatos. |
+| Curadoria/aplicação | `.agents/skills/portfolio-content-maintainer/SKILL.md`, `automation/README.md` | Registre decisões em `curation`; casos ambíguos ficam em revisão. |
+| LinkedIn | `curriculo/07-linkedin/perfil-linkedin.md` | Use como fonte editorial; publique no navegador somente com confirmação. |
+
+### Endereços oficiais
+
+- Site principal: `https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/`
+- Vitrine interativa de dashboards: `https://sites.google.com/view/portflioeduardareis/início` (somente link, não é destino de deploy)
+- GitHub: `https://github.com/dudsstar16`
+
+### Fluxo padrão de conteúdo
+
+1. Novo certificado: colocar o PDF em `curriculo/06-certificados/`; a tarefa local ou o workflow executa a análise.
+2. Novo projeto: publicar no GitHub; o workflow semanal descobre e pontua o repositório.
+3. Alta confiança: catálogo, site e seleção do currículo podem ser atualizados automaticamente dentro dos limites.
+4. Falta de evidência, substituição ou promoção: manter em revisão e explicar a próxima ação.
+5. Antes de entregar: `npm run check` e `npm run build`.
+
+Limites atuais: 8 certificados visíveis no site, 6 no currículo e 6 projetos principais. Nunca edite `dist/` diretamente.
+
 ## Project Structure & Module Organization
 
 This repository is a small, static portfolio site. The main page, responsive CSS, and browser JavaScript are kept in [`index.html`](index.html). Runtime assets live in [`public/`](public/), while editable résumé material follows the staged flow in [`curriculo/`](curriculo/). Read [`docs/AI_HARNESS.md`](docs/AI_HARNESS.md) before broad content or automation changes. [`scripts/build.mjs`](scripts/build.mjs) packages the page and selected assets into `dist/` for the hosted worker; treat `dist/` as generated output.
@@ -32,4 +60,4 @@ Do not commit secrets, private contact data beyond the intentionally public port
 
 ## Professional Career Advisor
 
-For résumé, portfolio, certificate, project-selection, promotion, or Data Analyst career decisions, use the repository skill at `.agents/skills/data-analyst-career-advisor/SKILL.md`. Treat `data/career-profile.json` as the structured career context and `curriculo/04-revisao/painel-profissional.md` as generated decision support. Recommendations never authorize publication: keep discovered items in `review` until Eduarda confirms their facts and asks to publish them.
+For résumé, portfolio, certificate, project-selection, promotion, or Data Analyst career decisions, use `.agents/skills/data-analyst-career-advisor/SKILL.md`. For deterministic application, use `.agents/skills/portfolio-content-maintainer/SKILL.md`. Treat `data/career-profile.json` as structured career context and `curriculo/04-revisao/painel-profissional.md` as generated decision support. High-confidence content may be published automatically within the documented limits; ambiguous content, replacements, promotion claims, and LinkedIn publication require human confirmation.
