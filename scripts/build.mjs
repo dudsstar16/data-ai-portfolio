@@ -1,4 +1,5 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 
 const [page, resume, portrait, hosting, projectsJson, certificatesJson] = await Promise.all([
   readFile("index.html", "utf8"),
@@ -10,6 +11,11 @@ const [page, resume, portrait, hosting, projectsJson, certificatesJson] = await 
 ]);
 
 const projects = JSON.parse(projectsJson).projects ?? [];
+const resumeRevision = createHash("sha256").update(resume).digest("hex").slice(0, 12);
+const renderedPage = page.replaceAll(
+  "./public/documents/curriculo-eduarda-reis.pdf",
+  `./public/documents/curriculo-eduarda-reis.pdf?v=${resumeRevision}`,
+);
 const projectImageEntries = await Promise.all(
   projects
     .filter(project => project.status === "published" && project.image)
@@ -32,7 +38,7 @@ await Promise.all([
   mkdir("dist/.openai", { recursive: true }),
 ]);
 
-const worker = `const page = ${JSON.stringify(page)};
+const worker = `const page = ${JSON.stringify(renderedPage)};
 const resumeBase64 = ${JSON.stringify(Buffer.from(resume).toString("base64"))};
 const portraitBase64 = ${JSON.stringify(Buffer.from(portrait).toString("base64"))};
 const projectsJson = ${JSON.stringify(projectsJson)};
@@ -67,7 +73,7 @@ export default {
         headers: {
           "content-type": "application/pdf",
           "content-disposition": "inline; filename=curriculo-eduarda-reis.pdf",
-          "cache-control": "public, max-age=3600",
+          "cache-control": "no-cache, max-age=0, must-revalidate",
         },
       });
     }
