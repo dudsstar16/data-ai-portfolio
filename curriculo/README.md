@@ -11,6 +11,9 @@ Esta pasta organiza a produção do currículo para candidaturas a **Analista de
 - `05-raw_arquivo/`: versão anterior preservada para consulta.
 - `06-certificados/`: certificados profissionais.
 
+O painel `04-revisao/painel-profissional.md` é gerado por `npm run career:review` e ajuda a priorizar projetos e certificados sem alterar o currículo ou o site.
+O arquivo `04-revisao/diagnostico-curricular.md` registra a análise humana atual e o plano para a transição de cargo.
+
 ## Como usar
 
 1. Atualize o inventário quando novos resultados, dashboards ou automações forem concluídos.

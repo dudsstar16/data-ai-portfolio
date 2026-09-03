@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "target": {
+    "role": "Analista de Dados",
+    "level": "Júnior",
+    "positioning": "Analista de Dados | Business Intelligence | Automação e IA Aplicada"
+  },
+  "transition": {
+    "newTitle": "Analista de Dados Júnior",
+    "effectiveDate": "2026-09-10",
+    "status": "planned",
+    "confirmationRequired": true,
+    "note": "Atualizar currículo e site somente após o início ser confirmado por Eduarda."
+  },
+  "selectionPolicy": {
+    "portfolioProjectLimit": 6,
+    "siteCertificateLimit": 8,
+    "resumeCertificateLimit": 6
+  },
+  "competencyPillars": [
+    {
+      "id": "bi",
+      "label": "Power BI e visualização",
+      "weight": 5,
+      "keywords": ["power bi", "business intelligence", "dax", "dashboard", "visualizacao", "visualizing", "kpi"]
+    },
+    {
+      "id": "sql-modeling",
+      "label": "SQL e modelagem de dados",
+      "weight": 5,
+      "keywords": ["sql", "banco de dados", "database", "postgresql", "modelagem", "relacional"]
+    },
+    {
+      "id": "data-quality-etl",
+      "label": "ETL e qualidade de dados",
+      "weight": 4,
+      "keywords": ["etl", "power query", "excel", "qualidade", "quality", "limpeza", "tratamento", "validacao"]
+    },
+    {
+      "id": "python-automation",
+      "label": "Python e automação",
+      "weight": 4,
+      "keywords": ["python", "pandas", "openpyxl", "automacao", "pyautogui"]
+    },
+    {
+      "id": "analytics",
+      "label": "Análise e estatística",
+      "weight": 3,
+      "keywords": ["analise de dados", "analytics", "estatistica", "exploratoria", "insights", "ciencia de dados"]
+    },
+    {
+      "id": "business",
+      "label": "Negócio e comunicação",
+      "weight": 3,
+      "keywords": ["nps", "ces", "csat", "cliente", "customer", "feedback", "negocio", "comunicacao"]
+    },
+    {
+      "id": "applied-ai",
+      "label": "IA aplicada",
+      "weight": 2,
+      "keywords": ["inteligencia artificial", "ia", "ai reports", "llm", "modelo de linguagem", "modelos de linguagem", "prompt", "prompts", "copilot", "chatgpt", "claude", "linguagem natural", "visao computacional"]
+    }
+  ],
+  "credentialRoadmap": [
+    {
+      "id": "pl-300",
+      "title": "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
+      "priority": "next",
+      "reason": "É a credencial mais alinhada ao uso profissional já demonstrado de Power BI, DAX, modelagem e análise.",
+      "url": "https://learn.microsoft.com/pt-br/credentials/certifications/data-analyst-associate/"
+    },
+    {
+      "id": "google-data-analytics",
+      "title": "Google Data Analytics Certificate",
+      "priority": "optional",
+      "reason": "Pode estruturar fundamentos e gerar um estudo de caso, mas parte do conteúdo se sobrepõe à experiência e à formação atuais.",
+      "url": "https://grow.google/certificates/data-analytics/"
+    }
+  ],
+  "lastReviewed": "2026-09-03"
+}

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Consultor de Carreira em Dados"
+  short_description: "Currículo, portfólio e evolução em dados"
+  default_prompt: "Use $data-analyst-career-advisor para revisar minha evolução profissional e recomendar o próximo passo com base nas evidências do repositório."
+
+policy:
+  allow_implicit_invocation: true
+

@@ -242,7 +242,7 @@
         if(!projectsResponse.ok||!certificatesResponse.ok)throw new Error("Catálogos indisponíveis");
         const [projectCatalog,certificateCatalog]=await Promise.all([projectsResponse.json(),certificatesResponse.json()]);
         const projects=(projectCatalog.projects||[]).filter(project=>project.status==="published").sort((a,b)=>(a.displayOrder??999)-(b.displayOrder??999));
-        const certificates=(certificateCatalog.certificates||[]).filter(certificate=>certificate.status==="published").sort((a,b)=>(a.displayOrder??999)-(b.displayOrder??999));
+        const certificates=(certificateCatalog.certificates||[]).filter(certificate=>certificate.status==="published"&&certificate.curation?.siteVisible!==false).sort((a,b)=>(a.displayOrder??999)-(b.displayOrder??999)).slice(0,8);
         document.querySelector("#project-count").textContent=String(projects.length).padStart(2,"0");
         const heights=[[34,61,48,83,70],[55,75,39,88,63],[68,44,79,58,90],[72,51,84,66,92],[46,77,59,88,69],[58,83,67,91,76]];
         projectsContainer.innerHTML=projects.map((project,index)=>{

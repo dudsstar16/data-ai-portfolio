@@ -6,8 +6,14 @@ const requiredFiles = [
   "public/images/eduarda-reis-noite-lunar.jpg",
   "data/projects.json",
   "data/certificates.json",
+  "data/career-profile.json",
+  ".agents/skills/data-analyst-career-advisor/SKILL.md",
+  ".agents/skills/portfolio-content-maintainer/SKILL.md",
+  "curriculo/04-revisao/painel-profissional.md",
+  "curriculo/04-revisao/diagnostico-curricular.md",
   "curriculo/03-layout/curriculo-analista-de-dados.html",
   "curriculo/02-fonte/curriculo-analista-de-dados.md",
+  "curriculo/07-linkedin/perfil-linkedin.md",
 ];
 
 for (const file of requiredFiles) {
@@ -77,6 +83,10 @@ if (!page.includes('id="projects"') || !page.includes('id="certificate-grid"')) 
   failures.push("index.html deve conter os destinos de renderização dos catálogos.");
 }
 
+if (!page.includes("certificate.curation?.siteVisible!==false")) {
+  failures.push("O site deve respeitar a seleção curada de certificados.");
+}
+
 if (!Array.isArray(certificateCatalog?.certificates) || !certificateCatalog.certificates.length) {
   failures.push("O catálogo de certificados deve conter ao menos um certificado.");
 } else {
@@ -97,6 +107,12 @@ if (!Array.isArray(certificateCatalog?.certificates) || !certificateCatalog.cert
     }
     if (certificate.status === "published" && (!certificate.title || !certificate.issuer || !certificate.date)) {
       failures.push(`Certificado publicado incompleto: ${certificate.id}.`);
+    }
+    if (certificate.durationHours != null && (!Number.isFinite(certificate.durationHours) || certificate.durationHours <= 0)) {
+      failures.push(`Carga horária inválida no certificado ${certificate.id}.`);
+    }
+    if (certificate.curation && !["rules-v1", "human"].includes(certificate.curation.reviewer)) {
+      failures.push(`Responsável de curadoria inválido: ${certificate.id}.`);
     }
   }
 }

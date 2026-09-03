@@ -1,19 +1,12 @@
 import { createHash } from "node:crypto";
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { extractCertificateMetadata } from "./extract-certificate-metadata.mjs";
+import { slugify } from "./lib/content-curation.mjs";
 
 const catalogPath = "data/certificates.json";
 const certificatesDirectory = "curriculo/06-certificados";
 const dryRun = process.argv.includes("--dry-run");
-
-function slugify(value) {
-  return value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
 
 function titleFromFilename(filename) {
   return path
@@ -52,16 +45,29 @@ for (const filename of files) {
   if (usedIds.has(id)) id = `${baseId}-${sha256.slice(0, 8)}`;
   usedIds.add(id);
 
+  let extracted = null;
+  try {
+    extracted = await extractCertificateMetadata(path.join(certificatesDirectory, filename), filename);
+  } catch (error) {
+    console.warn(`NÃ£o foi possÃ­vel extrair metadados de ${filename}: ${error.message}`);
+  }
+
   certificates.push({
     id,
     title: titleFromFilename(filename),
-    issuer: null,
-    date: null,
-    displayDate: null,
+    issuer: extracted?.issuer ?? null,
+    date: extracted?.date ?? null,
+    displayDate: extracted?.displayDate ?? null,
+    durationHours: extracted?.durationHours ?? null,
     sourceFile: filename,
     sha256,
     status: "review",
-    displayOrder: null
+    displayOrder: null,
+    automation: {
+      discoveredBy: "certificate-ingestion-v1",
+      discoveredAt: new Date().toISOString(),
+      evidence: extracted?.evidence ?? { textExtracted: false, titleEvidence: false, sourcePages: 0 }
+    }
   });
   added += 1;
 }

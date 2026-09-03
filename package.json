@@ -5,9 +5,19 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node scripts/check.mjs && npm run build",
+    "check": "node scripts/check.mjs && npm run career:review:check && npm run resume:sync:check && npm run build",
     "sync:github": "node scripts/sync-github-projects.mjs",
     "sync:certificates": "node scripts/sync-certificates.mjs",
-    "content:sync": "npm run sync:github && npm run sync:certificates"
+    "curate:content": "node scripts/curate-content.mjs",
+    "career:review": "node scripts/generate-career-review.mjs",
+    "career:review:check": "node scripts/generate-career-review.mjs --check",
+    "resume:sync": "node scripts/sync-resume-certificates.mjs",
+    "resume:sync:check": "node scripts/sync-resume-certificates.mjs --check",
+    "resume:render": "node scripts/render-resume-pdf.mjs",
+    "content:sync": "npm run sync:github && npm run sync:certificates && npm run curate:content && npm run career:review && npm run resume:sync",
+    "content:automate": "npm run content:sync && npm run resume:render"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^6.3.289"
   }
 }

@@ -29,3 +29,7 @@ Recent commits use short Conventional Commit-style subjects such as `fix(portfol
 ## Security & Configuration Tips
 
 Do not commit secrets, private contact data beyond the intentionally public portfolio content, or unnecessary generated files. Keep `.openai/hosting.json` valid JSON and update build logic when adding assets that must be served by the generated worker. Do not invent résumé metrics or expose internal business information.
+
+## Professional Career Advisor
+
+For résumé, portfolio, certificate, project-selection, promotion, or Data Analyst career decisions, use the repository skill at `.agents/skills/data-analyst-career-advisor/SKILL.md`. Treat `data/career-profile.json` as the structured career context and `curriculo/04-revisao/painel-profissional.md` as generated decision support. Recommendations never authorize publication: keep discovered items in `review` until Eduarda confirms their facts and asks to publish them.

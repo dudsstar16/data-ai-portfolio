@@ -18,7 +18,19 @@
       "image": null,
       "imageAlt": null,
       "status": "published",
-      "displayOrder": 1
+      "displayOrder": 1,
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
+          "menos de dois pilares de competÃªncia identificados",
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "power-bi-dashboard-portfolio",
@@ -37,7 +49,17 @@
       "image": null,
       "imageAlt": null,
       "status": "published",
-      "displayOrder": 2
+      "displayOrder": 2,
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "pokemon-tcg-data-modeling",
@@ -56,7 +78,19 @@
       "image": null,
       "imageAlt": null,
       "status": "published",
-      "displayOrder": 3
+      "displayOrder": 3,
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
+          "menos de dois pilares de competÃªncia identificados",
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "banco-em-escuta",
@@ -75,7 +109,17 @@
       "image": null,
       "imageAlt": null,
       "status": "published",
-      "displayOrder": 4
+      "displayOrder": 4,
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "dados-ia-decisoes-humanas",
@@ -94,7 +138,17 @@
       "image": null,
       "imageAlt": null,
       "status": "published",
-      "displayOrder": 5
+      "displayOrder": 5,
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "horizon-2012-data-lab",
@@ -113,7 +167,17 @@
       "image": null,
       "imageAlt": null,
       "status": "published",
-      "displayOrder": 6
+      "displayOrder": 6,
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "data-ai-portfolio",
@@ -135,6 +199,18 @@
         "defaultBranch": "master",
         "createdAt": "2026-08-27T11:54:20Z",
         "updatedAt": "2026-08-30T22:58:13Z"
+      },
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
+          "menos de dois pilares de competÃªncia identificados",
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
       }
     },
     {
@@ -157,6 +233,18 @@
         "defaultBranch": "main",
         "createdAt": "2026-06-24T11:44:02Z",
         "updatedAt": "2026-08-24T21:40:16Z"
+      },
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
+          "menos de dois pilares de competÃªncia identificados",
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
       }
     },
     {
@@ -179,6 +267,18 @@
         "defaultBranch": "main",
         "createdAt": "2026-08-07T13:38:35Z",
         "updatedAt": "2026-08-11T00:12:08Z"
+      },
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
+          "menos de dois pilares de competÃªncia identificados",
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
       }
     },
     {
@@ -199,6 +299,17 @@
         "defaultBranch": "main",
         "createdAt": "2026-08-05T00:04:00Z",
         "updatedAt": "2026-08-05T00:13:35Z"
+      },
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
       }
     },
     {
@@ -219,6 +330,16 @@
         "defaultBranch": "main",
         "createdAt": "2026-07-15T12:29:17Z",
         "updatedAt": "2026-07-16T00:53:17Z"
+      },
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
       }
     },
     {
@@ -241,6 +362,17 @@
         "defaultBranch": "main",
         "createdAt": "2026-03-12T11:31:40Z",
         "updatedAt": "2026-05-04T02:05:00Z"
+      },
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
       }
     },
     {
@@ -263,6 +395,18 @@
         "defaultBranch": "main",
         "createdAt": "2026-03-20T23:18:47Z",
         "updatedAt": "2026-03-20T23:32:39Z"
+      },
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
+          "menos de dois pilares de competÃªncia identificados",
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
       }
     }
   ]

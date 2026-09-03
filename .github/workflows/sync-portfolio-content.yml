@@ -1,13 +1,19 @@
-name: Sincronizar conteúdo do portfólio
+name: Atualizar conteúdo profissional
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "curriculo/06-certificados/**/*.pdf"
   schedule:
     - cron: "30 12 * * 1"
 
 permissions:
   contents: write
-  pull-requests: write
+
+concurrency:
+  group: portfolio-content-sync
+  cancel-in-progress: false
 
 jobs:
   sync-content:
@@ -15,47 +21,31 @@ jobs:
     steps:
       - name: Baixar repositório
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Preparar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          cache: npm
 
-      - name: Sincronizar catálogos
-        run: npm run content:sync
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Descobrir, decidir e sincronizar conteúdo
+        run: npm run content:automate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Detectar mudanças
-        id: changes
+      - name: Registrar atualizações seguras
         shell: bash
         run: |
-          if git diff --quiet -- data/projects.json data/certificates.json; then
-            echo "found=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "found=true" >> "$GITHUB_OUTPUT"
+          if git diff --quiet -- data/projects.json data/certificates.json curriculo/04-revisao/painel-profissional.md curriculo/02-fonte/curriculo-analista-de-dados.md curriculo/03-layout/curriculo-analista-de-dados.html public/documents/curriculo-eduarda-reis.pdf; then
+            exit 0
           fi
-
-      - name: Criar branch e commit
-        if: steps.changes.outputs.found == 'true'
-        shell: bash
-        run: |
-          branch="automation/content-sync-${GITHUB_RUN_ID}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git switch -c "$branch"
-          git add data/projects.json data/certificates.json
-          git commit -m "chore(content): sync projects and certificates"
-          git push origin "$branch"
-          echo "BRANCH=$branch" >> "$GITHUB_ENV"
-
-      - name: Abrir Pull Request
-        if: steps.changes.outputs.found == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh pr create \
-            --base "${{ github.event.repository.default_branch }}" \
-            --head "$BRANCH" \
-            --title "chore(content): revisar novos projetos e certificados" \
-            --body "Sincronização automática. Revise os itens com status review e marque como published somente após validar o conteúdo."
+          git add data/projects.json data/certificates.json curriculo/04-revisao/painel-profissional.md curriculo/02-fonte/curriculo-analista-de-dados.md curriculo/03-layout/curriculo-analista-de-dados.html public/documents/curriculo-eduarda-reis.pdf
+          git commit -m "chore(content): automate portfolio updates"
+          git push

@@ -42,6 +42,23 @@ async function fetchRepositories() {
   return repositories.filter(repository => !repository.fork && !repository.archived);
 }
 
+async function fetchReadmeEvidence(repository) {
+  const headers = { Accept: "application/vnd.github.raw+json", "User-Agent": "portfolio-duds-content-sync" };
+  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  const response = await fetch(`https://api.github.com/repos/${githubUser}/${repository.name}/readme`, { headers });
+  if (!response.ok) return { complete: false, checkedAt: new Date().toISOString(), signals: [] };
+  const text = (await response.text()).toLowerCase();
+  const signals = [
+    ["problem", /problema|objetivo|contexto/],
+    ["data", /dados|dataset|csv|excel|sql/],
+    ["method", /metodo|metodologia|etl|analise|anÃ¡lise|modelagem/],
+    ["validation", /validacao|validaÃ§Ã£o|teste|qualidade/],
+    ["result", /resultado|insight|conclusao|conclusÃ£o/],
+    ["run", /instala|como executar|how to run|npm run|python/]
+  ].filter(([, expression]) => expression.test(text)).map(([signal]) => signal);
+  return { complete: signals.length === 6, checkedAt: new Date().toISOString(), signals };
+}
+
 const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
 const projects = Array.isArray(catalog.projects) ? catalog.projects : [];
 const knownUrls = new Set(projects.map(project => normalizeUrl(project.url)));
@@ -56,6 +73,7 @@ for (const repository of repositories) {
   if (usedIds.has(id)) id = `${baseId}-${repository.id}`;
   usedIds.add(id);
 
+  const readmeEvidence = await fetchReadmeEvidence(repository);
   projects.push({
     id,
     title: repository.name,
@@ -73,7 +91,12 @@ for (const repository of repositories) {
       repositoryId: repository.id,
       defaultBranch: repository.default_branch,
       createdAt: repository.created_at,
-      updatedAt: repository.updated_at
+      updatedAt: repository.updated_at,
+      readmeEvidence
+    },
+    automation: {
+      discoveredBy: "github-sync-v2",
+      discoveredAt: new Date().toISOString()
     }
   });
   knownUrls.add(normalizeUrl(repository.html_url));

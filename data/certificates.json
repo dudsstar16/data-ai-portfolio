@@ -10,7 +10,17 @@
       "sourceFile": "Calculos com DAX - BI.pdf",
       "status": "published",
       "displayOrder": 1,
-      "sha256": "e8c3f7e2939e5a6b6a07d47c7fdf14890b7fedf3aa8b937e411e2f174de30a7e"
+      "sha256": "e8c3f7e2939e5a6b6a07d47c7fdf14890b7fedf3aa8b937e411e2f174de30a7e",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": true
+      }
     },
     {
       "id": "etl-no-power-query",
@@ -21,7 +31,17 @@
       "sourceFile": "ETL no Power Query - BI.pdf",
       "status": "published",
       "displayOrder": 2,
-      "sha256": "5ea3b59f0f1f0f51d6119bebca22ac9f1712bf33499a11a301a4e35750454714"
+      "sha256": "5ea3b59f0f1f0f51d6119bebca22ac9f1712bf33499a11a301a4e35750454714",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": true
+      }
     },
     {
       "id": "visualizacao-e-analise-no-power-bi",
@@ -32,7 +52,17 @@
       "sourceFile": "Visualizando e Analisando os Dados - BI.pdf",
       "status": "published",
       "displayOrder": 3,
-      "sha256": "a2acef3e416e9bc0980f03deb1c2a71312c199cb117a482c7b4cf5f462514e50"
+      "sha256": "a2acef3e416e9bc0980f03deb1c2a71312c199cb117a482c7b4cf5f462514e50",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": true
+      }
     },
     {
       "id": "insights-feedback-clientes-bancarios",
@@ -43,7 +73,17 @@
       "sourceFile": "Extraindo Insights do Feedback de Clientes Bancarios.pdf",
       "status": "published",
       "displayOrder": 4,
-      "sha256": "716cb5e17f214919ec2163bd5cf245a2ffa27a8c3c6ea3aa4f3b05e42550e161"
+      "sha256": "716cb5e17f214919ec2163bd5cf245a2ffa27a8c3c6ea3aa4f3b05e42550e161",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": true
+      }
     },
     {
       "id": "fundamentos-de-ia",
@@ -54,7 +94,17 @@
       "sourceFile": "Fundamentos de IA.pdf",
       "status": "published",
       "displayOrder": 5,
-      "sha256": "3629ccf637eaca60c59fa9dee2979c15477b656c6c5fb3d38537c96202c2c1b6"
+      "sha256": "3629ccf637eaca60c59fa9dee2979c15477b656c6c5fb3d38537c96202c2c1b6",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": false
+      }
     },
     {
       "id": "fundamentos-de-llm",
@@ -65,7 +115,17 @@
       "sourceFile": "Fundamentos de Modelos de Linguagem de Grande Escala  - LLM.pdf",
       "status": "published",
       "displayOrder": 6,
-      "sha256": "489c3e6441ee5cd97b79f17e46e9aac81293880fc1549fee2a8461267a77543b"
+      "sha256": "489c3e6441ee5cd97b79f17e46e9aac81293880fc1549fee2a8461267a77543b",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": false
+      }
     },
     {
       "id": "introducao-a-engenharia-de-prompts",
@@ -76,7 +136,17 @@
       "sourceFile": "Introdução a Engenharia de Prompts.pdf",
       "status": "published",
       "displayOrder": 7,
-      "sha256": "39e3ba5b53a41de14e35e47ab5fc3e43ada172d049507d93c92323af67f5d6ae"
+      "sha256": "39e3ba5b53a41de14e35e47ab5fc3e43ada172d049507d93c92323af67f5d6ae",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": false
+      }
     },
     {
       "id": "processo-de-etl-com-excel-e-power-query",
@@ -87,7 +157,17 @@
       "sourceFile": "Criando um Processo de ETL com Excel e Power Query.pdf",
       "status": "published",
       "displayOrder": 8,
-      "sha256": "c5f74713c6f0a7c840c580c14d90c4f81d6b2dd83445dc9d8caa5a4edcbae1be"
+      "sha256": "c5f74713c6f0a7c840c580c14d90c4f81d6b2dd83445dc9d8caa5a4edcbae1be",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": true
+      }
     },
     {
       "id": "consultas-sql-com-copilot",
@@ -98,7 +178,17 @@
       "sourceFile": "Utilizando Microsoft Copilot para escrever consultas SQL.pdf",
       "status": "published",
       "displayOrder": 9,
-      "sha256": "f1389444d01caab143602c8454822f3867c442f4d6175e48fa12ae92ada3b200"
+      "sha256": "f1389444d01caab143602c8454822f3867c442f4d6175e48fa12ae92ada3b200",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": true
+      }
     },
     {
       "id": "banco-de-dados-relacionais",
@@ -109,7 +199,17 @@
       "sourceFile": "Introdução a Banco de Dados Relacionais.pdf",
       "status": "published",
       "displayOrder": 10,
-      "sha256": "58a4f627f8d7e4af223b2c47471141801ae49aa8a72cbd359c3a2f6e5109c217"
+      "sha256": "58a4f627f8d7e4af223b2c47471141801ae49aa8a72cbd359c3a2f6e5109c217",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": true
+      }
     },
     {
       "id": "arquivos-e-dados-externos-em-python",
@@ -120,7 +220,17 @@
       "sourceFile": "Trabalhando com Arquivos e Dados externos em Python.pdf",
       "status": "published",
       "displayOrder": 11,
-      "sha256": "3e3099262d62ec8eb246623295f1ec7ad1658165228a70dc2e71aa89ee00542e"
+      "sha256": "3e3099262d62ec8eb246623295f1ec7ad1658165228a70dc2e71aa89ee00542e",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": false
+      }
     },
     {
       "id": "primeiro-dashboard-power-bi",
@@ -131,7 +241,17 @@
       "sourceFile": "Construindo meu Primeiro Dashboard Power BI.pdf",
       "status": "published",
       "displayOrder": 12,
-      "sha256": "548bfbdcb273ac5e9711c48aa7584e9acb4896a0f6c2ceba9136f8d35223ea4e"
+      "sha256": "548bfbdcb273ac5e9711c48aa7584e9acb4896a0f6c2ceba9136f8d35223ea4e",
+      "curation": {
+        "decision": "maintain-published-evidence-pending",
+        "confidence": "medium",
+        "reasons": [
+          "published certificate retained; evidence extraction is pending"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "siteVisible": true
+      }
     },
     {
       "id": "administrando-banco-de-dados",
@@ -142,7 +262,16 @@
       "sourceFile": "Administrando Banco de Dados.pdf",
       "sha256": "0197a9a2eb2ad291ddf80976162135e2d3a4ce73e725ff3e4747f832482140b5",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "agilidade-soft-skills",
@@ -153,7 +282,17 @@
       "sourceFile": "Agilidade - Soft Skills.pdf",
       "sha256": "9f445c6845dae7cad02272399e2818dcd2df618770490582c70d316489d6af34",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "algoritmos-e-logica-de-programacao",
@@ -164,7 +303,17 @@
       "sourceFile": "Algoritmos e Lógica de Programação.pdf",
       "sha256": "2cfcaa11ddcac3390acc9715c929a682c5aebee558e8f5cc79bce2352ca607f6",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "algortimos-e-aprendizado-de-maquina",
@@ -175,7 +324,17 @@
       "sourceFile": "algortimos e aprendizado de maquina.pdf",
       "sha256": "fe1db93f487c1e44c19af31ea3a5893ad75931d08d09de447627e501951d54d3",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "ambiente-de-desenvolvimento-e-primeiros-passos-com-python",
@@ -186,7 +345,17 @@
       "sourceFile": "Ambiente de Desenvolvimento e Primeiros Passos com Python.pdf",
       "sha256": "ae95a7acaed6e2e02fb1dd7b0a892d1a8ed60a4c3130af8c1e85f8d5afb61f1b",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "aperfeicoando-a-logica-e-pensamento-computacional",
@@ -197,7 +366,17 @@
       "sourceFile": "Aperfeiçoando a Lógica e Pensamento Computacional.pdf",
       "sha256": "73b814db9f523e4ad2f18648fce146788c9cbc067e68c5b62ec7bf4a260f2d5b",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "aplicacoes-e-impacto-da-ia",
@@ -208,7 +387,17 @@
       "sourceFile": "Aplicações e impacto da IA.pdf",
       "sha256": "0e0a1f0095e3371473e23940025e4e723586b137c3aee0cde3bde9124c26d437",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "arquitetura-de-computadores",
@@ -219,7 +408,17 @@
       "sourceFile": "Arquitetura de Computadores.pdf",
       "sha256": "8949f95d8aa7de564057d1cc31935795c231d59c0a313e58b8483dc190f27a26",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "boas-vindas-do-curso-cientista-de-dados-alura",
@@ -230,7 +429,17 @@
       "sourceFile": "Boas Vindas do Curso Cientista de Dados - Alura.pdf",
       "sha256": "85b4556321b51793269cad2bf0afd8e569413a93bd2eb8402f09801498f110a8",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "conhecendo-a-linguagem-de-programacao-python",
@@ -241,7 +450,17 @@
       "sourceFile": "Conhecendo a Linguagem de Programação Python.pdf",
       "sha256": "bf5b33d4fa1901adbed666e98e1d6fe3f22b883e1833ff62b587ff43a61eb8c8",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "criando-um-portfolio-vencedor-dio",
@@ -252,7 +471,17 @@
       "sourceFile": "Criando um Portfólio Vencedor - DIO.pdf",
       "sha256": "dbe5717712bd246f3a2ca12432b0e6c5e9853449f080f6a0a988d73e99316c75",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "cuidado-integral-esperancar-cuidado-integral",
@@ -263,7 +492,17 @@
       "sourceFile": "Cuidado_Integral_-_Esperançar_Cuidado_Integral.pdf",
       "sha256": "7ad1a71d2afa2307880e2d758c3ee5ba90d52ea9fa180f559ecf930a77016add",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "cultura-e-metodos-ageis",
@@ -274,7 +513,17 @@
       "sourceFile": "Cultura e Metodos Ageis.pdf",
       "sha256": "88e5a31ce702f0b1a175d8a95feed9eb6e3facc38850b51f8ba5890c14a9e5f7",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "curso-iniciante-de-bi",
@@ -285,7 +534,17 @@
       "sourceFile": "Curso Iniciante de BI.pdf",
       "sha256": "0266031dc44f966f62f665909bad12f1447302ef28ff07485a7ab3156a601087",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "curso-iniciante-word-basico",
@@ -296,7 +555,17 @@
       "sourceFile": "Curso Iniciante Word Básico.pdf",
       "sha256": "674d2ec0c5320c98fbc99b46c0e944b88064b71f4495835c3de25de4999a2ce4",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "dicas-de-comunicacao-escrita-soft-skills",
@@ -307,7 +576,17 @@
       "sourceFile": "Dicas de Comunicação Escrita - Soft Skills.pdf",
       "sha256": "854882eeeb28b3c97ae3e9f19e312770b8ff05fa55fab9943cd451d22072a9ab",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "dicas-de-comunicacao-oral-soft-skills",
@@ -318,7 +597,17 @@
       "sourceFile": "Dicas de Comunicação Oral - Soft Skills.pdf",
       "sha256": "fcde6cdc085fe9f25ca2f2098f2a8e98e33fd4bb61ab63d91646fabc9921d3c6",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "estruturas-condicionais-e-de-repeticao-em-python",
@@ -329,7 +618,17 @@
       "sourceFile": "Estruturas Condicionais e de Repetição em Python.pdf",
       "sha256": "c6d05b04d1c9af473bc3c3c72fb8a3725d088e70c8a8ab5577e0d5e0771e9e2d",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "excel-basico-iniciante",
@@ -340,7 +639,16 @@
       "sourceFile": "Excel Básico Iniciante.pdf",
       "sha256": "c2a4364ee2597af8cd92ef3cbe58592b94499837f150dd23e2dfb5488532076c",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "foco-soft-skills",
@@ -351,7 +659,17 @@
       "sourceFile": "Foco - Soft Skills.pdf",
       "sha256": "3412d442777e0e1a2042bfe2078780964815bbb7152350c8ff9b61dce6cc22d4",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "genero-lutas-e-conquistas-esperancar-genero-lutas-e-conquistas",
@@ -362,7 +680,17 @@
       "sourceFile": "Gênero_Lutas_e_Conquistas_-_Esperançar_Gênero_Lutas_e_Conquistas.pdf",
       "sha256": "8783b0d6544a917aefae54e7423d47a10d41570ff387e88eff3159b3852cb013",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "habitos-soft-skills",
@@ -373,7 +701,17 @@
       "sourceFile": "Habitos - Soft Skills.pdf",
       "sha256": "a47c579162691956d66291a9ca568ef22a2eb4ed8b2ce8929f42f2ec27f58243",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "inteligencia-emocional-brb-soft-skills",
@@ -384,7 +722,17 @@
       "sourceFile": "Inteligencia Emocional - BRB - Soft Skills.pdf",
       "sha256": "49a73a90c3a882238cd2908a2d75b714cdf5de269ecfc5337955bc00d28fd025",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "inteligencia-emocional-soft-skills",
@@ -395,7 +743,17 @@
       "sourceFile": "Inteligencia Emocional - Soft Skills.pdf",
       "sha256": "4f2b409ca7f0f32dc2aa49225ae3d964c51e175ed7650d21aa25a04fd13958f1",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "intensivao-em-python",
@@ -406,7 +764,17 @@
       "sourceFile": "Intensivão em Python.pdf",
       "sha256": "0329a8b6357047f8a78af670d71305cad2698e26056bfbd9b38e7af4bdff3274",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "introducao-a-analise-de-dados-power-bi",
@@ -417,7 +785,16 @@
       "sourceFile": "Introdução a Analise de Dados - Power BI.pdf",
       "sha256": "64a6f6a18e7ae025222d4078da83ddb52fa77056ed5b96569389362902d5f853",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "introducao-a-ia-com-copilot",
@@ -428,7 +805,17 @@
       "sourceFile": "Introdução a IA com Copilot.pdf",
       "sha256": "5d65bf5d8fa1ab39b4989eece6d2fc809416739910610c4ada34a4a3d7035728",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "introducao-a-ia",
@@ -439,7 +826,17 @@
       "sourceFile": "Introdução a IA.pdf",
       "sha256": "376dde07524b4d462451129239707bb0fea301898d443e35edb1a773e0ae17fe",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "introducao-ao-excel-365",
@@ -450,7 +847,17 @@
       "sourceFile": "Introdução ao Excel 365.pdf",
       "sha256": "f71ac34ea95a27ca76ffa3cef0623e653fd2aacc683be9e58234df88301d7c67",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "linguagem-c-e-stl",
@@ -461,7 +868,17 @@
       "sourceFile": "Linguagem C++ e STL.pdf",
       "sha256": "d5671a4a7ff619f2da5f0dd8e209bce5227a72407441ff54fc330fe858f8b480",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "logica-de-programacao-com-lacos-e-listas-em-javascript",
@@ -472,7 +889,17 @@
       "sourceFile": "Logica de Programação com laços e listas em JavaScript.pdf",
       "sha256": "70d5d45188098e1fbde898fd1042bc16c4a41f3adf1c733335c6707671e1d1db",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "logica-de-programacao-com-o-jogo-pong-e-javascript",
@@ -483,7 +910,17 @@
       "sourceFile": "Logica de Programação com o jogo Pong e JavaScript.pdf",
       "sha256": "be31e4c255977df4f16885bd531f4cb827c3076eecbf8041be752a480ae44c0d",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "manipulando-strings-com-python",
@@ -494,7 +931,17 @@
       "sourceFile": "Manipulando Strings com Python.pdf",
       "sha256": "5a0fd0fa850af31936527553a8fe76fba23592e66cc87e363fccc316891341cf",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "natural-ou-fake-natty",
@@ -505,7 +952,17 @@
       "sourceFile": "natural ou fake natty.pdf",
       "sha256": "e5de98f7cf51a39e94938f24bf7fc24af82d04574c5dc7e2426b44f6aaf75259",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "pacto-educativo-global-esperancar-pacto-educativo-global",
@@ -516,7 +973,17 @@
       "sourceFile": "Pacto_Educativo_Global_-_Esperançar_Pacto_Educativo_Global.pdf",
       "sha256": "9ea86e2bb98c3f8720354b6243f936ed637146067cfda61b05dbb1b282456a36",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "planejamento-financeiro-pessoal",
@@ -527,7 +994,17 @@
       "sourceFile": "Planejamento Financeiro Pessoal.pdf",
       "sha256": "b40b8f10f6279ff38cd5438de0164c85ecd1267e208566a6b649f656e0b06af7",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "processamento-de-linguagem-natural",
@@ -538,7 +1015,16 @@
       "sourceFile": "processamento de linguagem natural.pdf",
       "sha256": "52cd0e3a8c023310c1d9afba57af6b2c5034f71b5c96f9ac6c3fe62428b5947c",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "simplificando-tarefas-e-ganhando-foco-com-ia-no-dia-a-dia",
@@ -549,7 +1035,17 @@
       "sourceFile": "Simplificando Tarefas e Ganhando foco com IA no dia a dia.pdf",
       "sha256": "ef622f30ca866fb663346c379c53d74d65cfffe70931b63cc20ba50945d901d8",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "tecnicas-de-engenharia-de-prompt",
@@ -560,7 +1056,17 @@
       "sourceFile": "Técnicas de Engenharia de Prompt.pdf",
       "sha256": "9e35fe09551addc5745433192cf938a9d2e12499a98593567ce206b860e5dcc8",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "tecnologia-e-sustentabilidade-esperancar-tecnologia-e-sustentabilidade",
@@ -571,7 +1077,17 @@
       "sourceFile": "Tecnologia_e_Sustentabilidade_-_Esperançar_Tecnologia_e_Sustentabilidade.pdf",
       "sha256": "688471042093de09f58f027b438b7edffdc9fcb0c6de85c1203eaeb7dbb6e0a2",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "tecnologias-educacionais-contemporaneas-esperancar-tecnologias-educacionais-contemporaneas",
@@ -582,7 +1098,17 @@
       "sourceFile": "Tecnologias_Educacionais_Contemporâneas_-_Esperançar_Tecnologias_Educacionais_Contemporâneas.pdf",
       "sha256": "6ad8723231d8149e4906f2ea2f07efb9562f95b17e433f69482367219ac3a6f1",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "tipos-de-operadores-com-python",
@@ -593,7 +1119,17 @@
       "sourceFile": "Tipos de Operadores com Python.pdf",
       "sha256": "7d60e0539a7dfdd05def52e6d77c4b33e2320fb0d2f347f6b14a004332f2ce49",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "trabalhando-com-microsoft-copilot",
@@ -604,7 +1140,17 @@
       "sourceFile": "Trabalhando com Microsoft Copilot.pdf",
       "sha256": "1fc303d7eba891cec58453300185dd1253356034f67c97a550d4f78cefd803f7",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "treinando-uma-ia-de-aprendizagem-explore-o-poder-do-notebooklm",
@@ -615,7 +1161,17 @@
       "sourceFile": "Treinando uma IA de Aprendizagem_Explore o Poder do NotebookLM.pdf",
       "sha256": "a79bc047c28711e0f5c81b681b9fc94aed42479e98359486fba5ea89ed156832",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "utilizando-ia-para-transformar-o-mundo-corporativo",
@@ -626,7 +1182,17 @@
       "sourceFile": "Utilizando IA para transformar o mundo corporativo.pdf",
       "sha256": "48d0168d059f384dbe4808fd015d2d72d0c4c922cac2a79331a537f82b436212",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     },
     {
       "id": "visao-computacional",
@@ -637,7 +1203,130 @@
       "sourceFile": "visao computacional.pdf",
       "sha256": "b6dc6441c12016822ad5771007d51f6179ff1977a326299d4971a9c6e4cbc453",
       "status": "review",
-      "displayOrder": null
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
+    },
+    {
+      "id": "fundamentos-de-business-intelligence-bi",
+      "title": "Fundamentos de Business Intelligence (BI)",
+      "issuer": "DIO",
+      "date": "2026-09-01",
+      "displayDate": "01/09/2026",
+      "durationHours": 2,
+      "sourceFile": "fundamentos de business intelligence (bi).pdf",
+      "sha256": "781fa5b41fa69eb327ac86cd4b209313a495313429ab99804c4255671936b22c",
+      "status": "review",
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "curso introdutÃ³rio com menos de 4 horas"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
+    },
+    {
+      "id": "imersao-em-inteligencia-artificial-com-chatgpt-e-codex-e-recriando-o-canva-open-source",
+      "title": "Imersão em Inteligência Artificial com ChatGPT e Codex | Recriando o Canva Open Source",
+      "issuer": "DIO",
+      "date": "2026-09-01",
+      "displayDate": "01/09/2026",
+      "durationHours": 1,
+      "sourceFile": "imersao em inteligencia artificial com chatgpt e codex e recriando o canva open source.pdf",
+      "sha256": "445efcc675382fbd0547cd1845164763ce6ebf53d2646eefb95f3cdf49527bb3",
+      "status": "review",
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios",
+          "curso introdutÃ³rio com menos de 4 horas"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
+    },
+    {
+      "id": "imersao-em-inteligencia-artificial-e-dados-com-chatgpt-e-codex",
+      "title": "Imersão em Inteligência Artificial com ChatGPT e Codex",
+      "issuer": "DIO",
+      "date": "2026-09-01",
+      "displayDate": "01/09/2026",
+      "durationHours": 1,
+      "sourceFile": "imersao em inteligencia artificial e dados com chatgpt e codex.pdf",
+      "sha256": "e50d349bf25b348e254629c7f59eaf3a0c1c298c75d6964ccd19d1dbdc8ccec4",
+      "status": "review",
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios",
+          "curso introdutÃ³rio com menos de 4 horas"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
+    },
+    {
+      "id": "imersao-em-inteligencia-artificial-e-edados-com-claude-code-e-excel",
+      "title": "Imersão em Inteligência Artificial e Dados com Claude Code e Excel",
+      "issuer": "DIO",
+      "date": "2026-09-02",
+      "displayDate": "02/09/2026",
+      "durationHours": 1,
+      "sourceFile": "imersao em inteligencia artificial e edados com claude code e excel.pdf",
+      "sha256": "bde524e1f3ae2824b97deb523fd52e1826fe3417b9e51622bdc70eab6d29a20f",
+      "status": "review",
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "curso introdutÃ³rio com menos de 4 horas"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
+    },
+    {
+      "id": "introducao-a-ai-reports",
+      "title": "Introdução a AI Reports",
+      "issuer": "DIO",
+      "date": "2026-09-01",
+      "displayDate": "01/09/2026",
+      "durationHours": 1,
+      "sourceFile": "introdução a AI reports.pdf",
+      "sha256": "1336737cfd4274f13f8692c20701d88ab293f6959818266b1117c9017b7ce62c",
+      "status": "review",
+      "displayOrder": null,
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios",
+          "curso introdutÃ³rio com menos de 4 horas"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-03T20:47:10.487Z"
+      }
     }
   ]
 }

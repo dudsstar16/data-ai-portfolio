@@ -1,0 +1,7 @@
+interface:
+  display_name: "Mantenedor de Currículo e Portfólio"
+  short_description: "Sincroniza certificados, projetos e currículo"
+  default_prompt: "Use $portfolio-content-maintainer para analisar novidades e atualizar com segurança meu currículo e portfólio."
+
+policy:
+  allow_implicit_invocation: true

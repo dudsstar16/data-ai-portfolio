@@ -20,6 +20,7 @@ O comando valida os arquivos essenciais e gera a versão de publicação em `dis
 | `curriculo/` | Fluxo do currículo por etapa: evidências, fonte, layout, revisão e arquivo. |
 | `scripts/` | Build e verificações reproduzíveis. |
 | `docs/` | Contexto do projeto e instruções para pessoas e agentes de IA. |
+| `.agents/skills/` | Consultores especializados disponíveis no contexto do repositório. |
 | `dist/` | Artefato gerado para hospedagem; não editar manualmente. |
 
 ## Atualizar conteúdo
@@ -36,3 +37,6 @@ Métricas profissionais devem ser verificáveis. Não exponha dados internos, no
 - [Harness de IA e qualidade](docs/AI_HARNESS.md)
 - [IDs e nomenclaturas](docs/NAMING_CONVENTIONS.md)
 - [Fluxo do currículo](docs/CURRICULO_WORKFLOW.md)
+- [Governança de carreira e curadoria](docs/CAREER_GOVERNANCE.md)
+
+Para conversar sobre carreira, currículo, projetos e certificados, invoque `$data-analyst-career-advisor`. O comando `npm run career:review` reconstrói o painel profissional sem publicar mudanças no site.

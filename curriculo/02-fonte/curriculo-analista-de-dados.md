@@ -76,4 +76,6 @@ Analista de Dados com experiência prática em Business Intelligence, automaçã
 
 ## Cursos e certificações selecionados
 
-Cálculos com DAX · ETL no Power Query · Visualização e análise no Power BI · Fundamentos de IA · Modelos de Linguagem de Grande Escala · Engenharia de Prompts · Processo de ETL com Excel e Power Query · Consultas SQL com Copilot · Git e GitHub
+<!-- certificates:start -->
+Cálculos com DAX · ETL no Power Query · Visualização e análise no Power BI · Insights do feedback de clientes bancários · Processo de ETL com Excel e Power Query · Consultas SQL com Microsoft Copilot
+<!-- certificates:end -->

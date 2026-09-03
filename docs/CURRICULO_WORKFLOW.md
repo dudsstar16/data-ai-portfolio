@@ -2,9 +2,10 @@
 
 ## Ordem correta
 
-1. Atualize `curriculo/02-fonte/curriculo-analista-de-dados.md` com os fatos e métricas confirmados.
-2. Ajuste `curriculo/03-layout/curriculo-analista-de-dados.html` para a versão visual de duas páginas A4.
-3. Exporte o HTML para `public/documents/curriculo-eduarda-reis.pdf`.
+1. Para certificados elegíveis, rode `npm run content:automate`; ele sincroniza a seleção curada entre a fonte, o layout e o PDF.
+2. Para fatos e métricas profissionais, atualize primeiro `curriculo/02-fonte/curriculo-analista-de-dados.md` com informações confirmadas.
+3. Ajuste `curriculo/03-layout/curriculo-analista-de-dados.html` para a versão visual de duas páginas A4.
+4. Exporte o HTML para `public/documents/curriculo-eduarda-reis.pdf`.
 4. Rode `npm run check` para incluir o PDF novo no build.
 
 ## Checklist editorial
@@ -17,4 +18,4 @@
 
 ## Arquivos numerados
 
-As pastas numeradas indicam a etapa do fluxo. A versão anterior do PDF fica em `curriculo/05-arquivo/`; não sobrescreva esse histórico sem uma solicitação explícita.
+As pastas numeradas indicam a etapa do fluxo. Os marcadores `certificates:start` e `certificates:end` pertencem à automação e não devem ser removidos.
