@@ -23,6 +23,10 @@ PDF novo ou repositório público
  publicação manual + displayOrder
 ```
 
+## Endereços oficiais
+
+O endereço principal do currículo e portfólio é `https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/`. O Google Sites `https://sites.google.com/view/portflioeduardareis/início` é somente a vitrine interativa dos dashboards; não é a hospedagem principal nem deve ser tratado como destino de deploy.
+
 ## Fontes de conhecimento
 
 | Fonte | O que informa |
@@ -66,4 +70,3 @@ npm run check
 ```
 
 `career:review` só lê os catálogos e gera o painel. `content:sync` também consulta os repositórios públicos no GitHub. A rotina semanal abre Pull Request para revisão e nunca publica na branch principal por conta própria.
-

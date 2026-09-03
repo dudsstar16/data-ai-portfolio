@@ -1,6 +1,6 @@
 # Eduarda Reis
 
-Brasília, DF · +55 (61) 99319-4102 · eduardareisworkspace@gmail.com · [LinkedIn](https://www.linkedin.com/in/eduarda-reis-95b95624a/) · [GitHub](https://github.com/dudsstar16) · [Portfólio de dashboards](https://sites.google.com/view/portflioeduardareis/in%C3%ADcio)
+Brasília, DF · +55 (61) 99319-4102 · eduardareisworkspace@gmail.com · [LinkedIn](https://www.linkedin.com/in/eduarda-reis-95b95624a/) · [GitHub](https://github.com/dudsstar16) · [Portfólio profissional](https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/) · [Dashboards](https://sites.google.com/view/portflioeduardareis/in%C3%ADcio)
 
 ## Analista de Dados | Business Intelligence | Automação e IA Aplicada
 
