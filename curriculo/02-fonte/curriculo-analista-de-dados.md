@@ -2,9 +2,9 @@
 
 Brasília, DF · +55 (61) 99319-4102 · eduardareisworkspace@gmail.com · [LinkedIn](https://www.linkedin.com/in/eduarda-reis-95b95624a/) · [GitHub](https://github.com/dudsstar16) · [Portfólio profissional](https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/) · [Dashboards](https://sites.google.com/view/portflioeduardareis/in%C3%ADcio)
 
-## Analista de Dados | Business Intelligence | Automação e IA Aplicada
+## Analista de Dados | Power BI, SQL e Python | BI, ETL e Automação
 
-Analista de Dados com experiência prática em Business Intelligence, automação e análise de dados em contextos de atendimento e operações. Atuo na preparação e validação de bases, construção de indicadores e dashboards em Power BI e automação de rotinas com Python, transformando dados em informação confiável para apoiar decisões. Também desenvolvo soluções de IA aplicada com engenharia de prompts, guardrails, saídas estruturadas, fallback e testes voltados à confiabilidade e à experiência do usuário.
+Analista de Dados com experiência prática em Business Intelligence, preparação de dados e automação em contextos de atendimento e operações. Trabalho com Power BI, DAX, Power Query, SQL e Python para transformar bases em indicadores, dashboards e processos ETL confiáveis. Também desenvolvo soluções de IA aplicada com engenharia de prompts, guardrails, saídas estruturadas, fallback e testes, conectando qualidade de dados, eficiência operacional e comunicação de insights.
 
 ## Competências técnicas
 
@@ -64,7 +64,6 @@ Analista de Dados com experiência prática em Business Intelligence, automaçã
 
 ## Formação
 
-- **Pós-graduação em Ciência de Dados** — UDF | 08/2026 - atual
 - **Residência em Inteligência Artificial** — Universidade de Brasília (UnB), Campus Gama | 17/08/2026 - atual
 - **Formação Back-End em Python** — Bolsa Futuro Digital, Instituto Federal de Brasília | 13/05/2026 - 30/10/2026
 - **Análise e Desenvolvimento de Sistemas** — Universidade Católica de Brasília | 08/2022 - 12/2024
