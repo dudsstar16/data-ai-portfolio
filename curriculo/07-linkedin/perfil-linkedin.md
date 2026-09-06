@@ -4,7 +4,7 @@ Fonte editorial para manter o perfil coerente com o currículo e o portfólio. A
 
 ## Título recomendado
 
-**Analista de Dados Júnior | Power BI, SQL e Python | Business Intelligence, Automação e IA Aplicada**
+**Analista de Dados | Power BI, SQL e Python | Business Intelligence, Automação e IA Aplicada**
 
 ## Sobre
 
