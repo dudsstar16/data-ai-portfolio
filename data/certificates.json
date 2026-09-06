@@ -1327,6 +1327,39 @@
         "reviewer": "rules-v1",
         "reviewedAt": "2026-09-03T20:47:10.487Z"
       }
+    },
+    {
+      "id": "certificadodeconclusao-fundamentos-da-gestao-de-tempo",
+      "title": "CertificadoDeConclusao Fundamentos da Gestao de Tempo",
+      "issuer": null,
+      "date": null,
+      "displayDate": null,
+      "durationHours": 1,
+      "sourceFile": "CertificadoDeConclusao_Fundamentos da Gestao de Tempo.pdf",
+      "sha256": "53a4258fd33b14cd42cd42e06e26bff8e708948d1d75ee82866161a42bfbfce0",
+      "status": "review",
+      "displayOrder": null,
+      "automation": {
+        "discoveredBy": "certificate-ingestion-v1",
+        "discoveredAt": "2026-09-06T20:50:36.201Z",
+        "evidence": {
+          "textExtracted": true,
+          "titleEvidence": true,
+          "sourcePages": 1,
+          "checkedAt": "2026-09-06T20:50:36.201Z"
+        }
+      },
+      "curation": {
+        "decision": "hold-missing-evidence",
+        "confidence": "low",
+        "reasons": [
+          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
+          "aderÃªncia insuficiente aos pilares prioritÃ¡rios",
+          "curso introdutÃ³rio com menos de 4 horas"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-06T20:50:36.395Z"
+      }
     }
   ]
 }

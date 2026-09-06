@@ -18,11 +18,11 @@ Relatório determinístico para apoiar decisões humanas. Ele usa somente os met
 | Conteúdo | Publicados | Em revisão | Limite recomendado |
 | --- | ---: | ---: | ---: |
 | Projetos | 6 | 7 | 6 no portfólio principal |
-| Certificados | 12 | 51 | 8 no site / 6 no currículo |
+| Certificados | 12 | 52 | 8 no site / 6 no currículo |
 
-Há **46 certificado(s)** sem instituição ou data confirmada. Eles não devem ser publicados até a conferência do PDF.
+Há **47 certificado(s)** sem instituição ou data confirmada. Eles não devem ser publicados até a conferência do PDF.
 
-Na fila de revisão, **4** têm alta aderência pelos metadados, **23** são contextuais e **24** são complementares ou ainda não têm sinal suficiente no título.
+Na fila de revisão, **4** têm alta aderência pelos metadados, **23** são contextuais e **25** são complementares ou ainda não têm sinal suficiente no título.
 
 ## Próximas credenciais
 
