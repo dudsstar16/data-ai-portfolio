@@ -17,7 +17,7 @@ Relatório determinístico para apoiar decisões humanas. Ele usa somente os met
 
 | Conteúdo | Publicados | Em revisão | Limite recomendado |
 | --- | ---: | ---: | ---: |
-| Projetos | 6 | 8 | 6 no portfólio principal |
+| Projetos | 6 | 9 | 6 no portfólio principal |
 | Certificados | 12 | 52 | 8 no site / 6 no currículo |
 
 Há **47 certificado(s)** sem instituição ou data confirmada. Eles não devem ser publicados até a conferência do PDF.
@@ -56,6 +56,7 @@ Pontuação é uma heurística transparente de aderência aos pilares; não repr
 | `estudos-de-python` | review | 4 | Python e automação | manter fora do portfólio principal |
 | `ifb-estudos` | review | 4 | Python e automação | manter fora do portfólio principal |
 | `data-ai-portfolio` | review | 0 | Sem aderência identificada pelo catálogo | manter fora do portfólio principal |
+| `dudsstar16` | review | 0 | Sem aderência identificada pelo catálogo | manter fora do portfólio principal |
 | `programacao-em-c-fundamentos` | review | 0 | Sem aderência identificada pelo catálogo | manter fora do portfólio principal |
 
 ## Certificados

@@ -454,6 +454,53 @@
         "reviewer": "rules-v1",
         "reviewedAt": "2026-09-11T14:24:10.821Z"
       }
+    },
+    {
+      "id": "dudsstar16",
+      "title": "dudsstar16",
+      "category": "review",
+      "categoryLabel": "Revisar",
+      "technologies": [],
+      "url": "https://github.com/dudsstar16/dudsstar16",
+      "summary": "Professional GitHub profile for Eduarda Reis, Data Analyst.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "review",
+      "displayOrder": null,
+      "github": {
+        "repositoryId": 1366495610,
+        "defaultBranch": "main",
+        "createdAt": "2026-09-11T17:26:01Z",
+        "updatedAt": "2026-09-11T17:26:51Z",
+        "readmeEvidence": {
+          "complete": true,
+          "checkedAt": "2026-09-11T17:35:18.357Z",
+          "signals": [
+            "problem",
+            "data",
+            "method",
+            "validation",
+            "result",
+            "run"
+          ]
+        }
+      },
+      "automation": {
+        "discoveredBy": "github-sync-v2",
+        "discoveredAt": "2026-09-11T17:35:18.358Z"
+      },
+      "curation": {
+        "decision": "review-replacement-or-evidence",
+        "confidence": "medium",
+        "reasons": [
+          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
+          "menos de dois pilares de competÃªncia identificados",
+          "limite de projetos publicados jÃ¡ ocupado"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-09-11T17:35:20.575Z"
+      }
     }
   ]
 }
