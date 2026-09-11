@@ -1,8 +1,16 @@
-# Portfólio Eduarda Reis — Data & AI
+# Eduarda Reis — Data & AI Portfolio
 
-Site estático do portfólio profissional de Eduarda Reis. A página reúne experiências em dados, projetos, currículo e formas de contato.
+[Portfólio ao vivo](https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/) · [LinkedIn](https://www.linkedin.com/in/eduarda-reis-95b95624a/) · [Dashboards em Power BI](https://sites.google.com/view/portflioeduardareis/in%C3%ADcio)
 
-## Começar
+Portfólio profissional de Eduarda Reis, Analista de Dados I, com projetos de Business Intelligence, SQL, automação em Python, qualidade de dados e IA aplicada. O site reúne evidências técnicas, experiências e caminhos para explorar dashboards e repositórios selecionados.
+
+## Foco profissional
+
+- **Business Intelligence:** Power BI, DAX, Power Query, indicadores e comunicação de insights.
+- **Data Analytics:** SQL, modelagem relacional, ETL, validação e qualidade de dados.
+- **Automation & Applied AI:** Python, Pandas, OpenPyXL, agentes, saídas estruturadas e revisão humana.
+
+## Executar localmente
 
 ```bash
 npm run check
