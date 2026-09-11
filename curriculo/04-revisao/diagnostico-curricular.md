@@ -1,4 +1,4 @@
-# Diagnóstico Curricular — 03/09/2026
+# Diagnóstico Curricular — 10/09/2026
 
 ## Parecer profissional
 
@@ -13,16 +13,16 @@ As métricas mais fortes registradas hoje são:
 
 Esses números só devem permanecer enquanto puderem ser explicados em entrevista e sustentados pelo inventário de evidências.
 
-## Promoção para Analista de Dados Júnior
+## Promoção confirmada para Analista de Dados I
 
-A vigência prevista é **10/09/2026**. Antes da confirmação do início, não altere o histórico profissional para dizer que o novo cargo já está em exercício.
+A promoção entrou em vigor em **10/09/2026**. O vínculo formal passou a ser com a **Insi**, com atuação terceirizada na mesma equipe e área da CNP Seguros Holding.
 
-Após a confirmação, a estrutura mais clara é preservar a progressão dentro da mesma empresa:
+A estrutura pública preserva a progressão e esclarece a mudança de vínculo:
 
-1. **Analista de Dados Júnior — CNP Seguros Holding | 09/2026 – atual**
-2. **Estagiária de Análise de Dados — CNP Seguros Holding | 2026 – 09/2026**
+1. **Analista de Dados I — Insi | 09/2026 – atual**, com atuação na CNP Seguros Holding.
+2. **Estagiária de Análise de Dados — CNP Seguros Holding | 02/2026 – 08/2026**.
 
-Não copie automaticamente os bullets do estágio para o novo cargo. Nas primeiras semanas, registre quais responsabilidades continuaram, quais aumentaram e quais entregas passaram a ser de sua responsabilidade direta. Só então escreva os novos bullets.
+Os resultados mensuráveis conquistados até agosto permanecem no estágio. O novo cargo registra a continuidade das rotinas de dados e o escopo já iniciado de automações de processos e agentes de IA com Python e integração de LLMs e APIs. Novos impactos só devem ser acrescentados quando forem verificáveis.
 
 ## Prioridade editorial
 

@@ -38,11 +38,11 @@ O endereço principal do currículo e portfólio é `https://eduarda-reis-data-a
 | `curriculo/02-fonte/` | Texto mestre do currículo. |
 | `curriculo/04-revisao/painel-profissional.md` | Priorização reproduzível e legível. |
 
-## Promoção planejada
+## Promoção confirmada
 
-A mudança para **Analista de Dados Júnior** está registrada com vigência prevista em **10/09/2026**. Até Eduarda confirmar o início, o site e o currículo não devem apresentar a função como experiência já exercida.
+A promoção para **Analista de Dados I** foi confirmada com vigência em **10/09/2026**. O vínculo formal é com a **Insi**, com atuação terceirizada na mesma equipe da CNP Seguros Holding; o posicionamento de carreira permanece no nível de Analista de Dados Júnior.
 
-Depois da confirmação, a atualização deve ocorrer na fonte Markdown, no layout HTML e no PDF público, com validação visual conforme `docs/CURRICULO_WORKFLOW.md`.
+A atualização deve permanecer sincronizada na fonte Markdown, no layout HTML, no PDF público, no LinkedIn e no portfólio, com validação visual conforme `docs/CURRICULO_WORKFLOW.md`.
 
 ## Critério para certificados
 

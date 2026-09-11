@@ -8,10 +8,10 @@ Relatório determinístico para apoiar decisões humanas. Ele usa somente os met
 | --- | --- |
 | Cargo-alvo | Analista de Dados Júnior |
 | Posicionamento | Analista de Dados \| Business Intelligence \| Automação e IA Aplicada |
-| Transição | Analista de Dados Júnior, prevista para 2026-09-10 |
-| Estado da transição | planned — confirmação humana obrigatória |
+| Transição | Analista de Dados I, efetiva desde 2026-09-10 |
+| Estado da transição | confirmed — confirmação registrada |
 
-> Atualizar currículo e site somente após o início ser confirmado por Eduarda.
+> Promoção confirmada em 10/09/2026: vínculo formal com a Insi, com atuação terceirizada na mesma equipe da CNP Seguros Holding.
 
 ## Visão rápida
 

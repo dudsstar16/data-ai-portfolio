@@ -18,13 +18,18 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 
 ## Experiência profissional
 
-### Estagiária de Análise de Dados — CNP Seguros Holding
-**2026 - atual | Dados e Relacionamento com o Cliente**
+### Analista de Dados I — Insi
+**09/2026 - atual | Atuação terceirizada na CNP Seguros Holding | Dados e Relacionamento com o Cliente**
 
-- Desenvolvo e mantenho 12 dashboards em Power BI, consolidando dados de 2 fontes para acompanhar indicadores de atendimento, NPS e CES para públicos internos e externos.
-- Consolido, trato e valido 3 bases das Centrais de Atendimento, preparando informações confiáveis para monitoramentos e apresentações gerenciais.
-- Analiso diariamente NPS e CES para identificar tendências e oportunidades de melhoria na experiência do cliente.
-- Automatizo mais de 10 relatórios recorrentes em Python e apoio processos de ETL, reduzindo o tempo de processamento de 1 a 2 horas para menos de 5 minutos.
+- Atuo na mesma equipe da CNP Seguros Holding, mantendo dashboards, bases e análises de NPS e CES que apoiam monitoramentos e decisões na área de relacionamento com o cliente.
+- Desenvolvo automações de processos e agentes de IA com Python e integração de LLMs e APIs para fluxos de relacionamento com clientes.
+
+### Estagiária de Análise de Dados — CNP Seguros Holding
+**02/2026 - 08/2026 | Dados e Relacionamento com o Cliente**
+
+- Desenvolvi e mantive 12 dashboards em Power BI, consolidando dados de 2 fontes para acompanhar indicadores de atendimento, NPS e CES para públicos internos e externos.
+- Consolidei, tratei e validei 3 bases das Centrais de Atendimento e analisei diariamente NPS e CES, preparando informações confiáveis para monitoramentos e apresentações gerenciais.
+- Automatizei mais de 10 relatórios recorrentes em Python e apoiei processos de ETL, reduzindo o tempo de processamento de 1 a 2 horas para menos de 5 minutos.
 
 ### Líder de Pesquisa e Desenvolvimento de Dados — DatAí
 **08/2025 - 08/2026 | Empresa Júnior de Dados | Voluntária**

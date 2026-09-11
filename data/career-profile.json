@@ -12,11 +12,11 @@
     "linkedin": "https://www.linkedin.com/in/eduarda-reis-95b95624a/"
   },
   "transition": {
-    "newTitle": "Analista de Dados Júnior",
+    "newTitle": "Analista de Dados I",
     "effectiveDate": "2026-09-10",
-    "status": "planned",
-    "confirmationRequired": true,
-    "note": "Atualizar currículo e site somente após o início ser confirmado por Eduarda."
+    "status": "confirmed",
+    "confirmationRequired": false,
+    "note": "Promoção confirmada em 10/09/2026: vínculo formal com a Insi, com atuação terceirizada na mesma equipe da CNP Seguros Holding."
   },
   "selectionPolicy": {
     "portfolioProjectLimit": 6,
@@ -83,5 +83,5 @@
       "url": "https://grow.google/certificates/data-analytics/"
     }
   ],
-  "lastReviewed": "2026-09-03"
+  "lastReviewed": "2026-09-10"
 }

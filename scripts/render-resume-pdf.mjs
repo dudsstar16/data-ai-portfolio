@@ -1,4 +1,4 @@
-import { access, mkdir, readFile, stat } from "node:fs/promises";
+import { access, mkdir, mkdtemp, readFile, rm, stat } from "node:fs/promises";
 import { spawn } from "node:child_process";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
@@ -23,19 +23,25 @@ async function pickBrowser() {
 
 const browser = await pickBrowser();
 await mkdir(path.dirname(output), { recursive: true });
-const userDataDirectory = path.resolve("tmp/chrome-resume-render-profile");
-await mkdir(userDataDirectory, { recursive: true });
-const args = ["--headless=new", "--disable-gpu", "--disable-software-rasterizer", "--use-angle=swiftshader", `--user-data-dir=${userDataDirectory}`, "--no-pdf-header-footer", "--print-to-pdf-no-header", `--print-to-pdf=${output}`, pathToFileURL(input).href];
-await new Promise((resolve, reject) => {
-  const child = spawn(browser, args, { stdio: "inherit" });
-  child.on("error", reject);
-  child.on("exit", code => code === 0 ? resolve() : reject(new Error(`Navegador encerrou com código ${code}.`)));
-});
-const generated = await stat(output);
-if (generated.size < 20_000) throw new Error("PDF gerado parece incompleto.");
-const bytes = await readFile(output);
-const task = getDocument({ data: new Uint8Array(bytes) });
-const pdf = await task.promise;
-if (pdf.numPages !== 2) throw new Error(`O currículo deve ter duas páginas; foram geradas ${pdf.numPages}.`);
-await task.destroy();
-console.log(`PDF do currículo atualizado (${generated.size} bytes).`);
+const profileParent = path.resolve("tmp");
+await mkdir(profileParent, { recursive: true });
+const userDataDirectory = await mkdtemp(path.join(profileParent, "chrome-resume-render-"));
+
+try {
+  const args = ["--headless=new", "--no-sandbox", "--disable-gpu", "--disable-gpu-sandbox", "--disable-features=VizDisplayCompositor", `--user-data-dir=${userDataDirectory}`, "--no-pdf-header-footer", "--print-to-pdf-no-header", `--print-to-pdf=${output}`, pathToFileURL(input).href];
+  await new Promise((resolve, reject) => {
+    const child = spawn(browser, args, { stdio: "inherit" });
+    child.on("error", reject);
+    child.on("exit", code => code === 0 ? resolve() : reject(new Error(`Navegador encerrou com código ${code}.`)));
+  });
+  const generated = await stat(output);
+  if (generated.size < 20_000) throw new Error("PDF gerado parece incompleto.");
+  const bytes = await readFile(output);
+  const task = getDocument({ data: new Uint8Array(bytes) });
+  const pdf = await task.promise;
+  if (pdf.numPages !== 2) throw new Error(`O currículo deve ter duas páginas; foram geradas ${pdf.numPages}.`);
+  await task.destroy();
+  console.log(`PDF do currículo atualizado (${generated.size} bytes).`);
+} finally {
+  await rm(userDataDirectory, { recursive: true, force: true }).catch(() => {});
+}

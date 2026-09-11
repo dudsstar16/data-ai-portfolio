@@ -121,6 +121,9 @@ const credentialRows = profile.credentialRoadmap
 const gapText = coverageGaps.length
   ? coverageGaps.map(pillar => `- **${pillar.label}:** incluir ou fortalecer uma evidência aplicada antes de ampliar certificados.`).join("\n")
   : "- Os pilares definidos já aparecem em ao menos um projeto publicado; a próxima melhoria é aprofundar evidências, não aumentar volume.";
+const transitionConfirmed = profile.transition.status === "confirmed" && profile.transition.confirmationRequired === false;
+const transitionDateLabel = transitionConfirmed ? "efetiva desde" : "prevista para";
+const transitionStateLabel = transitionConfirmed ? "confirmação registrada" : "confirmação humana obrigatória";
 
 const report = `# Painel Profissional — Analista de Dados
 
@@ -132,8 +135,8 @@ Relatório determinístico para apoiar decisões humanas. Ele usa somente os met
 | --- | --- |
 | Cargo-alvo | ${profile.target.role} ${profile.target.level} |
 | Posicionamento | ${escapeCell(profile.target.positioning)} |
-| Transição | ${profile.transition.newTitle}, prevista para ${profile.transition.effectiveDate} |
-| Estado da transição | ${profile.transition.status} — confirmação humana obrigatória |
+| Transição | ${profile.transition.newTitle}, ${transitionDateLabel} ${profile.transition.effectiveDate} |
+| Estado da transição | ${profile.transition.status} — ${transitionStateLabel} |
 
 > ${profile.transition.note}
 

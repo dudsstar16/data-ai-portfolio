@@ -14,11 +14,32 @@ Também desenvolvo soluções de IA aplicada com prompts estruturados, validaç�
 
 ## Experiência atual
 
-Até a confirmação da promoção, mantenha o cargo atual registrado como **Estagiária de Análise de Dados — CNP Seguros Holding**. Após a confirmação de início, atualize título, período e responsabilidades usando apenas evidências registradas no currículo.
+### Analista de Dados I — Insi
+
+**Tempo integral | 09/2026 - atual | Remoto | Brasília, Distrito Federal, Brasil**
+
+Atuo como Analista de Dados I pela Insi, alocada na área de Dados e Relacionamento com o Cliente da CNP Seguros Holding, dando continuidade ao trabalho iniciado no estágio e ampliando o escopo para automação e IA aplicada.
+
+- Mantenho e evoluo dashboards, indicadores e rotinas de dados relacionados à experiência do cliente.
+- Consolido, trato e valido dados para monitoramentos e apresentações gerenciais.
+- Analiso NPS, CES e indicadores de atendimento para identificar tendências e oportunidades de melhoria.
+- Desenvolvo automações de processos e agentes de IA com Python e integração de LLMs e APIs, aplicados a fluxos de relacionamento com clientes.
+
+### Estagiária de Análise de Dados — CNP Seguros Holding
+
+**Estágio | 02/2026 - 08/2026 | Híbrido | Brasília, Distrito Federal, Brasil**
+
+- Desenvolvi e mantive 12 dashboards em Power BI, consolidando dados de 2 fontes para acompanhar indicadores de atendimento, NPS e CES para públicos internos e externos.
+- Consolidei, tratei e validei 3 bases das Centrais de Atendimento e analisei diariamente NPS e CES, preparando informações confiáveis para monitoramentos e apresentações gerenciais.
+- Automatizei mais de 10 relatórios recorrentes em Python e apoiei processos de ETL, reduzindo o tempo de processamento de 1 a 2 horas para menos de 5 minutos.
+
+Ao editar a experiência, mantenha **Notificar a rede** desativado. O anúncio da promoção no feed permanece pendente até solicitação explícita.
 
 ## Competências prioritárias
 
 Power BI · SQL · Python · DAX · Power Query · ETL · Qualidade de Dados · Análise Exploratória · Visualização de Dados · Automação · Pandas · OpenPyXL · Git · GitHub · IA Aplicada · Comunicação de Insights
+
+Para o cargo atual, associe somente: **Microsoft Power BI · Python · SQL · Automação de Processos · Inteligência Artificial**.
 
 ## Destaques
 

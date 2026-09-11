@@ -2,6 +2,13 @@
 
 Preencha esta matriz antes de substituir campos `[X]` no currículo. Registre apenas dados que você consiga explicar ou comprovar; se não houver número, descreva o impacto qualitativo e a evidência disponível.
 
+## Insi — atuação terceirizada na CNP Seguros Holding
+
+| Tema | Dado confirmado ou a acompanhar | Onde verificar | Uso no currículo |
+| --- | --- | --- | --- |
+| Continuidade em dados e BI | Mesma equipe e área de Dados e Relacionamento com o Cliente; continuidade de dashboards, bases e análises de NPS e CES | Registros da transição, lista de responsabilidades e alinhamento com a liderança | Bullet 1 |
+| Automações e agentes de IA | Responsabilidade iniciada com Python e integração de LLMs e APIs; volume, processo automatizado, validação e impacto ainda devem ser medidos | Repositórios internos, documentação de fluxo, testes e aceite da equipe | Bullet 2 |
+
 ## CNP Seguros Holding
 
 | Tema | Dado a confirmar | Onde verificar | Uso no currículo |
