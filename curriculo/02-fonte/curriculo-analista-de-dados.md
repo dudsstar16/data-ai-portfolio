@@ -2,9 +2,9 @@
 
 Brasília, DF · +55 (61) 99319-4102 · eduardareisworkspace@gmail.com · [LinkedIn](https://www.linkedin.com/in/eduarda-reis-95b95624a/) · [GitHub](https://github.com/dudsstar16) · [Portfólio profissional](https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/) · [Dashboards](https://sites.google.com/view/portflioeduardareis/in%C3%ADcio)
 
-## Analista de Dados | Power BI, SQL e Python | BI, ETL e Automação
+## Analista de Dados | Power BI, SQL e Python | Automação e Agentes de IA
 
-Analista de Dados com experiência prática em Business Intelligence, preparação de dados e automação em contextos de atendimento e operações. Trabalho com Power BI, DAX, Power Query, SQL e Python para transformar bases em indicadores, dashboards e processos ETL confiáveis. Também desenvolvo soluções de IA aplicada com engenharia de prompts, guardrails, saídas estruturadas, fallback e testes, conectando qualidade de dados, eficiência operacional e comunicação de insights.
+Analista de Dados com experiência prática em Business Intelligence, preparação de dados e automação em contextos de atendimento e operações. Trabalho com Power BI, DAX, Power Query, SQL e Python para transformar bases em indicadores, dashboards e processos ETL confiáveis. Também conduzo soluções de IA aplicada desde o levantamento de dores e definição do Job to Be Done até desenho, construção, testes e validação de agentes conversacionais e de desenvolvimento, conectando qualidade de dados, eficiência operacional e comunicação de insights.
 
 ## Competências técnicas
 
@@ -12,7 +12,7 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 
 **Python e automação:** Python, Pandas, OpenPyXL, PyAutoGUI, Git e GitHub.
 
-**IA aplicada:** LLMs, engenharia de prompts, agentes de IA, guardrails, saídas estruturadas, fallback, revisão humana, testes automatizados e troubleshooting.
+**IA aplicada e agentes:** LLMs, engenharia de prompts, agentes conversacionais e de desenvolvimento, guardrails, saídas estruturadas, fallback, revisão humana, testes automatizados e troubleshooting.
 
 **Negócios e CX:** NPS, CES, CSAT, CX/UX, indicadores de atendimento e comunicação de insights.
 
@@ -22,7 +22,8 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 **09/2026 - atual | Atuação terceirizada na CNP Seguros Holding | Dados e Relacionamento com o Cliente**
 
 - Atuo na mesma equipe da CNP Seguros Holding, mantendo dashboards, bases e análises de NPS e CES que apoiam monitoramentos e decisões na área de relacionamento com o cliente.
-- Desenvolvo automações de processos e agentes de IA com Python e integração de LLMs e APIs para fluxos de relacionamento com clientes.
+- Estruturo soluções a partir do levantamento de dores, da definição do Job to Be Done e do desenho de fluxos para automação e IA aplicada.
+- Desenvolvo, testo e valido agentes conversacionais e de desenvolvimento com Python, LLMs e APIs, usando guardrails, saídas estruturadas e revisão humana quando necessária.
 
 ### Estagiária de Análise de Dados — CNP Seguros Holding
 **02/2026 - 08/2026 | Dados e Relacionamento com o Cliente**
@@ -43,6 +44,16 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 - Tratei, manipulei e analisei mais de 10 bases operacionais, totalizando mais de 27 milhões de linhas para análises internas.
 - Integrei 4 fontes em mais de 10 análises exploratórias e contribuí para a construção de 3 indicadores e relatórios disponibilizados a áreas do banco.
 - Otimizei rotinas aplicáveis de preparação de dados, reduzindo atividades que levavam horas para menos de 5 minutos.
+
+### Experiência adicional em tecnologia
+
+**Operadora de Computador — Briscomm Tecnologia | 10/2023 - 01/2025**
+
+- Monitorei sistemas e redes em ambiente NOC, identifiquei incidentes e acompanhei chamados para apoiar a disponibilidade e a estabilidade dos serviços.
+
+**Estagiária de Tecnologia da Informação — Senac DF | 04/2025 - 07/2025**
+
+- Prestei suporte a usuários, realizei manutenção básica de computadores e instalei e configurei softwares para apoiar as rotinas de TI.
 
 ## Projetos selecionados
 

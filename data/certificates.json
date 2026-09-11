@@ -1341,12 +1341,12 @@
       "displayOrder": null,
       "automation": {
         "discoveredBy": "certificate-ingestion-v1",
-        "discoveredAt": "2026-09-06T20:50:36.201Z",
+        "discoveredAt": "2026-09-11T14:24:10.339Z",
         "evidence": {
           "textExtracted": true,
           "titleEvidence": true,
           "sourcePages": 1,
-          "checkedAt": "2026-09-06T20:50:36.201Z"
+          "checkedAt": "2026-09-11T14:24:10.338Z"
         }
       },
       "curation": {
@@ -1358,7 +1358,7 @@
           "curso introdutÃ³rio com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-06T20:50:36.395Z"
+        "reviewedAt": "2026-09-11T14:24:10.821Z"
       }
     }
   ]

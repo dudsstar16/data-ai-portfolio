@@ -7,7 +7,8 @@ Preencha esta matriz antes de substituir campos `[X]` no currículo. Registre ap
 | Tema | Dado confirmado ou a acompanhar | Onde verificar | Uso no currículo |
 | --- | --- | --- | --- |
 | Continuidade em dados e BI | Mesma equipe e área de Dados e Relacionamento com o Cliente; continuidade de dashboards, bases e análises de NPS e CES | Registros da transição, lista de responsabilidades e alinhamento com a liderança | Bullet 1 |
-| Automações e agentes de IA | Responsabilidade iniciada com Python e integração de LLMs e APIs; volume, processo automatizado, validação e impacto ainda devem ser medidos | Repositórios internos, documentação de fluxo, testes e aceite da equipe | Bullet 2 |
+| Descoberta e desenho de solução | Levantamento de dores, definição do Job to Be Done, desenho e prototipação de fluxos de automação e IA aplicada | Registros de discovery, documentação de fluxo e alinhamentos com a equipe | Bullet 2 |
+| Automações e agentes de IA | Construção de agentes conversacionais e de desenvolvimento com Python, LLMs e APIs; guardrails, saídas estruturadas, testes, validação e revisão humana quando necessária; volume e impacto ainda devem ser medidos | Repositórios internos, documentação de fluxo, testes e aceite da equipe | Bullet 3 |
 
 ## CNP Seguros Holding
 
@@ -33,6 +34,13 @@ Preencha esta matriz antes de substituir campos `[X]` no currículo. Registre ap
 | Bases | Número de bases/fontes, periodicidade e ordem de grandeza dos registros | Consultas, arquivos de trabalho, documentação | Bullet 1 e 3 |
 | Indicadores | Indicadores ou relatórios construídos; áreas atendidas | Dashboards, entregas, gestor | Bullet 2 |
 | Impacto | Processo acompanhado, decisão apoiada, tempo poupado ou retrabalho reduzido | Relatórios, feedbacks, comparativo de rotina | Bullets 2 e 3 |
+
+## Experiência adicional em tecnologia
+
+| Experiência | Fato confirmado | Onde verificar | Uso no currículo |
+| --- | --- | --- | --- |
+| Briscomm Tecnologia | Monitoramento de sistemas e redes em NOC, identificação de incidentes e acompanhamento de chamados | Descrição pública do LinkedIn e registros profissionais | Seção compacta de experiência adicional |
+| Senac DF | Suporte a usuários, manutenção básica de computadores e instalação/configuração de softwares | Descrição pública do LinkedIn e registros profissionais | Seção compacta de experiência adicional |
 
 ## Projetos selecionados
 

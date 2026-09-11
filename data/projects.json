@@ -431,7 +431,7 @@
         "updatedAt": "2026-09-07T01:27:56Z",
         "readmeEvidence": {
           "complete": false,
-          "checkedAt": "2026-09-07T17:47:16.698Z",
+          "checkedAt": "2026-09-11T14:24:09.600Z",
           "signals": [
             "data",
             "run"
@@ -440,7 +440,7 @@
       },
       "automation": {
         "discoveredBy": "github-sync-v2",
-        "discoveredAt": "2026-09-07T17:47:16.699Z"
+        "discoveredAt": "2026-09-11T14:24:09.600Z"
       },
       "curation": {
         "decision": "review-replacement-or-evidence",
@@ -452,7 +452,7 @@
           "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-07T17:47:17.181Z"
+        "reviewedAt": "2026-09-11T14:24:10.821Z"
       }
     }
   ]

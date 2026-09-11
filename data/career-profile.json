@@ -3,7 +3,7 @@
   "target": {
     "role": "Analista de Dados",
     "level": "Júnior",
-    "positioning": "Analista de Dados | Business Intelligence | Automação e IA Aplicada"
+    "positioning": "Analista de Dados | Power BI, SQL e Python | Automação e Agentes de IA"
   },
   "links": {
     "primaryPortfolio": "https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/",
@@ -62,9 +62,9 @@
     },
     {
       "id": "applied-ai",
-      "label": "IA aplicada",
+      "label": "IA aplicada e agentes",
       "weight": 2,
-      "keywords": ["inteligencia artificial", "ia", "ai reports", "llm", "modelo de linguagem", "modelos de linguagem", "prompt", "prompts", "copilot", "chatgpt", "claude", "linguagem natural", "visao computacional"]
+      "keywords": ["inteligencia artificial", "ia", "ai reports", "llm", "modelo de linguagem", "modelos de linguagem", "prompt", "prompts", "copilot", "chatgpt", "claude", "linguagem natural", "visao computacional", "agente", "agentes", "agente conversacional", "agentes de desenvolvimento", "guardrail", "guardrails", "job to be done"]
     }
   ],
   "credentialRoadmap": [

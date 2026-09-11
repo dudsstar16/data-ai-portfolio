@@ -7,7 +7,7 @@ Relatório determinístico para apoiar decisões humanas. Ele usa somente os met
 | Campo | Valor |
 | --- | --- |
 | Cargo-alvo | Analista de Dados Júnior |
-| Posicionamento | Analista de Dados \| Business Intelligence \| Automação e IA Aplicada |
+| Posicionamento | Analista de Dados \| Power BI, SQL e Python \| Automação e Agentes de IA |
 | Transição | Analista de Dados I, efetiva desde 2026-09-10 |
 | Estado da transição | confirmed — confirmação registrada |
 
@@ -44,14 +44,14 @@ Pontuação é uma heurística transparente de aderência aos pilares; não repr
 | ID estável | Status | Aderência | Pilares identificados | Decisão sugerida |
 | --- | --- | ---: | --- | --- |
 | `banco-em-escuta` | published | 11 | Power BI e visualização, Análise e estatística, Negócio e comunicação | manter em destaque |
-| `dados-ia-decisoes-humanas` | published | 11 | Power BI e visualização, ETL e qualidade de dados, IA aplicada | manter em destaque |
+| `dados-ia-decisoes-humanas` | published | 11 | Power BI e visualização, ETL e qualidade de dados, IA aplicada e agentes | manter em destaque |
 | `power-bi-dashboard-portfolio` | published | 9 | Power BI e visualização, ETL e qualidade de dados | manter em destaque |
 | `horizon-2012-data-lab` | published | 9 | Power BI e visualização, Python e automação | manter em destaque |
 | `pokemon-tcg-data-modeling` | published | 5 | SQL e modelagem de dados | manter em destaque |
 | `report-automation` | published | 4 | Python e automação | manter em destaque |
 | `miniguia-python-notebooklm` | review | 7 | Python e automação, Análise e estatística | desenvolver evidência antes de publicar |
 | `dio-customer-feedback-insights` | review | 6 | Análise e estatística, Negócio e comunicação | desenvolver evidência antes de publicar |
-| `ciencia-de-dados-iesb` | review | 5 | Análise e estatística, IA aplicada | desenvolver evidência antes de publicar |
+| `ciencia-de-dados-iesb` | review | 5 | Análise e estatística, IA aplicada e agentes | desenvolver evidência antes de publicar |
 | `porsche-hygiene-pipeline` | review | 5 | Power BI e visualização | desenvolver evidência antes de publicar |
 | `estudos-de-python` | review | 4 | Python e automação | manter fora do portfólio principal |
 | `ifb-estudos` | review | 4 | Python e automação | manter fora do portfólio principal |
@@ -64,7 +64,7 @@ A tabela mostra a seleção sugerida, os publicados que perderam prioridade e os
 
 | ID estável | Status | Aderência | Pilares identificados | Decisão sugerida |
 | --- | --- | ---: | --- | --- |
-| `consultas-sql-com-copilot` | published | 7 | SQL e modelagem de dados, IA aplicada | selecionar |
+| `consultas-sql-com-copilot` | published | 7 | SQL e modelagem de dados, IA aplicada e agentes | selecionar |
 | `insights-feedback-clientes-bancarios` | published | 6 | Análise e estatística, Negócio e comunicação | selecionar |
 | `calculos-com-dax` | published | 5 | Power BI e visualização | selecionar |
 | `visualizacao-e-analise-no-power-bi` | published | 5 | Power BI e visualização | selecionar |
@@ -73,11 +73,11 @@ A tabela mostra a seleção sugerida, os publicados que perderam prioridade e os
 | `etl-no-power-query` | published | 4 | ETL e qualidade de dados | selecionar |
 | `processo-de-etl-com-excel-e-power-query` | published | 4 | ETL e qualidade de dados | selecionar |
 | `arquivos-e-dados-externos-em-python` | published | 4 | Python e automação | reduzir redundância no site |
-| `fundamentos-de-ia` | published | 2 | IA aplicada | reduzir redundância no site |
-| `fundamentos-de-llm` | published | 2 | IA aplicada | reduzir redundância no site |
-| `introducao-a-engenharia-de-prompts` | published | 2 | IA aplicada | reduzir redundância no site |
+| `fundamentos-de-ia` | published | 2 | IA aplicada e agentes | reduzir redundância no site |
+| `fundamentos-de-llm` | published | 2 | IA aplicada e agentes | reduzir redundância no site |
+| `introducao-a-engenharia-de-prompts` | published | 2 | IA aplicada e agentes | reduzir redundância no site |
 | `introducao-a-analise-de-dados-power-bi` | review | 8 | Power BI e visualização, Análise e estatística | prioridade: validar PDF e metadados |
-| `imersao-em-inteligencia-artificial-e-edados-com-claude-code-e-excel` | review | 6 | ETL e qualidade de dados, IA aplicada | avaliar após confirmação editorial |
+| `imersao-em-inteligencia-artificial-e-edados-com-claude-code-e-excel` | review | 6 | ETL e qualidade de dados, IA aplicada e agentes | avaliar após confirmação editorial |
 | `administrando-banco-de-dados` | review | 5 | SQL e modelagem de dados | prioridade: validar PDF e metadados |
 | `fundamentos-de-business-intelligence-bi` | review | 5 | Power BI e visualização | avaliar após confirmação editorial |
 
