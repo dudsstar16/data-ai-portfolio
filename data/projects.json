@@ -501,6 +501,48 @@
         "reviewer": "rules-v1",
         "reviewedAt": "2026-09-11T17:35:20.575Z"
       }
+    },
+    {
+      "id": "sistema-de-biblioteca-universitaria",
+      "title": "sistema_de_biblioteca_universitaria",
+      "category": "review",
+      "categoryLabel": "Revisar",
+      "technologies": [
+        "Python"
+      ],
+      "url": "https://github.com/dudsstar16/sistema_de_biblioteca_universitaria",
+      "summary": "Descrição de apresentação pendente de revisão.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "review",
+      "displayOrder": null,
+      "github": {
+        "repositoryId": 1409506503,
+        "defaultBranch": "main",
+        "createdAt": "2026-10-08T00:04:16Z",
+        "updatedAt": "2026-10-08T00:09:50Z",
+        "readmeEvidence": {
+          "complete": false,
+          "checkedAt": "2026-10-12T21:19:49.344Z",
+          "signals": []
+        }
+      },
+      "automation": {
+        "discoveredBy": "github-sync-v2",
+        "discoveredAt": "2026-10-12T21:19:49.344Z"
+      },
+      "curation": {
+        "decision": "review-replacement-or-evidence",
+        "confidence": "medium",
+        "reasons": [
+          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
+          "limite de projetos publicados jÃ¡ ocupado",
+          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-10-12T21:19:49.833Z"
+      }
     }
   ]
 }
