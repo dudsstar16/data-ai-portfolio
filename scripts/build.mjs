@@ -1,5 +1,6 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, readdir, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
+import { dirname, join } from "node:path";
 
 const [page, resume, portrait, hosting, projectsJson, certificatesJson] = await Promise.all([
   readFile("index.html", "utf8"),
@@ -11,6 +12,18 @@ const [page, resume, portrait, hosting, projectsJson, certificatesJson] = await 
 ]);
 
 const projects = JSON.parse(projectsJson).projects ?? [];
+const publicProjectsJson = JSON.stringify({ projects: projects
+  .filter(project => project.status === "published")
+  .map(({ id, title, category, categoryLabel, technologies, url, summary, linkLabel, image, imageAlt, status, displayOrder, presentation }) =>
+    ({ id, title, category, categoryLabel, technologies, url, summary, linkLabel, image, imageAlt, status, displayOrder, presentation }))
+});
+const publicCertificatesJson = JSON.stringify({ certificates: (JSON.parse(certificatesJson).certificates ?? [])
+  .filter(certificate => certificate.status === "published" && certificate.curation?.siteVisible !== false)
+  .sort((a, b) => a.displayOrder - b.displayOrder)
+  .slice(0, 8)
+  .map(({ id, title, issuer, date, displayDate, status, displayOrder }) =>
+    ({ id, title, issuer, date, displayDate, status, displayOrder }))
+});
 const resumeRevision = createHash("sha256").update(resume).digest("hex").slice(0, 12);
 const renderedPage = page.replaceAll(
   "./public/documents/curriculo-eduarda-reis.pdf",
@@ -32,6 +45,49 @@ const projectImageEntries = await Promise.all(
       ];
     })
 );
+const assetTypes = { css: "text/css; charset=utf-8", js: "text/javascript; charset=utf-8", woff2: "font/woff2" };
+const interfaceAssets = [];
+for (const folder of ["styles", "scripts", "fonts"]) {
+  const directory = `public/${folder}`;
+  const files = await readdir(directory, { withFileTypes: true }).catch(error => {
+    if (error.code === "ENOENT" && folder === "fonts") return [];
+    throw error;
+  });
+  for (const file of files) {
+    const contentType = assetTypes[file.name.split(".").pop()];
+    if (!file.isFile() || !contentType) continue;
+    const path = `${directory}/${file.name}`;
+    interfaceAssets.push([`/${path}`, {
+      base64: (await readFile(path)).toString("base64"),
+      contentType
+    }]);
+  }
+}
+
+if (process.argv.includes("--pages")) {
+  const siteUrl = "https://dudsstar16.github.io/data-ai-portfolio/";
+  const pagesHtml = renderedPage
+    .replace(/(<meta property="og:url" content=")[^"]+/, `$1${siteUrl}`)
+    .replace(/(<meta property="og:image" content=")[^"]+/, `$1${siteUrl}public/images/eduarda-reis-noite-lunar.jpg?v=4`);
+  // Use a fresh directory so previous builds cannot leave files in the artifact.
+  await mkdir("dist", { recursive: true });
+  const output = await mkdtemp(join("dist", "pages-"));
+  const files = [
+    ["/index.html", pagesHtml],
+    ["/data/projects.json", publicProjectsJson],
+    ["/data/certificates.json", publicCertificatesJson],
+    ["/public/documents/curriculo-eduarda-reis.pdf", resume],
+    ["/public/images/eduarda-reis-noite-lunar.jpg", portrait],
+    ...[...projectImageEntries, ...interfaceAssets].map(([path, asset]) => [path, Buffer.from(asset.base64, "base64")]),
+  ];
+  await Promise.all(files.map(async ([path, contents]) => {
+    const dest = join(output, path.slice(1));
+    await mkdir(dirname(dest), { recursive: true });
+    await writeFile(dest, contents);
+  }));
+  console.log(output);
+  process.exit(0);
+}
 
 await Promise.all([
   mkdir("dist/server", { recursive: true }),
@@ -41,9 +97,10 @@ await Promise.all([
 const worker = `const page = ${JSON.stringify(renderedPage)};
 const resumeBase64 = ${JSON.stringify(Buffer.from(resume).toString("base64"))};
 const portraitBase64 = ${JSON.stringify(Buffer.from(portrait).toString("base64"))};
-const projectsJson = ${JSON.stringify(projectsJson)};
-const certificatesJson = ${JSON.stringify(certificatesJson)};
+const projectsJson = ${JSON.stringify(publicProjectsJson)};
+const certificatesJson = ${JSON.stringify(publicCertificatesJson)};
 const projectImages = ${JSON.stringify(Object.fromEntries(projectImageEntries))};
+const interfaceAssets = ${JSON.stringify(Object.fromEntries(interfaceAssets))};
 
 function bytesFromBase64(value) {
   return Uint8Array.from(atob(value), character => character.charCodeAt(0));
@@ -52,6 +109,12 @@ function bytesFromBase64(value) {
 export default {
   fetch(request) {
     const url = new URL(request.url);
+    const asset = Object.hasOwn(interfaceAssets, url.pathname) && interfaceAssets[url.pathname];
+    if (asset) {
+      return new Response(bytesFromBase64(asset.base64), {
+        headers: { "content-type": asset.contentType, "cache-control": "no-cache" }
+      });
+    }
     if (url.pathname === "/data/projects.json") {
       return new Response(projectsJson, {
         headers: {
@@ -85,7 +148,7 @@ export default {
         },
       });
     }
-    const projectImage = projectImages[url.pathname];
+    const projectImage = Object.hasOwn(projectImages, url.pathname) && projectImages[url.pathname];
     if (projectImage) {
       return new Response(bytesFromBase64(projectImage.base64), {
         headers: {
@@ -93,6 +156,9 @@ export default {
           "cache-control": "public, max-age=31536000, immutable",
         },
       });
+    }
+    if (["/public/styles/", "/public/scripts/", "/public/fonts/"].some(prefix => url.pathname.startsWith(prefix))) {
+      return new Response("Página não encontrada", { status: 404 });
     }
     return new Response(page, {
       headers: {

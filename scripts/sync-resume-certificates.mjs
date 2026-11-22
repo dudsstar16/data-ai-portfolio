@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { scoreItem } from "./lib/content-curation.mjs";
 
 const checkOnly = process.argv.includes("--check");
 const catalog = JSON.parse(await readFile("data/certificates.json", "utf8"));
@@ -6,8 +7,14 @@ const profile = JSON.parse(await readFile("data/career-profile.json", "utf8"));
 
 const selected = catalog.certificates
   .filter(certificate => certificate.status === "published" && certificate.curation?.siteVisible !== false)
-  .sort((left, right) => (left.displayOrder ?? 999) - (right.displayOrder ?? 999) || left.title.localeCompare(right.title, "pt-BR"))
-  .slice(0, profile.selectionPolicy.resumeCertificateLimit);
+  .map(certificate => ({ certificate, score: scoreItem(certificate, profile.competencyPillars).score }))
+  .sort((left, right) =>
+    right.score - left.score ||
+    (left.certificate.displayOrder ?? 999) - (right.certificate.displayOrder ?? 999) ||
+    left.certificate.title.localeCompare(right.certificate.title, "pt-BR")
+  )
+  .slice(0, profile.selectionPolicy.resumeCertificateLimit)
+  .map(entry => entry.certificate);
 
 if (!selected.length) throw new Error("Não há certificados publicados para o currículo.");
 const list = selected.map(certificate => certificate.title).join(" · ");

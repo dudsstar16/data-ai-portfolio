@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "projects": [
     {
       "id": "report-automation",
@@ -15,6 +15,15 @@
       "url": "https://github.com/dudsstar16/automacao-relatorios-faturamento-python",
       "summary": "Fluxo end-to-end para extração, análise, consolidação e envio automático de relatórios.",
       "linkLabel": "Ver código",
+      "presentation": {
+        "featured": true,
+        "featuredOrder": 2,
+        "caseStudy": {
+          "challenge": "Padronizar a preparação e a distribuição de relatórios recorrentes de faturamento.",
+          "approach": "Encadear extração, análise, consolidação e envio em uma rotina Python.",
+          "deliverables": "Código da automação, da extração ao envio."
+        }
+      },
       "image": null,
       "imageAlt": null,
       "status": "published",
@@ -46,6 +55,15 @@
       "url": "https://sites.google.com/view/portflioeduardareis/in%C3%ADcio",
       "summary": "Dashboards interativos para análise de indicadores e apoio à tomada de decisão.",
       "linkLabel": "Explorar dashboards",
+      "presentation": {
+        "featured": true,
+        "featuredOrder": 1,
+        "caseStudy": {
+          "challenge": "Organizar indicadores em uma apresentação visual que permita explorar os dados.",
+          "approach": "Usar Power BI, DAX e Power Query para apresentar indicadores em dashboards interativos.",
+          "deliverables": "Vitrine pública de dashboards para explorar no navegador."
+        }
+      },
       "image": null,
       "imageAlt": null,
       "status": "published",
@@ -75,6 +93,15 @@
       "url": "https://github.com/dudsstar16/pokemon-tcg-database-postgresql",
       "summary": "Modelo relacional em PostgreSQL com normalização, dados estruturados e views para análises reutilizáveis.",
       "linkLabel": "Ver repositório",
+      "presentation": {
+        "featured": true,
+        "featuredOrder": 3,
+        "caseStudy": {
+          "challenge": "Organizar dados de cartas Pokémon TCG em uma estrutura relacional que facilite consultas.",
+          "approach": "Normalizar os dados em PostgreSQL e criar views para reutilizar consultas analíticas.",
+          "deliverables": "Modelo relacional e views no repositório do projeto."
+        }
+      },
       "image": null,
       "imageAlt": null,
       "status": "published",
@@ -431,7 +458,7 @@
         "updatedAt": "2026-09-07T01:27:56Z",
         "readmeEvidence": {
           "complete": false,
-          "checkedAt": "2026-09-11T14:24:09.600Z",
+          "checkedAt": "2026-09-11T14:24:09.6Z",
           "signals": [
             "data",
             "run"
@@ -440,7 +467,7 @@
       },
       "automation": {
         "discoveredBy": "github-sync-v2",
-        "discoveredAt": "2026-09-11T14:24:09.600Z"
+        "discoveredAt": "2026-09-11T14:24:09.6Z"
       },
       "curation": {
         "decision": "review-replacement-or-evidence",

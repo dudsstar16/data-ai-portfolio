@@ -61,25 +61,57 @@ async function fetchReadmeEvidence(repository) {
 
 const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
 const projects = Array.isArray(catalog.projects) ? catalog.projects : [];
-const knownUrls = new Set(projects.map(project => normalizeUrl(project.url)));
+const knownByUrl = new Map(projects.map(project => [normalizeUrl(project.url), project]));
 const usedIds = new Set(projects.map(project => project.id));
 const repositories = await fetchRepositories();
 let added = 0;
+let refreshed = 0;
 
 for (const repository of repositories) {
-  if (knownUrls.has(normalizeUrl(repository.html_url))) continue;
+  const existing = knownByUrl.get(normalizeUrl(repository.html_url));
+  const topics = Array.isArray(repository.topics) ? repository.topics : [];
+  const techList = [...new Set([repository.language, ...topics].filter(Boolean))];
+
+  if (existing) {
+    if (existing.status === "review") {
+      let updated = false;
+      const nextSummary = repository.description?.trim();
+      if (nextSummary && (existing.summary === "Descrição de apresentação pendente de revisão." || existing.summary !== nextSummary)) {
+        existing.summary = nextSummary;
+        updated = true;
+      }
+      if (techList.length > (existing.technologies?.length ?? 0)) {
+        existing.technologies = techList;
+        updated = true;
+      }
+      if (!existing.github?.readmeEvidence || existing.github?.updatedAt !== repository.updated_at) {
+        const readmeEvidence = await fetchReadmeEvidence(repository);
+        existing.github = {
+          ...(existing.github ?? {}),
+          repositoryId: repository.id,
+          defaultBranch: repository.default_branch,
+          createdAt: repository.created_at,
+          updatedAt: repository.updated_at,
+          readmeEvidence
+        };
+        updated = true;
+      }
+      if (updated) refreshed += 1;
+    }
+    continue;
+  }
   const baseId = slugify(repository.name) || `github-${repository.id}`;
   let id = baseId;
   if (usedIds.has(id)) id = `${baseId}-${repository.id}`;
   usedIds.add(id);
 
   const readmeEvidence = await fetchReadmeEvidence(repository);
-  projects.push({
+  const newProject = {
     id,
     title: repository.name,
     category: "review",
     categoryLabel: "Revisar",
-    technologies: repository.language ? [repository.language] : [],
+    technologies: techList,
     url: repository.html_url,
     summary: repository.description?.trim() || "Descrição de apresentação pendente de revisão.",
     linkLabel: "Ver repositório",
@@ -98,20 +130,21 @@ for (const repository of repositories) {
       discoveredBy: "github-sync-v2",
       discoveredAt: new Date().toISOString()
     }
-  });
-  knownUrls.add(normalizeUrl(repository.html_url));
+  };
+  projects.push(newProject);
+  knownByUrl.set(normalizeUrl(repository.html_url), newProject);
   added += 1;
 }
 
-catalog.schemaVersion = 2;
+catalog.schemaVersion ??= 2;
 catalog.projects = projects;
 
-if (!dryRun && added) {
+if (!dryRun && (added || refreshed)) {
   await writeFile(catalogPath, `${JSON.stringify(catalog, null, 2)}\n`);
 }
 
 console.log(
   dryRun
-    ? `Simulação: ${added} repositório(s) novo(s) entrariam como revisão.`
-    : `Catálogo atualizado: ${added} repositório(s) novo(s) em revisão.`
+    ? `Simulação: ${added} repositório(s) novo(s) e ${refreshed} repositório(s) atualizado(s).`
+    : `Catálogo atualizado: ${added} repositório(s) novo(s) em revisão, ${refreshed} atualizado(s).`
 );

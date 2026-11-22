@@ -83,7 +83,8 @@ if (!page.includes('id="projects"') || !page.includes('id="certificate-grid"')) 
   failures.push("index.html deve conter os destinos de renderização dos catálogos.");
 }
 
-if (!page.includes("certificate.curation?.siteVisible!==false")) {
+const client = await readFile("public/scripts/portfolio.js", "utf8");
+if (!client.includes("certificate.curation?.siteVisible !== false")) {
   failures.push("O site deve respeitar a seleção curada de certificados.");
 }
 

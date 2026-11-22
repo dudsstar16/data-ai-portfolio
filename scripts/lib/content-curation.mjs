@@ -21,15 +21,15 @@ export function formatDate(date) {
 }
 
 export function scoreItem(item, pillars) {
-  const searchable = normalize([
+  const searchable = ` ${normalize([
     item.title,
     item.summary,
     item.category,
     item.categoryLabel,
     ...(item.technologies ?? [])
-  ].join(" "));
+  ].join(" "))} `;
   const matches = pillars.filter(pillar =>
-    pillar.keywords.some(keyword => searchable.includes(normalize(keyword)))
+    pillar.keywords.some(keyword => searchable.includes(` ${normalize(keyword)} `))
   );
   return {
     score: matches.reduce((total, pillar) => total + pillar.weight, 0),
@@ -42,6 +42,22 @@ export function fingerprint(value) {
 }
 
 export function isRecognizedIssuer(issuer) {
-  return ["alura", "dio", "microsoft", "google", "coursera", "datacamp", "ibm", "udemy", "universidade", "unb"]
-    .some(name => normalize(issuer).includes(name));
+  return [
+    "alura",
+    "dio",
+    "microsoft",
+    "google",
+    "coursera",
+    "datacamp",
+    "ibm",
+    "udemy",
+    "universidade",
+    "unb",
+    "linkedin",
+    "hashtag",
+    "escola virtual",
+    "fundacao bradesco",
+    "enap",
+    "ifb"
+  ].some(name => normalize(issuer).includes(name));
 }

@@ -48,18 +48,23 @@ for (const certificate of certificateCatalog.certificates) {
   }
 }
 
-const visibleCertificates = certificateCatalog.certificates
+const rankedPublishedCertificates = certificateCatalog.certificates
   .filter(item => item.status === "published")
   .map(item => ({ item, assessment: scoreItem(item, profile.competencyPillars) }))
   .sort((left, right) =>
     right.assessment.score - left.assessment.score ||
     (left.item.displayOrder ?? Number.MAX_SAFE_INTEGER) - (right.item.displayOrder ?? Number.MAX_SAFE_INTEGER) ||
     left.item.title.localeCompare(right.item.title, "pt-BR")
-  )
-  .slice(0, profile.selectionPolicy.siteCertificateLimit);
+  );
+const visibleCertificates = rankedPublishedCertificates.slice(0, profile.selectionPolicy.siteCertificateLimit);
 const visibleIds = new Set(visibleCertificates.map(entry => entry.item.id));
-for (const certificate of certificateCatalog.certificates.filter(item => item.status === "published")) {
+for (const [index, { item: certificate }] of rankedPublishedCertificates.entries()) {
   const siteVisible = visibleIds.has(certificate.id);
+  const nextOrder = index + 1;
+  if (certificate.displayOrder !== nextOrder) {
+    certificate.displayOrder = nextOrder;
+    changed += 1;
+  }
   if (certificate.curation?.siteVisible !== siteVisible) {
     certificate.curation = { ...certificate.curation, siteVisible };
     changed += 1;

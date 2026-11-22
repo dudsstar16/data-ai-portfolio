@@ -18,11 +18,11 @@ Relatório determinístico para apoiar decisões humanas. Ele usa somente os met
 | Conteúdo | Publicados | Em revisão | Limite recomendado |
 | --- | ---: | ---: | ---: |
 | Projetos | 6 | 11 | 6 no portfólio principal |
-| Certificados | 12 | 52 | 8 no site / 6 no currículo |
+| Certificados | 13 | 51 | 8 no site / 6 no currículo |
 
-Há **47 certificado(s)** sem instituição ou data confirmada. Eles não devem ser publicados até a conferência do PDF.
+Há **31 certificado(s)** sem instituição ou data confirmada. Eles não devem ser publicados até a conferência do PDF.
 
-Na fila de revisão, **4** têm alta aderência pelos metadados, **23** são contextuais e **25** são complementares ou ainda não têm sinal suficiente no título.
+Na fila de revisão, **3** têm alta aderência pelos metadados, **23** são contextuais e **25** são complementares ou ainda não têm sinal suficiente no título.
 
 ## Próximas credenciais
 
@@ -67,6 +67,7 @@ A tabela mostra a seleção sugerida, os publicados que perderam prioridade e os
 
 | ID estável | Status | Aderência | Pilares identificados | Decisão sugerida |
 | --- | --- | ---: | --- | --- |
+| `introducao-a-analise-de-dados-power-bi` | published | 8 | Power BI e visualização, Análise e estatística | selecionar |
 | `consultas-sql-com-copilot` | published | 7 | SQL e modelagem de dados, IA aplicada e agentes | selecionar |
 | `insights-feedback-clientes-bancarios` | published | 6 | Análise e estatística, Negócio e comunicação | selecionar |
 | `calculos-com-dax` | published | 5 | Power BI e visualização | selecionar |
@@ -74,14 +75,13 @@ A tabela mostra a seleção sugerida, os publicados que perderam prioridade e os
 | `banco-de-dados-relacionais` | published | 5 | SQL e modelagem de dados | selecionar |
 | `primeiro-dashboard-power-bi` | published | 5 | Power BI e visualização | selecionar |
 | `etl-no-power-query` | published | 4 | ETL e qualidade de dados | selecionar |
-| `processo-de-etl-com-excel-e-power-query` | published | 4 | ETL e qualidade de dados | selecionar |
+| `processo-de-etl-com-excel-e-power-query` | published | 4 | ETL e qualidade de dados | reduzir redundância no site |
 | `arquivos-e-dados-externos-em-python` | published | 4 | Python e automação | reduzir redundância no site |
 | `fundamentos-de-ia` | published | 2 | IA aplicada e agentes | reduzir redundância no site |
 | `fundamentos-de-llm` | published | 2 | IA aplicada e agentes | reduzir redundância no site |
 | `introducao-a-engenharia-de-prompts` | published | 2 | IA aplicada e agentes | reduzir redundância no site |
-| `introducao-a-analise-de-dados-power-bi` | review | 8 | Power BI e visualização, Análise e estatística | prioridade: validar PDF e metadados |
 | `imersao-em-inteligencia-artificial-e-edados-com-claude-code-e-excel` | review | 6 | ETL e qualidade de dados, IA aplicada e agentes | avaliar após confirmação editorial |
-| `administrando-banco-de-dados` | review | 5 | SQL e modelagem de dados | prioridade: validar PDF e metadados |
+| `administrando-banco-de-dados` | review | 5 | SQL e modelagem de dados | avaliar após confirmação editorial |
 | `fundamentos-de-business-intelligence-bi` | review | 5 | Power BI e visualização | avaliar após confirmação editorial |
 
 ## Como usar

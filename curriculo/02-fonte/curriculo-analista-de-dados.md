@@ -1,6 +1,6 @@
 # Eduarda Reis
 
-Brasília, DF · +55 (61) 99319-4102 · eduardareisworkspace@gmail.com · [LinkedIn](https://www.linkedin.com/in/eduarda-reis-95b95624a/) · [GitHub](https://github.com/dudsstar16) · [Portfólio profissional](https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/) · [Dashboards](https://sites.google.com/view/portflioeduardareis/in%C3%ADcio)
+Brasília, DF · +55 (61) 99319-4102 · eduardareisworkspace@gmail.com · [LinkedIn](https://www.linkedin.com/in/eduarda-reis-95b95624a/) · [GitHub](https://github.com/dudsstar16) · [Portfólio profissional](https://dudsstar16.github.io/data-ai-portfolio/) · [Dashboards](https://sites.google.com/view/portflioeduardareis/in%C3%ADcio)
 
 ## Analista de Dados | Power BI, SQL e Python | Automação e Agentes de IA
 
@@ -10,9 +10,9 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 
 **Dados e BI:** Power BI, DAX, Power Query, SQL, modelagem de dados, ETL, análise exploratória, validação e qualidade de dados.
 
-**Python e automação:** Python, Pandas, OpenPyXL, PyAutoGUI, Git e GitHub.
+**Python e automação:** Python, Power Automate, Pandas, OpenPyXL, PyAutoGUI, Git e GitHub.
 
-**IA aplicada e agentes:** LLMs, engenharia de prompts, agentes conversacionais e de desenvolvimento, guardrails, saídas estruturadas, fallback, revisão humana, testes automatizados e troubleshooting.
+**IA aplicada e agentes:** LLMs, engenharia de prompts, agentes conversacionais e de desenvolvimento, Microsoft Copilot Studio, guardrails, saídas estruturadas, fallback, revisão humana, testes automatizados e troubleshooting.
 
 **Negócios e CX:** NPS, CES, CSAT, CX/UX, indicadores de atendimento e comunicação de insights.
 
@@ -23,6 +23,7 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 
 - Atuo na mesma equipe da CNP Seguros Holding, mantendo dashboards, bases e análises de NPS e CES que apoiam monitoramentos e decisões na área de relacionamento com o cliente.
 - Estruturo soluções a partir do levantamento de dores, da definição do Job to Be Done e do desenho de fluxos para automação e IA aplicada.
+- Desenvolvo agentes especialistas por assunto e chatbots conversacionais no Microsoft Copilot Studio, integrados a fluxos do Power Automate que buscam dados.
 - Desenvolvo, testo e valido agentes conversacionais e de desenvolvimento com Python, LLMs e APIs, usando guardrails, saídas estruturadas e revisão humana quando necessária.
 
 ### Estagiária de Análise de Dados — CNP Seguros Holding
@@ -30,7 +31,7 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 
 - Desenvolvi e mantive 12 dashboards em Power BI, consolidando dados de 2 fontes para acompanhar indicadores de atendimento, NPS e CES para públicos internos e externos.
 - Consolidei, tratei e validei 3 bases das Centrais de Atendimento e analisei diariamente NPS e CES, preparando informações confiáveis para monitoramentos e apresentações gerenciais.
-- Automatizei mais de 10 relatórios recorrentes em Python e apoiei processos de ETL, reduzindo o tempo de processamento de 1 a 2 horas para menos de 5 minutos.
+- Automatizei mais de 10 relatórios recorrentes em Python e apoiei processos de ETL, reduzindo o tempo de processamento de 1 a 2 horas para menos de 5 minutos. Automatizei fluxos de trabalho com Power Automate, integrando e-mail, SharePoint e Power BI.
 
 ### Líder de Pesquisa e Desenvolvimento de Dados — DatAí
 **08/2025 - 08/2026 | Empresa Júnior de Dados | Voluntária**
@@ -42,7 +43,7 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 **07/2025 - 01/2026**
 
 - Tratei, manipulei e analisei mais de 10 bases operacionais, totalizando mais de 27 milhões de linhas para análises internas.
-- Integrei 4 fontes em mais de 10 análises exploratórias e contribuí para a construção de 3 indicadores e relatórios disponibilizados a áreas do banco.
+- Integrei 4 fontes em mais de 10 análises exploratórias, com consultas SQL no banco de dados Benner, e contribuí para a construção de 3 indicadores e relatórios, com dashboards em Power BI, disponibilizados a áreas do banco.
 - Otimizei rotinas aplicáveis de preparação de dados, reduzindo atividades que levavam horas para menos de 5 minutos.
 
 ### Experiência adicional em tecnologia
@@ -81,7 +82,7 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 ## Formação
 
 - **Residência em Inteligência Artificial** — Universidade de Brasília (UnB), Campus Gama | 17/08/2026 - atual
-- **Formação Back-End em Python** — Bolsa Futuro Digital, Instituto Federal de Brasília | 13/05/2026 - 30/10/2026
+- **Formação Back-End em Python** — Bolsa Futuro Digital, Instituto Federal de Brasília | 13/05/2026 - 06/2027
 - **Análise e Desenvolvimento de Sistemas** — Universidade Católica de Brasília | 08/2022 - 12/2024
 
 ## Idiomas
@@ -92,5 +93,5 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 ## Cursos e certificações selecionados
 
 <!-- certificates:start -->
-Cálculos com DAX · ETL no Power Query · Visualização e análise no Power BI · Insights do feedback de clientes bancários · Processo de ETL com Excel e Power Query · Consultas SQL com Microsoft Copilot
+Introdução a Analise de Dados Power BI · Consultas SQL com Microsoft Copilot · Insights do feedback de clientes bancários · Cálculos com DAX · Visualização e análise no Power BI · Introdução a Banco de Dados Relacionais
 <!-- certificates:end -->

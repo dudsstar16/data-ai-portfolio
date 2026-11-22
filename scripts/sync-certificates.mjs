@@ -37,6 +37,26 @@ for (const filename of files) {
       existing.sha256 = sha256;
       refreshed += 1;
     }
+    if (existing.status === "review" && (!existing.issuer || !existing.date || !existing.automation?.evidence?.textExtracted)) {
+      try {
+        const extracted = await extractCertificateMetadata(path.join(certificatesDirectory, filename), filename);
+        let updated = false;
+        if (!existing.issuer && extracted?.issuer) { existing.issuer = extracted.issuer; updated = true; }
+        if (!existing.date && extracted?.date) { existing.date = extracted.date; existing.displayDate = extracted.displayDate; updated = true; }
+        if (existing.durationHours == null && extracted?.durationHours != null) { existing.durationHours = extracted.durationHours; updated = true; }
+        if (extracted?.evidence?.textExtracted && !existing.automation?.evidence?.textExtracted) {
+          existing.automation = {
+            discoveredBy: existing.automation?.discoveredBy ?? "certificate-ingestion-v1",
+            discoveredAt: existing.automation?.discoveredAt ?? new Date().toISOString(),
+            evidence: extracted.evidence
+          };
+          updated = true;
+        }
+        if (updated) refreshed += 1;
+      } catch {
+        // ignore extraction errors on existing files
+      }
+    }
     continue;
   }
 
