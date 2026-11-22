@@ -3,7 +3,6 @@ import { access, readFile, readdir } from "node:fs/promises";
 const requiredFiles = [
   "index.html",
   "public/documents/curriculo-eduarda-reis.pdf",
-  "public/images/eduarda-reis-noite-lunar.jpg",
   "data/projects.json",
   "data/certificates.json",
   "data/career-profile.json",

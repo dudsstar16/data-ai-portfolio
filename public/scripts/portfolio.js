@@ -27,6 +27,34 @@
   }
   menu.addEventListener("click", () => setMenu(menu.getAttribute("aria-expanded") !== "true"));
   nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => setMenu(false)));
+  const chapters = [...nav.querySelectorAll("a")].map(link => ({
+    link,
+    section: document.getElementById(link.hash.slice(1))
+  }));
+  const navShell = document.querySelector(".nav-shell");
+  const progress = document.querySelector(".chapter-progress span");
+  let chapterFrame = 0;
+  function updateChapter() {
+    chapterFrame = 0;
+    const readingLine = navShell.offsetHeight + window.innerHeight * 0.23;
+    let active = chapters[0];
+    for (const chapter of chapters) {
+      if (chapter.section.getBoundingClientRect().top <= readingLine) active = chapter;
+    }
+    const scrollRange = document.documentElement.scrollHeight - window.innerHeight;
+    if (scrollRange > 0 && window.scrollY >= scrollRange - 2) active = chapters.at(-1);
+    for (const chapter of chapters) {
+      if (chapter === active) chapter.link.setAttribute("aria-current", "location");
+      else chapter.link.removeAttribute("aria-current");
+    }
+    progress.style.transform = `scaleX(${Math.min(1, Math.max(0, scrollRange ? window.scrollY / scrollRange : 0))})`;
+  }
+  function scheduleChapterUpdate() {
+    if (!chapterFrame) chapterFrame = requestAnimationFrame(updateChapter);
+  }
+  addEventListener("scroll", scheduleChapterUpdate, { passive: true });
+  addEventListener("resize", scheduleChapterUpdate);
+  scheduleChapterUpdate();
   document.addEventListener("keydown", event => {
     if (event.key === "Escape" && menu.getAttribute("aria-expanded") === "true") {
       setMenu(false);
@@ -91,11 +119,11 @@
     return link;
   }
 
-  const dialog = document.querySelector("#case-dialog");
-  const caseTitle = document.querySelector("#case-title");
-  const caseBody = document.querySelector("#case-body");
-  let activeProject;
-  let opener;
+  const explorer = document.querySelector("#case-explorer");
+  const selector = document.querySelector("#case-selector");
+  const caseTitle = document.querySelector("#featured-case-title");
+  const caseCategory = document.querySelector("#case-category");
+  const caseBody = document.querySelector("#featured-case-body");
 
   function updateUrl(id) {
     const url = new URL(location.href);
@@ -104,18 +132,14 @@
     history.replaceState(history.state, "", url);
   }
 
-  function openCase(project, trigger) {
-    activeProject = project.id;
-    opener = trigger;
+  function renderCase(project) {
     caseTitle.textContent = project.title;
-    caseBody.replaceChildren(element("p", "project-label", project.categoryLabel));
+    caseCategory.textContent = project.categoryLabel;
     const study = project.presentation.caseStudy;
     const items = [
-      ["Problema", study.challenge],
+      ["Desafio", study.challenge],
       ["Abordagem", study.approach],
-      ["Tecnologias", project.technologies.join(", ")],
-      ["Evidências", study.evidence],
-      ["Entregáveis", study.deliverables]
+      ["Entrega", [study.deliverables, study.evidence].filter(Boolean).join("\n\n")]
     ].filter(([, value]) => value);
     const tablist = element("div", "case-tabs");
     tablist.setAttribute("role", "tablist");
@@ -152,17 +176,10 @@
       activate((targets[event.key] + tabs.length) % tabs.length, true);
     });
     activate(0);
-    caseBody.append(tablist, panel, projectLink(project));
-    updateUrl(project.id);
-    if (!dialog.open) dialog.showModal();
+    const tags = element("div", "tags");
+    tags.append(...project.technologies.map(technology => element("span", "tag", technology)));
+    caseBody.replaceChildren(tablist, panel, tags, projectLink(project));
   }
-  dialog.querySelector("[data-close-case]").addEventListener("click", () => dialog.close());
-  dialog.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });
-  dialog.addEventListener("close", () => {
-    if (dialog.open) return;
-    if (new URL(location.href).searchParams.get("project") === activeProject) updateUrl();
-    opener?.focus();
-  });
 
   function projectCard(project) {
     const card = element("article", "project");
@@ -182,15 +199,7 @@
     const tags = element("div", "tags");
     tags.append(...project.technologies.map(technology => element("span", "tag", technology)));
     card.append(tags);
-    if (project.presentation?.featured && project.presentation.caseStudy) {
-      const button = element("button", "project-link", "Explorar case");
-      button.type = "button";
-      button.setAttribute("aria-label", "Explorar case: " + project.title);
-      button.addEventListener("click", () => openCase(project, button));
-      card.append(button);
-    } else {
-      card.append(projectLink(project));
-    }
+    card.append(projectLink(project));
     return card;
   }
 
@@ -204,9 +213,36 @@
   const filters = document.querySelector("#project-filters");
   catalog("./data/projects.json").then(({ projects }) => {
     const ordered = projects.filter(project => project.status === "published").sort((a, b) => a.displayOrder - b.displayOrder).slice(0, 6);
-    const highlights = ordered.filter(project => project.presentation?.featured).sort((a, b) => a.presentation.featuredOrder - b.presentation.featuredOrder);
-    const others = ordered.filter(project => !project.presentation?.featured);
-    featured.replaceChildren(...highlights.map(projectCard));
+    const highlights = ordered.filter(project => project.presentation?.featured && project.presentation.caseStudy)
+      .sort((a, b) => a.presentation.featuredOrder - b.presentation.featuredOrder);
+    const others = ordered.filter(project => !highlights.includes(project));
+    if (highlights.length) {
+      function select(project, record = false) {
+        for (const control of selector.children) {
+          control.setAttribute("aria-pressed", String(control.dataset.projectId === project.id));
+        }
+        renderCase(project);
+        if (record) updateUrl(project.id);
+        scheduleChapterUpdate();
+      }
+      selector.replaceChildren(...highlights.map(project => {
+        const button = element("button", "case-option");
+        button.type = "button";
+        button.dataset.projectId = project.id;
+        button.setAttribute("aria-controls", "featured-case-body");
+        button.append(element("small", "", project.categoryLabel), element("span", "", project.title));
+        button.addEventListener("click", () => select(project, true));
+        return button;
+      }));
+      const id = new URL(location.href).searchParams.get("project");
+      const selected = highlights.find(project => project.id === id);
+      select(selected || highlights[0]);
+      explorer.hidden = false;
+      featured.hidden = true;
+      if (selected && !location.hash) explorer.scrollIntoView({ behavior: "instant" });
+    } else {
+      featured.hidden = true;
+    }
     archive.replaceChildren(...others.map(projectCard));
     const categories = new Map(others.map(project => [project.category, project.categoryLabel]));
     filters.replaceChildren();
@@ -221,9 +257,6 @@
       filters.append(button);
     }
     filters.hidden = others.length < 2;
-    const id = new URL(location.href).searchParams.get("project");
-    const selected = highlights.find(project => project.id === id);
-    if (selected) openCase(selected, document.getElementById("project-" + id)?.querySelector("button"));
   }).catch(() => {
     if (!featured.querySelector("article")) featured.replaceChildren(element("p", "catalog-state", "Os projetos estão disponíveis no GitHub do portfólio."));
     if (!archive.querySelector("article")) archive.replaceChildren(element("p", "catalog-state", "Arquivo de projetos indisponível no momento."));
@@ -246,5 +279,12 @@
   }).catch(() => certificateGrid.replaceChildren(element("p", "catalog-state", "Certificações indisponíveis no momento.")));
 
   const hero = document.querySelector("#data-sculpture");
-  if (hero) import("./sculpture.js").then(({ mountSculpture }) => mountSculpture(hero)).catch(() => {});
+  const interactiveArt = matchMedia("(min-width: 769px) and (pointer: fine) and (prefers-reduced-motion: no-preference)");
+  function loadSculpture() {
+    if (!hero || !interactiveArt.matches) return;
+    interactiveArt.removeEventListener("change", loadSculpture);
+    import("./sculpture.js").then(({ mountSculpture }) => mountSculpture(hero)).catch(() => {});
+  }
+  interactiveArt.addEventListener("change", loadSculpture);
+  loadSculpture();
 })();

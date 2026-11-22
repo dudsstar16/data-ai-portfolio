@@ -2,7 +2,7 @@
 
 ## AI Quick Start (leia primeiro)
 
-Este é um portfólio estático de uma única página. Não faça varredura ampla: consulte somente a fonte relacionada à tarefa.
+Este é um portfólio estático de uma única página. Leia `memoria/contexto-rapido.md` e `memoria/historico-ajustes.md` quando estiverem disponíveis no checkout local. Consulte somente as fontes relacionadas à tarefa.
 
 | Necessidade | Fonte de verdade | Ação |
 | --- | --- | --- |
@@ -14,9 +14,15 @@ Este é um portfólio estático de uma única página. Não faça varredura ampl
 
 ### Endereços oficiais
 
-- Site principal: `https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/`
+- Site oficial: `https://dudsstar16.github.io/data-ai-portfolio/`. O endereço do ChatGPT Sites é legado.
+- Repositório principal: `https://github.com/dudsstar16/data-ai-portfolio`; branch de publicação: `master`.
 - Vitrine interativa de dashboards: `https://sites.google.com/view/portflioeduardareis/início` (somente link, não é destino de deploy)
 - GitHub: `https://github.com/dudsstar16`
+
+### Publicação automática
+
+- O workflow `.github/workflows/deploy-portfolio-pages.yml` publica no GitHub Pages a cada push em `master`, após sucesso do workflow **Atualizar conteúdo profissional** em `master` ou por execução manual na branch.
+- Antes de publicar, execute `npm run check` e `node scripts/build.mjs --pages`. O Pages recebe apenas o pacote estático gerado em `dist/pages-*`, com os catálogos curados e o PDF público. Confira a execução no GitHub Actions e abra o endereço oficial.
 
 ### Fluxo padrão de conteúdo
 

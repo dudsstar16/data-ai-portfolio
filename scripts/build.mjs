@@ -2,10 +2,9 @@ import { mkdir, mkdtemp, readFile, readdir, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 
-const [page, resume, portrait, hosting, projectsJson, certificatesJson] = await Promise.all([
+const [page, resume, hosting, projectsJson, certificatesJson] = await Promise.all([
   readFile("index.html", "utf8"),
   readFile("public/documents/curriculo-eduarda-reis.pdf"),
-  readFile("public/images/eduarda-reis-noite-lunar.jpg"),
   readFile(".openai/hosting.json", "utf8"),
   readFile("data/projects.json", "utf8"),
   readFile("data/certificates.json", "utf8"),
@@ -65,19 +64,14 @@ for (const folder of ["styles", "scripts", "fonts"]) {
 }
 
 if (process.argv.includes("--pages")) {
-  const siteUrl = "https://dudsstar16.github.io/data-ai-portfolio/";
-  const pagesHtml = renderedPage
-    .replace(/(<meta property="og:url" content=")[^"]+/, `$1${siteUrl}`)
-    .replace(/(<meta property="og:image" content=")[^"]+/, `$1${siteUrl}public/images/eduarda-reis-noite-lunar.jpg?v=4`);
   // Use a fresh directory so previous builds cannot leave files in the artifact.
   await mkdir("dist", { recursive: true });
   const output = await mkdtemp(join("dist", "pages-"));
   const files = [
-    ["/index.html", pagesHtml],
+    ["/index.html", renderedPage],
     ["/data/projects.json", publicProjectsJson],
     ["/data/certificates.json", publicCertificatesJson],
     ["/public/documents/curriculo-eduarda-reis.pdf", resume],
-    ["/public/images/eduarda-reis-noite-lunar.jpg", portrait],
     ...[...projectImageEntries, ...interfaceAssets].map(([path, asset]) => [path, Buffer.from(asset.base64, "base64")]),
   ];
   await Promise.all(files.map(async ([path, contents]) => {
@@ -96,7 +90,6 @@ await Promise.all([
 
 const worker = `const page = ${JSON.stringify(renderedPage)};
 const resumeBase64 = ${JSON.stringify(Buffer.from(resume).toString("base64"))};
-const portraitBase64 = ${JSON.stringify(Buffer.from(portrait).toString("base64"))};
 const projectsJson = ${JSON.stringify(publicProjectsJson)};
 const certificatesJson = ${JSON.stringify(publicCertificatesJson)};
 const projectImages = ${JSON.stringify(Object.fromEntries(projectImageEntries))};
@@ -141,12 +134,7 @@ export default {
       });
     }
     if (url.pathname === "/eduarda-reis-noite-lunar.jpg" || url.pathname === "/images/eduarda-reis-noite-lunar.jpg" || url.pathname === "/public/images/eduarda-reis-noite-lunar.jpg") {
-      return new Response(bytesFromBase64(portraitBase64), {
-        headers: {
-          "content-type": "image/jpeg",
-          "cache-control": "public, max-age=31536000, immutable",
-        },
-      });
+      return new Response("Página não encontrada", { status: 404 });
     }
     const projectImage = Object.hasOwn(projectImages, url.pathname) && projectImages[url.pathname];
     if (projectImage) {

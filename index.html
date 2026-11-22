@@ -8,9 +8,8 @@
   <meta property="og:title" content="Eduarda Reis — Data & AI">
   <meta property="og:description" content="Dados, Business Intelligence, automação e IA aplicados a decisões melhores.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/">
-  <meta property="og:image" content="https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/images/eduarda-reis-noite-lunar.jpg?v=4">
-  <meta property="og:image:alt" content="Retrato profissional de Eduarda Reis em uma composição lunar com acentos verdes.">
+  <link rel="canonical" href="https://dudsstar16.github.io/data-ai-portfolio/">
+  <meta property="og:url" content="https://dudsstar16.github.io/data-ai-portfolio/">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23592419'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia,serif' font-size='30' fill='%23fff' %3EER%3C/text%3E%3C/svg%3E">
   <title>Eduarda Reis — Data & AI</title>
@@ -33,13 +32,14 @@
     <nav class="wrap" aria-label="Navegação principal">
       <a class="brand" href="#inicio"><span class="brand-mark">ER</span><span class="brand-copy">Eduarda Reis<small>Data & AI</small></span></a>
       <div class="nav-links" id="nav-links">
-        <a href="#projetos">Projetos</a><a href="#sobre">Sobre</a><a href="#experiencia">Experiência</a><a href="#stack">Competências</a><a href="#contato">Contato</a>
+        <a href="#inicio" aria-current="location">Início</a><a href="#projetos">Projetos</a><a href="#sobre">Método</a><a href="#experiencia">Experiência</a><a href="#stack">Competências</a><a href="#contato">Contato</a>
       </div>
       <div class="nav-tools">
         <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" hidden>Tema escuro</button>
         <button class="menu-btn" id="menu-toggle" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Abrir menu" hidden>☰</button>
       </div>
     </nav>
+    <div class="chapter-progress" aria-hidden="true"><span></span></div>
   </div>
   <main id="conteudo">
     <header class="hero" id="inicio">
@@ -78,7 +78,15 @@
       <div class="wrap">
         <div class="section-head">
           <p class="eyebrow">Portfólio</p>
-          <div><h2 id="projects-title">Projetos selecionados</h2><p class="intro">Veja como aplico Power BI, Python e SQL a problemas diferentes.</p></div>
+          <div><h2 id="projects-title">Projetos em foco</h2><p class="intro">Explore o desafio, a abordagem e o que foi entregue em cada case.</p></div>
+        </div>
+        <div class="case-explorer" id="case-explorer" hidden>
+          <div class="case-selector" id="case-selector" role="group" aria-label="Escolher case"></div>
+          <article class="case-display" aria-labelledby="featured-case-title">
+            <p class="project-label" id="case-category"></p>
+            <h3 id="featured-case-title"></h3>
+            <div id="featured-case-body"></div>
+          </article>
         </div>
         <div class="projects" id="projects">
           <article class="project" id="project-power-bi-dashboard-portfolio"><p class="project-label">Business Intelligence</p><h3>Portfólio de Dashboards em Power BI</h3><p>Dashboards interativos para análise de indicadores e apoio à tomada de decisão.</p><a class="project-link" href="https://sites.google.com/view/portflioeduardareis/in%C3%ADcio">Explorar dashboards</a></article>
@@ -101,7 +109,10 @@
     <section class="section" id="sobre"><div class="wrap">
       <div class="section-head"><div class="eyebrow">Sobre</div><div><h2>Do dado bruto à informação que move o negócio.</h2><p class="intro">Perfil analítico, aprendizado rápido e atenção à qualidade — com experiência prática em dados de operação e relacionamento com clientes.</p></div></div>
       <div class="about-grid">
-        <figure class="about-portrait"><img src="./public/images/eduarda-reis-noite-lunar.jpg?v=4" alt="Retrato de Eduarda Reis" width="900" height="900" loading="lazy"><figcaption>Eduarda Reis · Brasília, DF</figcaption></figure>
+        <div class="method-art" aria-hidden="true">
+          <span class="method-orbit"></span>
+          <span>Dados<br><i>em</i> decisão.</span>
+        </div>
         <div>
         <p class="about-copy">Atuo da descoberta à entrega: levanto dores, defino o Job to Be Done, preparo dados, construo indicadores e desenvolvo automações e agentes. Minha força está em <strong>conectar a pergunta de negócio à solução certa</strong>, com bases confiáveis, testes e visualizações que ajudam pessoas a decidir.</p>
         <div class="proof-list">
@@ -150,12 +161,5 @@
   <dialog id="resume-dialog" aria-labelledby="resume-title">
     <div class="dialog-head"><div class="dialog-title" id="resume-title">Currículo — Eduarda Reis<small>Analista de Dados · Power BI · SQL · Python · BI · ETL</small></div><div class="dialog-actions"><a class="btn btn-secondary" href="./public/documents/curriculo-eduarda-reis.pdf" download>Baixar PDF</a><button class="icon-btn" type="button" data-close-resume aria-label="Fechar currículo">×</button></div></div>
     <div class="dialog-body"><object data="./public/documents/curriculo-eduarda-reis.pdf" type="application/pdf"><div class="dialog-fallback"><div><p>Seu navegador não exibiu o PDF nesta janela.</p><a class="btn btn-primary" href="./public/documents/curriculo-eduarda-reis.pdf" target="_blank">Abrir currículo</a></div></div></object></div>
-  </dialog>
-  <dialog id="case-dialog" aria-labelledby="case-title">
-    <div class="dialog-head">
-      <h2 id="case-title" tabindex="-1"></h2>
-      <button class="icon-btn" type="button" data-close-case aria-label="Fechar case">×</button>
-    </div>
-    <div class="case-body" id="case-body"></div>
   </dialog>
 </body></html>
