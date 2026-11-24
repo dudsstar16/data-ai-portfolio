@@ -191,8 +191,8 @@ O script nunca publica conteúdo, nunca altera o currículo e nunca decide sozin
 `;
 
 if (checkOnly) {
-  const current = await readFile(outputPath, "utf8").catch(() => "");
-  if (current !== report) {
+  const current = (await readFile(outputPath, "utf8").catch(() => "")).replace(/\r\n/g, "\n");
+  if (current !== report.replace(/\r\n/g, "\n")) {
     throw new Error(`Painel profissional desatualizado. Rode: npm run career:review`);
   }
   console.log("Painel profissional consistente com os catálogos e o perfil de carreira.");

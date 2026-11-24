@@ -227,8 +227,8 @@ async function main() {
 
   if (checkOnly) {
     await Promise.all([access(contextPath), access(historyPath), access(readmePath)]);
-    const currentContext = await readFile(contextPath, "utf8").catch(() => "");
-    if (currentContext !== contextMarkdown) {
+    const currentContext = (await readFile(contextPath, "utf8").catch(() => "")).replace(/\r\n/g, "\n");
+    if (currentContext !== contextMarkdown.replace(/\r\n/g, "\n")) {
       throw new Error("Memória rápida desatualizada. Rode: npm run memory:sync");
     }
     if (!isHook) {

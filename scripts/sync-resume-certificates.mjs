@@ -33,7 +33,8 @@ const nextMarkdown = replaceMarkedSection(markdown, list, markdownPath);
 const nextHtml = replaceMarkedSection(html, `<p class="certification-list">${list}</p>`, htmlPath);
 
 if (checkOnly) {
-  if (markdown !== nextMarkdown || html !== nextHtml) {
+  const norm = s => String(s ?? "").replace(/\r\n/g, "\n");
+  if (norm(markdown) !== norm(nextMarkdown) || norm(html) !== norm(nextHtml)) {
     throw new Error("Currículo fora de sincronia com os certificados selecionados. Rode: npm run resume:sync");
   }
   console.log("Currículo consistente com a seleção automatizada de certificados.");
