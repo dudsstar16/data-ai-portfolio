@@ -2,10 +2,11 @@
 
 ## AI Quick Start (leia primeiro)
 
-Este é um portfólio estático de uma única página. Leia `memoria/contexto-rapido.md` e `memoria/historico-ajustes.md` quando estiverem disponíveis no checkout local. Consulte somente as fontes relacionadas à tarefa.
+Este é um portfólio estático de uma única página. Não faça varredura ampla: **leia primeiro `memoria/contexto-rapido.md` e `memoria/historico-ajustes.md`** para economizar tokens e consulte somente a fonte relacionada à tarefa.
 
 | Necessidade | Fonte de verdade | Ação |
 | --- | --- | --- |
+| Memória rápida | `memoria/contexto-rapido.md`, `memoria/historico-ajustes.md` | Leia antes de abrir arquivos grandes; registre melhorias com `npm run memory:log -- --note "..."`. |
 | Interface/site | `index.html`, `data/projects.json`, `data/certificates.json` | Preserve o layout; o site renderiza apenas itens curados/publicados. |
 | Currículo | `curriculo/02-fonte/`, `curriculo/03-layout/`, `public/documents/curriculo-eduarda-reis.pdf` | Rode `npm run content:automate` quando a mudança vier de conteúdo. |
 | Carreira | `data/career-profile.json`, `curriculo/04-revisao/painel-profissional.md` | Use `$data-analyst-career-advisor`; não invente fatos. |
@@ -14,10 +15,17 @@ Este é um portfólio estático de uma única página. Leia `memoria/contexto-ra
 
 ### Endereços oficiais
 
+- Repositório principal deste projeto: [dudsstar16/data-ai-portfolio](https://github.com/dudsstar16/data-ai-portfolio).
+- Checkout principal nesta máquina: `C:\Users\eduar\portfolio-duds`. Confirme a raiz e o `origin` antes de editar, inclusive ao usar worktrees.
+
 - Site oficial: `https://dudsstar16.github.io/data-ai-portfolio/`. O endereço do ChatGPT Sites é legado.
 - Repositório principal: `https://github.com/dudsstar16/data-ai-portfolio`; branch de publicação: `master`.
 - Vitrine interativa de dashboards: `https://sites.google.com/view/portflioeduardareis/início` (somente link, não é destino de deploy)
 - GitHub: `https://github.com/dudsstar16`
+
+### Modelo, esforço e uso de contexto
+
+Em cada objetivo novo, use a skill [controle-execucao-eficiente](.agents/skills/controle-execucao-eficiente/SKILL.md) e recomende o modelo e o esforço adequados. Antes de trocar qualquer um deles, explique a mudança e pause até Eduarda confirmar. A configuração aprovada cobre as ações do mesmo objetivo enquanto continuar adequada. Registre a entrega e sua validação na memória do projeto.
 
 ### Publicação automática
 
@@ -36,7 +44,7 @@ Limites atuais: 8 certificados visíveis no site, 6 no currículo e 6 projetos p
 
 ## Project Structure & Module Organization
 
-This repository is a small, static portfolio site. The main page, responsive CSS, and browser JavaScript are kept in [`index.html`](index.html). Runtime assets live in [`public/`](public/), while editable résumé material follows the staged flow in [`curriculo/`](curriculo/). Read [`docs/AI_HARNESS.md`](docs/AI_HARNESS.md) before broad content or automation changes. [`scripts/build.mjs`](scripts/build.mjs) packages the page and selected assets into `dist/` for the hosted worker; treat `dist/` as generated output.
+This repository is a static portfolio site. The main page is in [`index.html`](index.html), with styles, JavaScript, fonts and runtime assets under [`public/`](public/). Editable résumé material follows the staged flow in [`curriculo/`](curriculo/). Read [`docs/AI_HARNESS.md`](docs/AI_HARNESS.md) before broad content or automation changes. [`scripts/build.mjs`](scripts/build.mjs) packages the page and assets into the generated `dist/` directory for the hosted worker.
 
 ## Build, Test, and Development Commands
 
@@ -48,7 +56,7 @@ There is no configured test runner or linter. After changes, open the site local
 
 ## Coding Style & Naming Conventions
 
-Use two-space indentation for HTML, CSS, and JavaScript. Keep the existing single-file organization unless a change clearly benefits from extraction. Prefer semantic HTML, accessible labels/landmarks, and `kebab-case` for CSS classes and `data-*` attributes (for example, `.project-link` and `data-filter`). Preserve the existing CSS custom-property design tokens and responsive breakpoints. Use descriptive, lowercase asset filenames with hyphens; avoid spaces in new filenames.
+Use two-space indentation for HTML, CSS, and JavaScript. Prefer semantic HTML, accessible labels and landmarks, and `kebab-case` for CSS classes and `data-*` attributes. Extend the existing theme tokens and responsive rules. Use descriptive, lowercase asset filenames with hyphens.
 
 Keep project metadata synchronized between `data/projects.json` and its matching HTML card. Use the stable project ID instead of a list position or title when a script, agent, or URL needs to identify a project.
 

@@ -212,7 +212,7 @@
   const archive = document.querySelector("#project-archive");
   const filters = document.querySelector("#project-filters");
   catalog("./data/projects.json").then(({ projects }) => {
-    const ordered = projects.filter(project => project.status === "published").sort((a, b) => a.displayOrder - b.displayOrder).slice(0, 6);
+    const ordered = projects.filter(project => project.status === "published").sort((a, b) => a.displayOrder - b.displayOrder).slice(0, 9);
     const highlights = ordered.filter(project => project.presentation?.featured && project.presentation.caseStudy)
       .sort((a, b) => a.presentation.featuredOrder - b.presentation.featuredOrder);
     const others = ordered.filter(project => !highlights.includes(project));

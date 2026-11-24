@@ -32,13 +32,13 @@
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "menos de dois pilares de competÃªncia identificados",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "menos de dois pilares de competência identificados",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -72,11 +72,11 @@
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -110,13 +110,13 @@
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "menos de dois pilares de competÃªncia identificados",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "menos de dois pilares de competência identificados",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -141,11 +141,11 @@
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -170,11 +170,11 @@
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -199,11 +199,11 @@
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -225,19 +225,30 @@
         "repositoryId": 1348431961,
         "defaultBranch": "master",
         "createdAt": "2026-08-27T11:54:20Z",
-        "updatedAt": "2026-08-30T22:58:13Z"
+        "updatedAt": "2026-11-22T14:25:21Z",
+        "readmeEvidence": {
+          "complete": true,
+          "checkedAt": "2026-11-23T21:19:09.828Z",
+          "signals": [
+            "problem",
+            "data",
+            "method",
+            "validation",
+            "result",
+            "run"
+          ]
+        }
       },
       "curation": {
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "menos de dois pilares de competÃªncia identificados",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "menos de dois pilares de competência identificados",
+          "limite de projetos publicados já ocupado"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-23T22:58:58.140Z"
       }
     },
     {
@@ -259,19 +270,24 @@
         "repositoryId": 1279116538,
         "defaultBranch": "main",
         "createdAt": "2026-06-24T11:44:02Z",
-        "updatedAt": "2026-08-24T21:40:16Z"
+        "updatedAt": "2026-10-19T14:48:14Z",
+        "readmeEvidence": {
+          "complete": false,
+          "checkedAt": "2026-11-23T21:19:10.428Z",
+          "signals": []
+        }
       },
       "curation": {
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "menos de dois pilares de competÃªncia identificados",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "menos de dois pilares de competência identificados",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -293,19 +309,24 @@
         "repositoryId": 1326717395,
         "defaultBranch": "main",
         "createdAt": "2026-08-07T13:38:35Z",
-        "updatedAt": "2026-08-11T00:12:08Z"
+        "updatedAt": "2026-08-11T00:12:08Z",
+        "readmeEvidence": {
+          "complete": false,
+          "checkedAt": "2026-11-23T21:19:11.185Z",
+          "signals": []
+        }
       },
       "curation": {
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "menos de dois pilares de competÃªncia identificados",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "menos de dois pilares de competência identificados",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -325,18 +346,23 @@
         "repositoryId": 1323473110,
         "defaultBranch": "main",
         "createdAt": "2026-08-05T00:04:00Z",
-        "updatedAt": "2026-08-05T00:13:35Z"
+        "updatedAt": "2026-08-05T00:13:35Z",
+        "readmeEvidence": {
+          "complete": false,
+          "checkedAt": "2026-11-23T21:19:11.519Z",
+          "signals": []
+        }
       },
       "curation": {
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -356,17 +382,28 @@
         "repositoryId": 1301592468,
         "defaultBranch": "main",
         "createdAt": "2026-07-15T12:29:17Z",
-        "updatedAt": "2026-07-16T00:53:17Z"
+        "updatedAt": "2026-07-16T00:53:17Z",
+        "readmeEvidence": {
+          "complete": false,
+          "checkedAt": "2026-11-23T21:19:12.066Z",
+          "signals": [
+            "problem",
+            "data",
+            "result",
+            "run"
+          ]
+        }
       },
       "curation": {
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -388,18 +425,27 @@
         "repositoryId": 1179785988,
         "defaultBranch": "main",
         "createdAt": "2026-03-12T11:31:40Z",
-        "updatedAt": "2026-05-04T02:05:00Z"
+        "updatedAt": "2026-05-04T02:05:00Z",
+        "readmeEvidence": {
+          "complete": false,
+          "checkedAt": "2026-11-23T21:19:12.455Z",
+          "signals": [
+            "problem",
+            "data",
+            "run"
+          ]
+        }
       },
       "curation": {
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -421,19 +467,26 @@
         "repositoryId": 1187603151,
         "defaultBranch": "main",
         "createdAt": "2026-03-20T23:18:47Z",
-        "updatedAt": "2026-03-20T23:32:39Z"
+        "updatedAt": "2026-03-20T23:32:39Z",
+        "readmeEvidence": {
+          "complete": false,
+          "checkedAt": "2026-11-23T21:19:12.862Z",
+          "signals": [
+            "data"
+          ]
+        }
       },
       "curation": {
         "decision": "maintain-current-decision",
         "confidence": "n/a",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "menos de dois pilares de competÃªncia identificados",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "menos de dois pilares de competência identificados",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -458,7 +511,7 @@
         "updatedAt": "2026-09-07T01:27:56Z",
         "readmeEvidence": {
           "complete": false,
-          "checkedAt": "2026-09-11T14:24:09.6Z",
+          "checkedAt": "2026-09-11T14:24:09.600Z",
           "signals": [
             "data",
             "run"
@@ -467,19 +520,19 @@
       },
       "automation": {
         "discoveredBy": "github-sync-v2",
-        "discoveredAt": "2026-09-11T14:24:09.6Z"
+        "discoveredAt": "2026-09-11T14:24:09.600Z"
       },
       "curation": {
         "decision": "review-replacement-or-evidence",
         "confidence": "medium",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "menos de dois pilares de competÃªncia identificados",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "menos de dois pilares de competência identificados",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-11T14:24:10.821Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -499,14 +552,13 @@
         "repositoryId": 1366495610,
         "defaultBranch": "main",
         "createdAt": "2026-09-11T17:26:01Z",
-        "updatedAt": "2026-09-11T17:26:51Z",
+        "updatedAt": "2026-09-11T17:39:59Z",
         "readmeEvidence": {
-          "complete": true,
-          "checkedAt": "2026-09-11T17:35:18.357Z",
+          "complete": false,
+          "checkedAt": "2026-11-23T21:19:10.810Z",
           "signals": [
             "problem",
             "data",
-            "method",
             "validation",
             "result",
             "run"
@@ -521,12 +573,149 @@
         "decision": "review-replacement-or-evidence",
         "confidence": "medium",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "menos de dois pilares de competÃªncia identificados",
-          "limite de projetos publicados jÃ¡ ocupado"
+          "aderência abaixo da pontuação mínima",
+          "menos de dois pilares de competência identificados",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-11T17:35:20.575Z"
+        "reviewedAt": "2026-11-23T22:58:58.140Z"
+      }
+    },
+    {
+      "id": "desafio-primora",
+      "title": "Desafio Primora — ETL, Qualidade de Dados e API",
+      "category": "data-engineering",
+      "categoryLabel": "Engenharia de dados",
+      "technologies": [
+        "Python",
+        "ETL",
+        "Qualidade de Dados",
+        "API REST"
+      ],
+      "url": "https://github.com/dudsstar16/desafio-primora",
+      "summary": "Pipeline em Python para tratamento, validação de qualidade de dados e disponibilização via API REST no Projeto Integrador do IFB.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "published",
+      "displayOrder": 7,
+      "github": {
+        "repositoryId": 1437109443,
+        "defaultBranch": "main",
+        "createdAt": "2026-10-28T13:15:39Z",
+        "updatedAt": "2026-11-14T16:39:14Z",
+        "readmeEvidence": {
+          "complete": true,
+          "checkedAt": "2026-11-23T21:19:00.000Z",
+          "signals": [
+            "problem",
+            "data",
+            "method",
+            "validation",
+            "result",
+            "run"
+          ]
+        }
+      },
+      "automation": {
+        "discoveredBy": "github-sync-v2",
+        "discoveredAt": "2026-11-22T12:58:22.948Z"
+      },
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "limite de projetos publicados já ocupado"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-11-23T22:58:58.140Z"
+      }
+    },
+    {
+      "id": "syntonia-spotify-agent",
+      "title": "SyntonIA — Agente de Recomendação Musical (Spotify)",
+      "category": "data-and-ai",
+      "categoryLabel": "Dados & IA",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Análise Exploratória",
+        "Agentes de IA"
+      ],
+      "url": "https://github.com/Lucas-AV/SyntonIA",
+      "summary": "Análise exploratória de faixas, gêneros e atributos de áudio do Spotify para fundamentar um agente conversacional de recomendação musical na Residência em IA (UnB).",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "published",
+      "displayOrder": 8,
+      "github": {
+        "defaultBranch": "main",
+        "readmeEvidence": {
+          "complete": true,
+          "checkedAt": "2026-11-23T21:20:00.000Z",
+          "signals": [
+            "problem",
+            "data",
+            "method",
+            "validation",
+            "result",
+            "run"
+          ]
+        }
+      },
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "limite de projetos publicados já ocupado"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-11-23T22:58:58.140Z"
+      }
+    },
+    {
+      "id": "bsbora-ai-planner",
+      "title": "BSBora — Planejador com Multiagentes de IA e Busca Vetorial",
+      "category": "data-and-ai",
+      "categoryLabel": "Dados & IA",
+      "technologies": [
+        "Python",
+        "SQL",
+        "Agentes de IA",
+        "LLMs"
+      ],
+      "url": "https://github.com/aleesousa/BsBora",
+      "summary": "Sistema web da Residência em IA (UnB) que recomenda roteiros no DF conforme perfil, agenda e orçamento, integrando catálogo Supabase, busca vetorial, FastAPI e multiagentes com LLM.",
+      "linkLabel": "Ver repositório",
+      "image": null,
+      "imageAlt": null,
+      "status": "published",
+      "displayOrder": 9,
+      "github": {
+        "defaultBranch": "main",
+        "readmeEvidence": {
+          "complete": true,
+          "checkedAt": "2026-11-23T21:20:00.000Z",
+          "signals": [
+            "problem",
+            "data",
+            "method",
+            "validation",
+            "result",
+            "run"
+          ]
+        }
+      },
+      "curation": {
+        "decision": "maintain-current-decision",
+        "confidence": "n/a",
+        "reasons": [
+          "limite de projetos publicados já ocupado"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-11-23T22:58:58.140Z"
       }
     },
     {
@@ -548,54 +737,12 @@
         "repositoryId": 1409506503,
         "defaultBranch": "main",
         "createdAt": "2026-10-08T00:04:16Z",
-        "updatedAt": "2026-10-08T00:09:50Z",
+        "updatedAt": "2026-10-14T11:56:33Z",
         "readmeEvidence": {
           "complete": false,
-          "checkedAt": "2026-10-12T21:19:49.344Z",
-          "signals": []
-        }
-      },
-      "automation": {
-        "discoveredBy": "github-sync-v2",
-        "discoveredAt": "2026-10-12T21:19:49.344Z"
-      },
-      "curation": {
-        "decision": "review-replacement-or-evidence",
-        "confidence": "medium",
-        "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
-        ],
-        "reviewer": "rules-v1",
-        "reviewedAt": "2026-10-12T21:19:49.833Z"
-      }
-    },
-    {
-      "id": "desafio-primora",
-      "title": "desafio-primora",
-      "category": "review",
-      "categoryLabel": "Revisar",
-      "technologies": [],
-      "url": "https://github.com/dudsstar16/desafio-primora",
-      "summary": "Projeto Integrador IFB - Desafio Primora: ETL, qualidade de dados e API REST.",
-      "linkLabel": "Ver repositório",
-      "image": null,
-      "imageAlt": null,
-      "status": "review",
-      "displayOrder": null,
-      "github": {
-        "repositoryId": 1437109443,
-        "defaultBranch": "main",
-        "createdAt": "2026-10-28T13:15:39Z",
-        "updatedAt": "2026-10-28T17:00:46Z",
-        "readmeEvidence": {
-          "complete": false,
-          "checkedAt": "2026-11-02T21:50:00.591Z",
+          "checkedAt": "2026-11-22T12:58:23.399Z",
           "signals": [
-            "problem",
             "data",
-            "method",
             "validation",
             "run"
           ]
@@ -603,19 +750,19 @@
       },
       "automation": {
         "discoveredBy": "github-sync-v2",
-        "discoveredAt": "2026-11-02T21:50:00.592Z"
+        "discoveredAt": "2026-11-22T12:58:23.399Z"
       },
       "curation": {
         "decision": "review-replacement-or-evidence",
         "confidence": "medium",
         "reasons": [
-          "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-          "menos de dois pilares de competÃªncia identificados",
-          "limite de projetos publicados jÃ¡ ocupado",
-          "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+          "aderência abaixo da pontuação mínima",
+          "menos de dois pilares de competência identificados",
+          "limite de projetos publicados já ocupado",
+          "README ainda não demonstra problema, dados, método, validação, resultado e execução"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-11-02T21:50:04.274Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     }
   ]

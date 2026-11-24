@@ -1,6 +1,6 @@
 # Eduarda Reis
 
-Brasília, DF · +55 (61) 99319-4102 · eduardareisworkspace@gmail.com · [LinkedIn](https://www.linkedin.com/in/eduarda-reis-95b95624a/) · [GitHub](https://github.com/dudsstar16) · [Portfólio profissional](https://dudsstar16.github.io/data-ai-portfolio/) · [Dashboards](https://sites.google.com/view/portflioeduardareis/in%C3%ADcio)
+Brasília, DF · +55 (61) 99319-4102 · eduardareisworkspace@gmail.com · [LinkedIn](https://www.linkedin.com/in/eduarda-reis-95b95624a/) · [GitHub](https://github.com/dudsstar16) · [Portfólio profissional](https://eduarda-reis-data-ai.eduardareis1616.chatgpt.site/) · [Dashboards](https://sites.google.com/view/portflioeduardareis/in%C3%ADcio)
 
 ## Analista de Dados | Power BI, SQL e Python | Automação e Agentes de IA
 
@@ -93,5 +93,5 @@ Analista de Dados com experiência prática em Business Intelligence, preparaç�
 ## Cursos e certificações selecionados
 
 <!-- certificates:start -->
-Introdução a Analise de Dados Power BI · Consultas SQL com Microsoft Copilot · Insights do feedback de clientes bancários · Cálculos com DAX · Visualização e análise no Power BI · Introdução a Banco de Dados Relacionais
+Introdução à Análise de Dados - Microsoft Power BI · Consultas SQL com Microsoft Copilot · AI Reports com Excel, GPT Agents e Claude · Insights do feedback de clientes bancários · Formação Power BI · Administrando Banco de Dados
 <!-- certificates:end -->

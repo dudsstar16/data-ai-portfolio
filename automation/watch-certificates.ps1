@@ -16,7 +16,7 @@ $untrackedCertificates = @(git ls-files --others --exclude-standard -- "curricul
 if ($untrackedCertificates.Count -eq 0) { exit 0 }
 
 $status = @(git status --porcelain)
-$allowedPattern = '^(\?\? |[ MADRCU]{2} )(curriculo/06-certificados/.*\.pdf|data/certificates\.json|data/projects\.json|curriculo/04-revisao/painel-profissional\.md|curriculo/02-fonte/curriculo-analista-de-dados\.md|curriculo/03-layout/curriculo-analista-de-dados\.html|public/documents/curriculo-eduarda-reis\.pdf)$'
+$allowedPattern = '^(\?\? |[ MADRCU]{2} )(curriculo/06-certificados/.*\.pdf|data/certificates\.json|data/projects\.json|curriculo/04-revisao/painel-profissional\.md|curriculo/02-fonte/curriculo-analista-de-dados\.md|curriculo/03-layout/curriculo-analista-de-dados\.html|public/documents/curriculo-eduarda-reis\.pdf|memoria/.*\.md)$'
 if (@($status | Where-Object { $_ -notmatch $allowedPattern }).Count -gt 0) {
   Write-Log "Interrompido: há alterações fora da automação; revise e faça commit antes da próxima tentativa."
   exit 0
@@ -29,11 +29,12 @@ npm.cmd run curate:content
 npm.cmd run career:review
 npm.cmd run resume:sync
 npm.cmd run resume:render
+npm.cmd run memory:sync -- --note "Ingestão automática de novos certificados e sincronização do currículo"
 
 $managed = @(
   "data/certificates.json", "data/projects.json", "curriculo/04-revisao/painel-profissional.md",
   "curriculo/02-fonte/curriculo-analista-de-dados.md", "curriculo/03-layout/curriculo-analista-de-dados.html",
-  "public/documents/curriculo-eduarda-reis.pdf"
+  "public/documents/curriculo-eduarda-reis.pdf", "memoria/contexto-rapido.md", "memoria/historico-ajustes.md"
 ) + $untrackedCertificates
 git add -- $managed
 if (git diff --cached --quiet) { exit 0 }

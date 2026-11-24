@@ -19,26 +19,28 @@ let changed = 0;
 for (const certificate of certificateCatalog.certificates) {
   const assessment = scoreItem(certificate, profile.competencyPillars);
   const evidence = certificate.automation?.evidence;
-  const metadataComplete = Boolean(certificate.title && certificate.issuer && certificate.date && evidence?.textExtracted && evidence?.titleEvidence);
+  const hasCoreMetadata = Boolean(certificate.title && certificate.issuer && certificate.date);
+  const metadataComplete = Boolean(hasCoreMetadata && ((evidence?.textExtracted && evidence?.titleEvidence) || certificate.curation?.reviewer === "human" || certificate.durationHours != null));
   const eligible = certificate.status === "review" &&
-    certificate.automation?.discoveredBy === "certificate-ingestion-v1" &&
     metadataComplete &&
     isRecognizedIssuer(certificate.issuer) &&
     assessment.score >= 5 &&
-    (certificate.durationHours >= 4 || /certified|certifica[cç][aã]o profissional|associate/i.test(certificate.title));
-  const next = certificate.status === "published" && !metadataComplete
+    (certificate.durationHours >= 4 || /certified|certifica[cç][aã]o profissional|associate|forma[cç][aã]o/i.test(certificate.title));
+  const next = certificate.status === "published" && !hasCoreMetadata
     ? curation(certificate.curation, "maintain-published-evidence-pending", "medium", ["published certificate retained; evidence extraction is pending"])
-    : eligible
-    ? curation(certificate.curation, "publish-site-and-resume", "high", ["PDF metadata confirmed", "data-career alignment", "eligible duration or professional credential"])
-    : curation(certificate.curation,
-      metadataComplete ? "review-or-keep-complementary" : "hold-missing-evidence",
-      metadataComplete ? "medium" : "low",
-      [
-        !metadataComplete && "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-        assessment.score < 5 && "aderÃªncia insuficiente aos pilares prioritÃ¡rios",
-        certificate.durationHours != null && certificate.durationHours < 4 && "curso introdutÃ³rio com menos de 4 horas",
-      ].filter(Boolean)
-    );
+    : certificate.status === "published"
+      ? curation(certificate.curation, "publish-site-and-resume", "high", ["PDF metadata confirmed", "data-career alignment", "eligible duration or professional credential"])
+      : eligible
+        ? curation(certificate.curation, "publish-site-and-resume", "high", ["PDF metadata confirmed", "data-career alignment", "eligible duration or professional credential"])
+        : curation(certificate.curation,
+          hasCoreMetadata ? "review-or-keep-complementary" : "hold-missing-evidence",
+          hasCoreMetadata ? "medium" : "low",
+          [
+            !hasCoreMetadata && "metadados ou título ainda não confirmados no PDF",
+            assessment.score < 5 && "aderência insuficiente aos pilares prioritários",
+            certificate.durationHours != null && certificate.durationHours < 4 && "curso introdutório com menos de 4 horas",
+          ].filter(Boolean)
+        );
   if (eligible) {
     certificate.status = "published";
   }
@@ -53,6 +55,7 @@ const rankedPublishedCertificates = certificateCatalog.certificates
   .map(item => ({ item, assessment: scoreItem(item, profile.competencyPillars) }))
   .sort((left, right) =>
     right.assessment.score - left.assessment.score ||
+    (right.item.durationHours ?? 0) - (left.item.durationHours ?? 0) ||
     (left.item.displayOrder ?? Number.MAX_SAFE_INTEGER) - (right.item.displayOrder ?? Number.MAX_SAFE_INTEGER) ||
     left.item.title.localeCompare(right.item.title, "pt-BR")
   );
@@ -75,15 +78,15 @@ for (const project of projectCatalog.projects) {
   const assessment = scoreItem(project, profile.competencyPillars);
   const autoCandidate = project.status === "review" && project.automation?.discoveredBy === "github-sync-v2";
   const reasons = [
-    assessment.score < 8 && "aderÃªncia abaixo da pontuaÃ§Ã£o mÃ­nima",
-    assessment.pillars.length < 2 && "menos de dois pilares de competÃªncia identificados",
-    profile.selectionPolicy.portfolioProjectLimit <= projectCatalog.projects.filter(item => item.status === "published").length && "limite de projetos publicados jÃ¡ ocupado",
-    !project.github?.readmeEvidence?.complete && "README ainda nÃ£o demonstra problema, dados, mÃ©todo, validaÃ§Ã£o, resultado e execuÃ§Ã£o"
+    assessment.score < 8 && "aderência abaixo da pontuação mínima",
+    assessment.pillars.length < 2 && "menos de dois pilares de competência identificados",
+    profile.selectionPolicy.portfolioProjectLimit <= projectCatalog.projects.filter(item => item.status === "published").length && "limite de projetos publicados já ocupado",
+    !project.github?.readmeEvidence?.complete && "README ainda não demonstra problema, dados, método, validação, resultado e execução"
   ].filter(Boolean);
   const next = curation(project.curation,
     autoCandidate && !reasons.length ? "publish-site" : autoCandidate ? "review-replacement-or-evidence" : "maintain-current-decision",
     autoCandidate && !reasons.length ? "high" : autoCandidate ? "medium" : "n/a",
-    reasons.length ? reasons : ["projeto publicado ou ainda nÃ£o originado pela automaÃ§Ã£o v2"]
+    reasons.length ? reasons : ["projeto publicado ou ainda não originado pela automação v2"]
   );
   if (JSON.stringify(project.curation) !== JSON.stringify(next)) {
     project.curation = next;
@@ -98,4 +101,4 @@ if (!dryRun && changed) {
   ]);
 }
 
-console.log(`${dryRun ? "SimulaÃ§Ã£o" : "Curadoria"}: ${changed} decisÃ£o(Ãµes) atualizada(s).`);
+console.log(`${dryRun ? "Simulação" : "Curadoria"}: ${changed} decisão(ões) atualizada(s).`);

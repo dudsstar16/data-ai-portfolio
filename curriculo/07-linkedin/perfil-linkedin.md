@@ -10,7 +10,7 @@ Fonte editorial para manter o perfil coerente com o currículo e o portfólio. A
 
 Sou Analista de Dados com experiência prática em Business Intelligence, automação e análise de dados em contextos de atendimento e operações. Transformo bases em informações confiáveis para apoiar decisões, atuando na preparação e validação de dados, construção de indicadores e dashboards no Power BI e automação de rotinas com Python.
 
-Também desenvolvo soluções de IA aplicada desde o levantamento de dores e definição do Job to Be Done até o desenho, construção, testes e validação de agentes conversacionais e de desenvolvimento. Trabalho com prompts estruturados, LLMs, APIs, guardrails, saídas estruturadas, fallback e revisão humana, conectando qualidade de dados, visão de negócio e comunicação clara para públicos técnicos e não técnicos.
+Também desenvolvo soluções de IA aplicada desde o levantamento de dores e definição do Job to Be Done até o desenho, construção, testes e validação de agentes conversacionais e de desenvolvimento, incluindo agentes especialistas por assunto e chatbots no Microsoft Copilot Studio integrados a fluxos do Power Automate que buscam dados. Trabalho com prompts estruturados, LLMs, APIs, guardrails, saídas estruturadas, fallback e revisão humana, conectando qualidade de dados, visão de negócio e comunicação clara para públicos técnicos e não técnicos.
 
 ## Experiência atual
 
@@ -22,6 +22,7 @@ Atuo como Analista de Dados I pela Insi, alocada na área de Dados e Relacioname
 
 - Mantenho e evoluo dashboards, indicadores e rotinas de dados relacionados à experiência do cliente.
 - Estruturo soluções a partir do levantamento de dores, da definição do Job to Be Done e do desenho de fluxos para automação e IA aplicada.
+- Desenvolvo agentes especialistas por assunto e chatbots conversacionais no Microsoft Copilot Studio, integrados a fluxos do Power Automate que buscam dados.
 - Desenvolvo, testo e valido agentes conversacionais e de desenvolvimento com Python, LLMs e APIs, usando guardrails, saídas estruturadas e revisão humana quando necessária.
 - Consolido, trato e valido dados para monitoramentos e apresentações gerenciais e analiso NPS, CES e indicadores de atendimento.
 
@@ -32,6 +33,7 @@ Atuo como Analista de Dados I pela Insi, alocada na área de Dados e Relacioname
 - Desenvolvi e mantive 12 dashboards em Power BI, consolidando dados de 2 fontes para acompanhar indicadores de atendimento, NPS e CES para públicos internos e externos.
 - Consolidei, tratei e validei 3 bases das Centrais de Atendimento e analisei diariamente NPS e CES, preparando informações confiáveis para monitoramentos e apresentações gerenciais.
 - Automatizei mais de 10 relatórios recorrentes em Python e apoiei processos de ETL, reduzindo o tempo de processamento de 1 a 2 horas para menos de 5 minutos.
+- Automatizei fluxos de trabalho com Power Automate, integrando e-mail, SharePoint e Power BI.
 
 ### Líder de Pesquisa e Desenvolvimento de Dados — DatAí
 
@@ -48,7 +50,7 @@ Competências para associar: **Liderança de projetos · Levantamento de requisi
 **Estágio | 07/2025 - 01/2026 | Presencial | Brasília, Distrito Federal, Brasil**
 
 - Tratei, manipulei e analisei mais de 10 bases operacionais, totalizando mais de 27 milhões de linhas para análises internas.
-- Integrei 4 fontes em mais de 10 análises exploratórias e contribuí para a construção de 3 indicadores e relatórios disponibilizados a áreas do banco.
+- Integrei 4 fontes em mais de 10 análises exploratórias, com consultas SQL no banco de dados Benner, e contribuí para a construção de 3 indicadores e relatórios, com dashboards em Power BI, disponibilizados a áreas do banco.
 - Otimizei rotinas de preparação de dados, reduzindo atividades que levavam horas para menos de 5 minutos.
 
 Competências para associar: **Análise de dados · Preparação de dados · Análise exploratória · Indicadores · Visualização de dados**.
@@ -117,9 +119,9 @@ Ao editar a experiência, mantenha **Notificar a rede** desativado. O anúncio d
 
 ## Competências prioritárias
 
-Power BI · SQL · Python · DAX · Power Query · ETL · Qualidade de Dados · Análise Exploratória · Visualização de Dados · Automação · Agentes de IA · LLMs · Engenharia de Prompts · Comunicação de Insights
+Power BI · SQL · Python · DAX · Power Query · ETL · Qualidade de Dados · Análise Exploratória · Visualização de Dados · Automação · Power Automate · Copilot Studio · Agentes de IA · LLMs · Engenharia de Prompts · Comunicação de Insights
 
-Para o cargo atual, associe somente: **Microsoft Power BI · Python · SQL · Automação de Processos · Inteligência Artificial**.
+Para o cargo atual, associe somente: **Microsoft Power BI · Python · SQL · Microsoft Power Automate · Inteligência Artificial**.
 
 ## Destaques
 

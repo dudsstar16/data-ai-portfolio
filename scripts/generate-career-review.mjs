@@ -45,6 +45,7 @@ function assess(item, pillars) {
 function rank(items) {
   return [...items].sort((a, b) =>
     b.score - a.score ||
+    (b.durationHours ?? 0) - (a.durationHours ?? 0) ||
     (a.displayOrder ?? Number.MAX_SAFE_INTEGER) - (b.displayOrder ?? Number.MAX_SAFE_INTEGER) ||
     a.title.localeCompare(b.title, "pt-BR")
   );

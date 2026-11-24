@@ -74,6 +74,8 @@ function issuerFromText(text, filename = "", pdfInfo = {}) {
   if (/\bIBM\b/i.test(compact)) return "IBM";
   if (/\bUdemy\b/i.test(compact)) return "Udemy";
   if (/\bUnB\b|\bUniversidade\s+de\s+Bras[ií]lia\b/i.test(compact)) return "UnB";
+  if (/\bCat[oó]lica\b|\bUBEC\b/i.test(compact)) return "UCB";
+  if (/\bUniversidade\s*BRB\b/i.test(compact)) return "Universidade BRB";
   return null;
 }
 

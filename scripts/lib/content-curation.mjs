@@ -58,6 +58,9 @@ export function isRecognizedIssuer(issuer) {
     "escola virtual",
     "fundacao bradesco",
     "enap",
-    "ifb"
+    "ifb",
+    "catolica",
+    "ucb",
+    "brb"
   ].some(name => normalize(issuer).includes(name));
 }

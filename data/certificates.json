@@ -9,18 +9,21 @@
       "displayDate": "14/09/2025",
       "sourceFile": "Calculos com DAX - BI.pdf",
       "status": "published",
-      "displayOrder": 4,
+      "displayOrder": 7,
       "sha256": "e8c3f7e2939e5a6b6a07d47c7fdf14890b7fedf3aa8b937e411e2f174de30a7e",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
         "siteVisible": true
-      }
+      },
+      "durationHours": 8
     },
     {
       "id": "etl-no-power-query",
@@ -30,18 +33,21 @@
       "displayDate": "13/09/2025",
       "sourceFile": "ETL no Power Query - BI.pdf",
       "status": "published",
-      "displayOrder": 8,
+      "displayOrder": 11,
       "sha256": "5ea3b59f0f1f0f51d6119bebca22ac9f1712bf33499a11a301a4e35750454714",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
-        "siteVisible": true
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
+        "siteVisible": false
+      },
+      "durationHours": 8
     },
     {
       "id": "visualizacao-e-analise-no-power-bi",
@@ -51,18 +57,21 @@
       "displayDate": "28/11/2025",
       "sourceFile": "Visualizando e Analisando os Dados - BI.pdf",
       "status": "published",
-      "displayOrder": 5,
+      "displayOrder": 8,
       "sha256": "a2acef3e416e9bc0980f03deb1c2a71312c199cb117a482c7b4cf5f462514e50",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
         "siteVisible": true
-      }
+      },
+      "durationHours": 8
     },
     {
       "id": "insights-feedback-clientes-bancarios",
@@ -72,18 +81,21 @@
       "displayDate": "04/08/2026",
       "sourceFile": "Extraindo Insights do Feedback de Clientes Bancarios.pdf",
       "status": "published",
-      "displayOrder": 3,
+      "displayOrder": 4,
       "sha256": "716cb5e17f214919ec2163bd5cf245a2ffa27a8c3c6ea3aa4f3b05e42550e161",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
         "siteVisible": true
-      }
+      },
+      "durationHours": 1
     },
     {
       "id": "fundamentos-de-ia",
@@ -93,18 +105,21 @@
       "displayDate": "03/12/2024",
       "sourceFile": "Fundamentos de IA.pdf",
       "status": "published",
-      "displayOrder": 11,
+      "displayOrder": 14,
       "sha256": "3629ccf637eaca60c59fa9dee2979c15477b656c6c5fb3d38537c96202c2c1b6",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
         "siteVisible": false
-      }
+      },
+      "durationHours": 3
     },
     {
       "id": "fundamentos-de-llm",
@@ -114,18 +129,21 @@
       "displayDate": "09/07/2026",
       "sourceFile": "Fundamentos de Modelos de Linguagem de Grande Escala  - LLM.pdf",
       "status": "published",
-      "displayOrder": 12,
+      "displayOrder": 15,
       "sha256": "489c3e6441ee5cd97b79f17e46e9aac81293880fc1549fee2a8461267a77543b",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
         "siteVisible": false
-      }
+      },
+      "durationHours": 1
     },
     {
       "id": "introducao-a-engenharia-de-prompts",
@@ -135,18 +153,21 @@
       "displayDate": "11/07/2026",
       "sourceFile": "Introdução a Engenharia de Prompts.pdf",
       "status": "published",
-      "displayOrder": 13,
+      "displayOrder": 16,
       "sha256": "39e3ba5b53a41de14e35e47ab5fc3e43ada172d049507d93c92323af67f5d6ae",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
         "siteVisible": false
-      }
+      },
+      "durationHours": 1
     },
     {
       "id": "processo-de-etl-com-excel-e-power-query",
@@ -156,18 +177,21 @@
       "displayDate": "03/08/2026",
       "sourceFile": "Criando um Processo de ETL com Excel e Power Query.pdf",
       "status": "published",
-      "displayOrder": 9,
+      "displayOrder": 12,
       "sha256": "c5f74713c6f0a7c840c580c14d90c4f81d6b2dd83445dc9d8caa5a4edcbae1be",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
         "siteVisible": false
-      }
+      },
+      "durationHours": 1
     },
     {
       "id": "consultas-sql-com-copilot",
@@ -180,15 +204,18 @@
       "displayOrder": 2,
       "sha256": "f1389444d01caab143602c8454822f3867c442f4d6175e48fa12ae92ada3b200",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
         "siteVisible": true
-      }
+      },
+      "durationHours": 2
     },
     {
       "id": "banco-de-dados-relacionais",
@@ -198,18 +225,21 @@
       "displayDate": "31/07/2026",
       "sourceFile": "Introdução a Banco de Dados Relacionais.pdf",
       "status": "published",
-      "displayOrder": 6,
+      "displayOrder": 10,
       "sha256": "58a4f627f8d7e4af223b2c47471141801ae49aa8a72cbd359c3a2f6e5109c217",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
-        "siteVisible": true
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
+        "siteVisible": false
+      },
+      "durationHours": 3
     },
     {
       "id": "arquivos-e-dados-externos-em-python",
@@ -219,18 +249,21 @@
       "displayDate": "14/08/2026",
       "sourceFile": "Trabalhando com Arquivos e Dados externos em Python.pdf",
       "status": "published",
-      "displayOrder": 10,
+      "displayOrder": 13,
       "sha256": "3e3099262d62ec8eb246623295f1ec7ad1658165228a70dc2e71aa89ee00542e",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
         "siteVisible": false
-      }
+      },
+      "durationHours": 1
     },
     {
       "id": "primeiro-dashboard-power-bi",
@@ -240,59 +273,66 @@
       "displayDate": "09/09/2025",
       "sourceFile": "Construindo meu Primeiro Dashboard Power BI.pdf",
       "status": "published",
-      "displayOrder": 7,
+      "displayOrder": 9,
       "sha256": "548bfbdcb273ac5e9711c48aa7584e9acb4896a0f6c2ceba9136f8d35223ea4e",
       "curation": {
-        "decision": "maintain-published-evidence-pending",
-        "confidence": "medium",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "published certificate retained; evidence extraction is pending"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:48:15.739Z",
-        "siteVisible": true
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
+        "siteVisible": false
+      },
+      "durationHours": 8
     },
     {
       "id": "administrando-banco-de-dados",
       "title": "Administrando Banco de Dados",
       "issuer": "Fundação Bradesco",
-      "date": "2026-01-22",
-      "displayDate": "22/01/2026",
+      "date": "2026-01-08",
+      "displayDate": "08/01/2026",
       "sourceFile": "Administrando Banco de Dados.pdf",
       "sha256": "0197a9a2eb2ad291ddf80976162135e2d3a4ce73e725ff3e4747f832482140b5",
-      "status": "review",
-      "displayOrder": null,
+      "status": "published",
+      "displayOrder": 6,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
+        "siteVisible": true
+      },
+      "durationHours": 15
     },
     {
       "id": "agilidade-soft-skills",
-      "title": "Agilidade Soft Skills",
+      "title": "Agilidade: promovendo a transformação ágil",
       "issuer": "Alura",
-      "date": "2025-11-21",
-      "displayDate": "21/11/2025",
+      "date": "2023-09-19",
+      "displayDate": "19/09/2023",
       "sourceFile": "Agilidade - Soft Skills.pdf",
       "sha256": "9f445c6845dae7cad02272399e2818dcd2df618770490582c70d316489d6af34",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 6
     },
     {
       "id": "algoritmos-e-logica-de-programacao",
@@ -308,28 +348,28 @@
         "decision": "review-or-keep-complementary",
         "confidence": "medium",
         "reasons": [
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios",
-          "curso introdutÃ³rio com menos de 4 horas"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-11-21T21:47:20.112Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       },
       "durationHours": 2,
       "automation": {
         "discoveredBy": "certificate-ingestion-v1",
-        "discoveredAt": "2026-11-21T21:47:17.9Z",
+        "discoveredAt": "2026-11-21T21:47:17.900Z",
         "evidence": {
           "textExtracted": true,
           "titleEvidence": true,
           "sourcePages": 1,
-          "checkedAt": "2026-11-21T21:47:17.9Z"
+          "checkedAt": "2026-11-21T21:47:17.900Z"
         }
       }
     },
     {
       "id": "algortimos-e-aprendizado-de-maquina",
-      "title": "algortimos e aprendizado de maquina",
-      "issuer": null,
+      "title": "Algoritmos e Aprendizado de Máquina",
+      "issuer": "DIO",
       "date": "2026-08-30",
       "displayDate": "30/08/2026",
       "sourceFile": "algortimos e aprendizado de maquina.pdf",
@@ -337,41 +377,43 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "ambiente-de-desenvolvimento-e-primeiros-passos-com-python",
       "title": "Ambiente de Desenvolvimento e Primeiros Passos com Python",
-      "issuer": null,
-      "date": "2026-07-17",
-      "displayDate": "17/07/2026",
+      "issuer": "DIO",
+      "date": "2026-07-16",
+      "displayDate": "16/07/2026",
       "sourceFile": "Ambiente de Desenvolvimento e Primeiros Passos com Python.pdf",
       "sha256": "ae95a7acaed6e2e02fb1dd7b0a892d1a8ed60a4c3130af8c1e85f8d5afb61f1b",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "aperfeicoando-a-logica-e-pensamento-computacional",
-      "title": "Aperfeiçoando a Lógica e Pensamento Computacional",
-      "issuer": null,
+      "title": "Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional",
+      "issuer": "DIO",
       "date": "2026-08-08",
       "displayDate": "08/08/2026",
       "sourceFile": "Aperfeiçoando a Lógica e Pensamento Computacional.pdf",
@@ -379,20 +421,21 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "aplicacoes-e-impacto-da-ia",
-      "title": "Aplicações e impacto da IA",
-      "issuer": null,
+      "title": "Aplicações e Impacto da IA no Mundo Atual",
+      "issuer": "DIO",
       "date": "2024-12-03",
       "displayDate": "03/12/2024",
       "sourceFile": "Aplicações e impacto da IA.pdf",
@@ -400,62 +443,64 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "arquitetura-de-computadores",
-      "title": "Arquitetura de Computadores",
+      "title": "Arquitetura de Computadores: por trás de como seu programa funciona",
       "issuer": "Alura",
-      "date": "2025-11-21",
-      "displayDate": "21/11/2025",
+      "date": "2023-09-28",
+      "displayDate": "28/09/2023",
       "sourceFile": "Arquitetura de Computadores.pdf",
       "sha256": "8949f95d8aa7de564057d1cc31935795c231d59c0a313e58b8483dc190f27a26",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 8
     },
     {
       "id": "boas-vindas-do-curso-cientista-de-dados-alura",
-      "title": "Boas Vindas do Curso Cientista de Dados Alura",
+      "title": "Carreira Cientista de Dados: Boas-vindas e Primeiros Passos",
       "issuer": "Alura",
-      "date": "2025-12-02",
-      "displayDate": "02/12/2025",
+      "date": "2025-11-28",
+      "displayDate": "28/11/2025",
       "sourceFile": "Boas Vindas do Curso Cientista de Dados - Alura.pdf",
       "sha256": "85b4556321b51793269cad2bf0afd8e569413a93bd2eb8402f09801498f110a8",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "conhecendo-a-linguagem-de-programacao-python",
       "title": "Conhecendo a Linguagem de Programação Python",
-      "issuer": null,
+      "issuer": "DIO",
       "date": "2026-07-27",
       "displayDate": "27/07/2026",
       "sourceFile": "Conhecendo a Linguagem de Programação Python.pdf",
@@ -463,19 +508,20 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 2
     },
     {
       "id": "criando-um-portfolio-vencedor-dio",
-      "title": "Criando um Portfólio Vencedor DIO",
+      "title": "Desafios de Projetos: Crie Um Portfólio Vencedor",
       "issuer": "DIO",
       "date": "2026-07-14",
       "displayDate": "14/07/2026",
@@ -484,20 +530,21 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "cuidado-integral-esperancar-cuidado-integral",
-      "title": "Cuidado Integral Esperançar Cuidado Integral",
-      "issuer": null,
+      "title": "Cuidado Integral",
+      "issuer": "UCB",
       "date": "2024-04-23",
       "displayDate": "23/04/2024",
       "sourceFile": "Cuidado_Integral_-_Esperançar_Cuidado_Integral.pdf",
@@ -505,14 +552,13 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       },
       "durationHours": 15,
       "automation": {
@@ -528,113 +574,119 @@
     },
     {
       "id": "cultura-e-metodos-ageis",
-      "title": "Cultura e Metodos Ageis",
+      "title": "Cultura e Métodos Ágeis: pilares para uma imersão avançada",
       "issuer": "Alura",
-      "date": "2025-11-21",
-      "displayDate": "21/11/2025",
+      "date": "2023-09-19",
+      "displayDate": "19/09/2023",
       "sourceFile": "Cultura e Metodos Ageis.pdf",
       "sha256": "88e5a31ce702f0b1a175d8a95feed9eb6e3facc38850b51f8ba5890c14a9e5f7",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 8
     },
     {
       "id": "curso-iniciante-de-bi",
-      "title": "Curso Iniciante de BI",
+      "title": "Formação Power BI",
       "issuer": "Alura",
-      "date": "2025-12-02",
-      "displayDate": "02/12/2025",
+      "date": "2025-11-28",
+      "displayDate": "28/11/2025",
       "sourceFile": "Curso Iniciante de BI.pdf",
       "sha256": "0266031dc44f966f62f665909bad12f1447302ef28ff07485a7ab3156a601087",
-      "status": "review",
-      "displayOrder": null,
+      "status": "published",
+      "displayOrder": 5,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
+        "siteVisible": true
+      },
+      "durationHours": 37
     },
     {
       "id": "curso-iniciante-word-basico",
-      "title": "Curso Iniciante Word Básico",
-      "issuer": null,
-      "date": "2025-12-02",
-      "displayDate": "02/12/2025",
+      "title": "Produtividade com Word",
+      "issuer": "Universidade BRB",
+      "date": "2025-10-20",
+      "displayDate": "20/10/2025",
       "sourceFile": "Curso Iniciante Word Básico.pdf",
       "sha256": "674d2ec0c5320c98fbc99b46c0e944b88064b71f4495835c3de25de4999a2ce4",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 0.8
     },
     {
       "id": "dicas-de-comunicacao-escrita-soft-skills",
-      "title": "Dicas de Comunicação Escrita Soft Skills",
-      "issuer": null,
-      "date": "2025-12-02",
-      "displayDate": "02/12/2025",
+      "title": "Dicas de Comunicação Escrita",
+      "issuer": "Universidade BRB",
+      "date": "2025-10-20",
+      "displayDate": "20/10/2025",
       "sourceFile": "Dicas de Comunicação Escrita - Soft Skills.pdf",
       "sha256": "854882eeeb28b3c97ae3e9f19e312770b8ff05fa55fab9943cd451d22072a9ab",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1.25
     },
     {
       "id": "dicas-de-comunicacao-oral-soft-skills",
-      "title": "Dicas de Comunicação Oral Soft Skills",
-      "issuer": null,
-      "date": "2025-12-02",
-      "displayDate": "02/12/2025",
+      "title": "Dicas de Comunicação Oral com o Professor Pasquale",
+      "issuer": "Universidade BRB",
+      "date": "2025-10-20",
+      "displayDate": "20/10/2025",
       "sourceFile": "Dicas de Comunicação Oral - Soft Skills.pdf",
       "sha256": "fcde6cdc085fe9f25ca2f2098f2a8e98e33fd4bb61ab63d91646fabc9921d3c6",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1.67
     },
     {
       "id": "estruturas-condicionais-e-de-repeticao-em-python",
       "title": "Estruturas Condicionais e de Repetição em Python",
-      "issuer": null,
+      "issuer": "DIO",
       "date": "2026-08-08",
       "displayDate": "08/08/2026",
       "sourceFile": "Estruturas Condicionais e de Repetição em Python.pdf",
@@ -642,62 +694,64 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 2
     },
     {
       "id": "excel-basico-iniciante",
-      "title": "Excel Básico Iniciante",
-      "issuer": null,
-      "date": "2025-12-02",
-      "displayDate": "02/12/2025",
+      "title": "Excel - Planilhas Práticas",
+      "issuer": "Universidade BRB",
+      "date": "2025-10-20",
+      "displayDate": "20/10/2025",
       "sourceFile": "Excel Básico Iniciante.pdf",
       "sha256": "c2a4364ee2597af8cd92ef3cbe58592b94499837f150dd23e2dfb5488532076c",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-11-21T21:48:04.212Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "foco-soft-skills",
-      "title": "Foco Soft Skills",
+      "title": "Foco: trazendo mais resultados para o dia a dia",
       "issuer": "Alura",
-      "date": "2025-11-21",
-      "displayDate": "21/11/2025",
+      "date": "2023-09-19",
+      "displayDate": "19/09/2023",
       "sourceFile": "Foco - Soft Skills.pdf",
       "sha256": "3412d442777e0e1a2042bfe2078780964815bbb7152350c8ff9b61dce6cc22d4",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 10
     },
     {
       "id": "genero-lutas-e-conquistas-esperancar-genero-lutas-e-conquistas",
-      "title": "Gênero Lutas e Conquistas Esperançar Gênero Lutas e Conquistas",
-      "issuer": null,
+      "title": "Gênero: Lutas e Conquistas",
+      "issuer": "UCB",
       "date": "2024-04-23",
       "displayDate": "23/04/2024",
       "sourceFile": "Gênero_Lutas_e_Conquistas_-_Esperançar_Gênero_Lutas_e_Conquistas.pdf",
@@ -705,14 +759,13 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       },
       "durationHours": 15,
       "automation": {
@@ -728,104 +781,109 @@
     },
     {
       "id": "habitos-soft-skills",
-      "title": "Habitos Soft Skills",
+      "title": "Hábitos: da produtividade às metas pessoais",
       "issuer": "Alura",
-      "date": "2025-11-21",
-      "displayDate": "21/11/2025",
+      "date": "2023-09-19",
+      "displayDate": "19/09/2023",
       "sourceFile": "Habitos - Soft Skills.pdf",
       "sha256": "a47c579162691956d66291a9ca568ef22a2eb4ed8b2ce8929f42f2ec27f58243",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 6
     },
     {
       "id": "inteligencia-emocional-brb-soft-skills",
-      "title": "Inteligencia Emocional BRB Soft Skills",
-      "issuer": null,
-      "date": "2025-12-02",
-      "displayDate": "02/12/2025",
+      "title": "Inteligência Emocional",
+      "issuer": "Universidade BRB",
+      "date": "2025-10-20",
+      "displayDate": "20/10/2025",
       "sourceFile": "Inteligencia Emocional - BRB - Soft Skills.pdf",
       "sha256": "49a73a90c3a882238cd2908a2d75b714cdf5de269ecfc5337955bc00d28fd025",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 0.5
     },
     {
       "id": "inteligencia-emocional-soft-skills",
-      "title": "Inteligencia Emocional Soft Skills",
+      "title": "Inteligência Emocional: práticas para o cotidiano",
       "issuer": "Alura",
-      "date": "2025-11-21",
-      "displayDate": "21/11/2025",
+      "date": "2023-09-19",
+      "displayDate": "19/09/2023",
       "sourceFile": "Inteligencia Emocional - Soft Skills.pdf",
       "sha256": "4f2b409ca7f0f32dc2aa49225ae3d964c51e175ed7650d21aa25a04fd13958f1",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 6
     },
     {
       "id": "intensivao-em-python",
-      "title": "Intensivão em Python",
-      "issuer": null,
-      "date": null,
-      "displayDate": null,
+      "title": "Intensivão de Python",
+      "issuer": "Hashtag Treinamentos",
+      "date": "2023-05-18",
+      "displayDate": "18/05/2023",
       "sourceFile": "Intensivão em Python.pdf",
       "sha256": "0329a8b6357047f8a78af670d71305cad2698e26056bfbd9b38e7af4bdff3274",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 8
     },
     {
       "id": "introducao-a-analise-de-dados-power-bi",
-      "title": "Introdução a Analise de Dados Power BI",
+      "title": "Introdução à Análise de Dados - Microsoft Power BI",
       "issuer": "Fundação Bradesco",
-      "date": "2026-01-08",
-      "displayDate": "08/01/2026",
+      "date": "2026-01-16",
+      "displayDate": "16/01/2026",
       "sourceFile": "Introdução a Analise de Dados - Power BI.pdf",
       "sha256": "64a6f6a18e7ae025222d4078da83ddb52fa77056ed5b96569389362902d5f853",
       "status": "published",
       "displayOrder": 1,
       "curation": {
-        "decision": "review-or-keep-complementary",
-        "confidence": "medium",
-        "reasons": [],
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
+        "reasons": [
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
+        ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-11-21T21:48:04.212Z",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
         "siteVisible": true
       },
       "durationHours": 5,
@@ -842,8 +900,8 @@
     },
     {
       "id": "introducao-a-ia-com-copilot",
-      "title": "Introdução a IA com Copilot",
-      "issuer": null,
+      "title": "Introdução à IA Generativa com Microsoft Copilot",
+      "issuer": "DIO",
       "date": "2024-12-03",
       "displayDate": "03/12/2024",
       "sourceFile": "Introdução a IA com Copilot.pdf",
@@ -851,20 +909,21 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "introducao-a-ia",
-      "title": "Introdução a IA",
-      "issuer": null,
+      "title": "Introdução à Inteligência Artificial",
+      "issuer": "DIO",
       "date": "2024-12-03",
       "displayDate": "03/12/2024",
       "sourceFile": "Introdução a IA.pdf",
@@ -872,20 +931,21 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "introducao-ao-excel-365",
       "title": "Introdução ao Excel 365",
-      "issuer": null,
+      "issuer": "DIO",
       "date": "2026-07-16",
       "displayDate": "16/07/2026",
       "sourceFile": "Introdução ao Excel 365.pdf",
@@ -893,83 +953,84 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "linguagem-c-e-stl",
-      "title": "Linguagem C++ e STL",
+      "title": "C++: Conhecendo a Linguagem e a STL",
       "issuer": "Alura",
-      "date": "2025-11-21",
-      "displayDate": "21/11/2025",
+      "date": "2023-09-19",
+      "displayDate": "19/09/2023",
       "sourceFile": "Linguagem C++ e STL.pdf",
       "sha256": "d5671a4a7ff619f2da5f0dd8e209bce5227a72407441ff54fc330fe858f8b480",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 8
     },
     {
       "id": "logica-de-programacao-com-lacos-e-listas-em-javascript",
-      "title": "Logica de Programação com laços e listas em JavaScript",
+      "title": "Lógica de Programação: laços e listas com JavaScript",
       "issuer": "Alura",
-      "date": "2025-11-21",
-      "displayDate": "21/11/2025",
+      "date": "2023-09-19",
+      "displayDate": "19/09/2023",
       "sourceFile": "Logica de Programação com laços e listas em JavaScript.pdf",
       "sha256": "70d5d45188098e1fbde898fd1042bc16c4a41f3adf1c733335c6707671e1d1db",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 4
     },
     {
       "id": "logica-de-programacao-com-o-jogo-pong-e-javascript",
-      "title": "Logica de Programação com o jogo Pong e JavaScript",
+      "title": "Lógica de Programação: comece em lógica com o jogo Pong e JavaScript",
       "issuer": "Alura",
-      "date": "2025-11-21",
-      "displayDate": "21/11/2025",
+      "date": "2023-06-28",
+      "displayDate": "28/06/2023",
       "sourceFile": "Logica de Programação com o jogo Pong e JavaScript.pdf",
       "sha256": "be31e4c255977df4f16885bd531f4cb827c3076eecbf8041be752a480ae44c0d",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 6
     },
     {
       "id": "manipulando-strings-com-python",
       "title": "Manipulando Strings com Python",
-      "issuer": null,
+      "issuer": "DIO",
       "date": "2026-08-08",
       "displayDate": "08/08/2026",
       "sourceFile": "Manipulando Strings com Python.pdf",
@@ -977,41 +1038,43 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 2
     },
     {
       "id": "natural-ou-fake-natty",
-      "title": "natural ou fake natty",
-      "issuer": null,
-      "date": "2026-08-30",
-      "displayDate": "30/08/2026",
+      "title": "Natural ou Fake Natty? Como Vencer na Era das IAs Generativas",
+      "issuer": "DIO",
+      "date": "2026-08-29",
+      "displayDate": "29/08/2026",
       "sourceFile": "natural ou fake natty.pdf",
       "sha256": "e5de98f7cf51a39e94938f24bf7fc24af82d04574c5dc7e2426b44f6aaf75259",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "pacto-educativo-global-esperancar-pacto-educativo-global",
-      "title": "Pacto Educativo Global Esperançar Pacto Educativo Global",
-      "issuer": null,
+      "title": "Pacto Educativo Global",
+      "issuer": "UCB",
       "date": "2024-04-23",
       "displayDate": "23/04/2024",
       "sourceFile": "Pacto_Educativo_Global_-_Esperançar_Pacto_Educativo_Global.pdf",
@@ -1019,14 +1082,13 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       },
       "durationHours": 15,
       "automation": {
@@ -1043,28 +1105,29 @@
     {
       "id": "planejamento-financeiro-pessoal",
       "title": "Planejamento Financeiro Pessoal",
-      "issuer": null,
-      "date": "2025-12-02",
-      "displayDate": "02/12/2025",
+      "issuer": "Universidade BRB",
+      "date": "2025-10-20",
+      "displayDate": "20/10/2025",
       "sourceFile": "Planejamento Financeiro Pessoal.pdf",
       "sha256": "b40b8f10f6279ff38cd5438de0164c85ecd1267e208566a6b649f656e0b06af7",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 0.4
     },
     {
       "id": "processamento-de-linguagem-natural",
-      "title": "processamento de linguagem natural",
-      "issuer": null,
+      "title": "Processamento de Linguagem Natural",
+      "issuer": "DIO",
       "date": "2026-08-30",
       "displayDate": "30/08/2026",
       "sourceFile": "processamento de linguagem natural.pdf",
@@ -1072,20 +1135,21 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-11-21T21:48:04.212Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "simplificando-tarefas-e-ganhando-foco-com-ia-no-dia-a-dia",
-      "title": "Simplificando Tarefas e Ganhando foco com IA no dia a dia",
-      "issuer": null,
+      "title": "Simplificando Tarefas e Ganhando Foco com IA no Dia a Dia",
+      "issuer": "DIO",
       "date": "2026-08-29",
       "displayDate": "29/08/2026",
       "sourceFile": "Simplificando Tarefas e Ganhando foco com IA no dia a dia.pdf",
@@ -1093,20 +1157,21 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "tecnicas-de-engenharia-de-prompt",
       "title": "Técnicas de Engenharia de Prompt",
-      "issuer": null,
+      "issuer": "DIO",
       "date": "2026-07-14",
       "displayDate": "14/07/2026",
       "sourceFile": "Técnicas de Engenharia de Prompt.pdf",
@@ -1114,20 +1179,21 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 2
     },
     {
       "id": "tecnologia-e-sustentabilidade-esperancar-tecnologia-e-sustentabilidade",
-      "title": "Tecnologia e Sustentabilidade Esperançar Tecnologia e Sustentabilidade",
-      "issuer": null,
+      "title": "Tecnologia e Sustentabilidade",
+      "issuer": "UCB",
       "date": "2023-07-03",
       "displayDate": "03/07/2023",
       "sourceFile": "Tecnologia_e_Sustentabilidade_-_Esperançar_Tecnologia_e_Sustentabilidade.pdf",
@@ -1135,14 +1201,13 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       },
       "durationHours": 15,
       "automation": {
@@ -1158,8 +1223,8 @@
     },
     {
       "id": "tecnologias-educacionais-contemporaneas-esperancar-tecnologias-educacionais-contemporaneas",
-      "title": "Tecnologias Educacionais Contemporâneas Esperançar Tecnologias Educacionais Contemporâneas",
-      "issuer": null,
+      "title": "Tecnologias Educacionais Contemporâneas",
+      "issuer": "UCB",
       "date": "2023-07-03",
       "displayDate": "03/07/2023",
       "sourceFile": "Tecnologias_Educacionais_Contemporâneas_-_Esperançar_Tecnologias_Educacionais_Contemporâneas.pdf",
@@ -1167,14 +1232,13 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       },
       "durationHours": 15,
       "automation": {
@@ -1191,7 +1255,7 @@
     {
       "id": "tipos-de-operadores-com-python",
       "title": "Tipos de Operadores com Python",
-      "issuer": null,
+      "issuer": "DIO",
       "date": "2026-08-07",
       "displayDate": "07/08/2026",
       "sourceFile": "Tipos de Operadores com Python.pdf",
@@ -1199,20 +1263,21 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 2
     },
     {
       "id": "trabalhando-com-microsoft-copilot",
       "title": "Trabalhando com Microsoft Copilot",
-      "issuer": null,
+      "issuer": "DIO",
       "date": "2026-07-16",
       "displayDate": "16/07/2026",
       "sourceFile": "Trabalhando com Microsoft Copilot.pdf",
@@ -1220,41 +1285,42 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "treinando-uma-ia-de-aprendizagem-explore-o-poder-do-notebooklm",
-      "title": "Treinando uma IA de Aprendizagem Explore o Poder do NotebookLM",
-      "issuer": null,
-      "date": "2026-07-16",
-      "displayDate": "16/07/2026",
+      "title": "Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM",
+      "issuer": "DIO",
+      "date": "2026-07-15",
+      "displayDate": "15/07/2026",
       "sourceFile": "Treinando uma IA de Aprendizagem_Explore o Poder do NotebookLM.pdf",
       "sha256": "a79bc047c28711e0f5c81b681b9fc94aed42479e98359486fba5ea89ed156832",
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 4
     },
     {
       "id": "utilizando-ia-para-transformar-o-mundo-corporativo",
-      "title": "Utilizando IA para transformar o mundo corporativo",
-      "issuer": null,
+      "title": "Como a CAIXA Está Utilizando IA para Transformar o Mercado",
+      "issuer": "DIO",
       "date": "2024-12-03",
       "displayDate": "03/12/2024",
       "sourceFile": "Utilizando IA para transformar o mundo corporativo.pdf",
@@ -1262,20 +1328,21 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "visao-computacional",
-      "title": "visao computacional",
-      "issuer": null,
+      "title": "Visão Computacional",
+      "issuer": "DIO",
       "date": "2026-08-30",
       "displayDate": "30/08/2026",
       "sourceFile": "visao computacional.pdf",
@@ -1283,15 +1350,16 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
-      }
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      },
+      "durationHours": 1
     },
     {
       "id": "fundamentos-de-business-intelligence-bi",
@@ -1305,14 +1373,13 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "curso introdutÃ³rio com menos de 4 horas"
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -1327,15 +1394,14 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios",
-          "curso introdutÃ³rio com menos de 4 horas"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -1350,15 +1416,14 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios",
-          "curso introdutÃ³rio com menos de 4 horas"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -1373,14 +1438,13 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "curso introdutÃ³rio com menos de 4 horas"
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
@@ -1395,24 +1459,23 @@
       "status": "review",
       "displayOrder": null,
       "curation": {
-        "decision": "hold-missing-evidence",
-        "confidence": "low",
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
         "reasons": [
-          "metadados ou tÃ­tulo ainda nÃ£o confirmados no PDF",
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios",
-          "curso introdutÃ³rio com menos de 4 horas"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-09-03T20:47:10.487Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     },
     {
       "id": "certificadodeconclusao-fundamentos-da-gestao-de-tempo",
-      "title": "CertificadoDeConclusao Fundamentos da Gestao de Tempo",
+      "title": "Fundamentos da Gestão de Tempo",
       "issuer": "LinkedIn Learning",
       "date": "2026-09-06",
       "displayDate": "06/09/2026",
-      "durationHours": 1,
+      "durationHours": 1.75,
       "sourceFile": "CertificadoDeConclusao_Fundamentos da Gestao de Tempo.pdf",
       "sha256": "53a4258fd33b14cd42cd42e06e26bff8e708948d1d75ee82866161a42bfbfce0",
       "status": "review",
@@ -1431,11 +1494,172 @@
         "decision": "review-or-keep-complementary",
         "confidence": "medium",
         "reasons": [
-          "aderÃªncia insuficiente aos pilares prioritÃ¡rios",
-          "curso introdutÃ³rio com menos de 4 horas"
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
         ],
         "reviewer": "rules-v1",
-        "reviewedAt": "2026-11-21T21:47:20.112Z"
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      }
+    },
+    {
+      "id": "ai-reports-com-ecel-gpt-agents-e-claude",
+      "title": "AI Reports com Excel, GPT Agents e Claude",
+      "issuer": "DIO",
+      "date": "2026-09-06",
+      "displayDate": "06/09/2026",
+      "durationHours": 4,
+      "sourceFile": "AI reports com Ecel, GPT agents e Claude.pdf",
+      "sha256": "e33b409c0deeb1a07a8c73ce97fd8a98546e67ef0d1f621f2c5e5c402b33aaf3",
+      "status": "published",
+      "displayOrder": 3,
+      "automation": {
+        "discoveredBy": "certificate-ingestion-v1",
+        "discoveredAt": "2026-11-22T12:58:24.219Z",
+        "evidence": {
+          "textExtracted": false,
+          "titleEvidence": false,
+          "sourcePages": 1,
+          "checkedAt": "2026-11-22T12:58:24.218Z"
+        }
+      },
+      "curation": {
+        "decision": "publish-site-and-resume",
+        "confidence": "high",
+        "reasons": [
+          "PDF metadata confirmed",
+          "data-career alignment",
+          "eligible duration or professional credential"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-11-22T14:08:16.521Z",
+        "siteVisible": true
+      }
+    },
+    {
+      "id": "aplicacoes-praticas-de-llms",
+      "title": "Aplicações Práticas de LLMs",
+      "issuer": "DIO",
+      "date": "2026-11-21",
+      "displayDate": "21/11/2026",
+      "durationHours": 1,
+      "sourceFile": "aplicacoes praticas de LLMs.pdf",
+      "sha256": "c42d9c56666dfd977a63782af3441d1a8bb0b620cab3c77dcf162eeb2b4b3504",
+      "status": "review",
+      "displayOrder": null,
+      "automation": {
+        "discoveredBy": "certificate-ingestion-v1",
+        "discoveredAt": "2026-11-22T12:58:24.243Z",
+        "evidence": {
+          "textExtracted": false,
+          "titleEvidence": false,
+          "sourcePages": 1,
+          "checkedAt": "2026-11-22T12:58:24.243Z"
+        }
+      },
+      "curation": {
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
+        "reasons": [
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      }
+    },
+    {
+      "id": "carreira-com-ia-chatbots-copilotos-e-agentes",
+      "title": "Potencializando Seus Estudos e Carreira com IA (Chatbots, Copilotos e Agentes)",
+      "issuer": "DIO",
+      "date": "2026-10-24",
+      "displayDate": "24/10/2026",
+      "durationHours": 2,
+      "sourceFile": "carreira com IA (chatbots, copilotos e agentes).pdf",
+      "sha256": "12ea16e84ccfd992dc473d37d9196164100b9449407d4e9bcdb59bd0a3edbdd1",
+      "status": "review",
+      "displayOrder": null,
+      "automation": {
+        "discoveredBy": "certificate-ingestion-v1",
+        "discoveredAt": "2026-11-22T12:58:24.264Z",
+        "evidence": {
+          "textExtracted": false,
+          "titleEvidence": false,
+          "sourcePages": 1,
+          "checkedAt": "2026-11-22T12:58:24.264Z"
+        }
+      },
+      "curation": {
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
+        "reasons": [
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      }
+    },
+    {
+      "id": "criando-agentes-de-tratamento-de-dados",
+      "title": "Criando Agentes de Tratamento de Dados",
+      "issuer": "DIO",
+      "date": "2026-09-03",
+      "displayDate": "03/09/2026",
+      "durationHours": 1,
+      "sourceFile": "criando agentes de tratamento de dados.pdf",
+      "sha256": "c85cb7ae7a6a220f629442029cb12f64f7274e0a1683902ab1169c51330e730e",
+      "status": "review",
+      "displayOrder": null,
+      "automation": {
+        "discoveredBy": "certificate-ingestion-v1",
+        "discoveredAt": "2026-11-22T12:58:24.273Z",
+        "evidence": {
+          "textExtracted": false,
+          "titleEvidence": false,
+          "sourcePages": 1,
+          "checkedAt": "2026-11-22T12:58:24.272Z"
+        }
+      },
+      "curation": {
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
+        "reasons": [
+          "curso introdutório com menos de 4 horas"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
+      }
+    },
+    {
+      "id": "fundamentos-teoricos-sobre-etl",
+      "title": "Fundamentos Teóricos Sobre ETL",
+      "issuer": "DIO",
+      "date": "2026-10-06",
+      "displayDate": "06/10/2026",
+      "durationHours": 1,
+      "sourceFile": "fundamentos teoricos sobre ETL.pdf",
+      "sha256": "8560519313d9188dc8541542e1d5c7f4c6db0b4ab18aa0f8a5c02e2309fa497d",
+      "status": "review",
+      "displayOrder": null,
+      "automation": {
+        "discoveredBy": "certificate-ingestion-v1",
+        "discoveredAt": "2026-11-22T12:58:24.479Z",
+        "evidence": {
+          "textExtracted": false,
+          "titleEvidence": false,
+          "sourcePages": 1,
+          "checkedAt": "2026-11-22T12:58:24.479Z"
+        }
+      },
+      "curation": {
+        "decision": "review-or-keep-complementary",
+        "confidence": "medium",
+        "reasons": [
+          "aderência insuficiente aos pilares prioritários",
+          "curso introdutório com menos de 4 horas"
+        ],
+        "reviewer": "rules-v1",
+        "reviewedAt": "2026-11-22T14:08:16.521Z"
       }
     }
   ]

@@ -8,11 +8,14 @@ Manter um portfólio profissional claro, acessível e verdadeiro. Toda mudança 
 
 ## Contexto mínimo antes de editar
 
-1. Leia `README.md`, `AGENTS.md` e o documento desta pasta relacionado à tarefa.
-2. Identifique a fonte de verdade: `index.html` para o site; `curriculo/` para o currículo.
-3. Use `data/projects.json` para identificar projetos por ID, tecnologia, categoria e link.
-4. Para decisões profissionais, leia `data/career-profile.json`, use a skill `.agents/skills/data-analyst-career-advisor/` e confira `curriculo/04-revisao/painel-profissional.md`.
-5. Preserve arquivos que já estejam modificados ou não rastreados, a menos que a tarefa peça explicitamente para alterá-los.
+1. Leia `memoria/contexto-rapido.md` e `memoria/historico-ajustes.md` primeiro para obter o resumo atualizado do repositório sem gastar tokens relendo arquivos extensos.
+2. Leia `README.md`, `AGENTS.md` e o documento desta pasta relacionado à tarefa apenas quando precisar de detalhes específicos.
+3. Identifique a fonte de verdade: `index.html` para o site; `curriculo/` para o currículo.
+4. Use `data/projects.json` para identificar projetos por ID, tecnologia, categoria e link.
+5. Para decisões profissionais, leia `data/career-profile.json`, use a skill `.agents/skills/data-analyst-career-advisor/` e confira `curriculo/04-revisao/painel-profissional.md`.
+6. Preserve arquivos que já estejam modificados ou não rastreados, a menos que a tarefa peça explicitamente para alterá-los.
+7. A cada ajuste concluído, garanta que a melhoria esteja registrada em `memoria/historico-ajustes.md` em frase curta e simples (o hook `.agents/hooks.json` atualiza automaticamente após edições, e `npm run memory:log -- --note "..."` registra notas descritivas).
+8. Siga a regra de modelo e esforço do `AGENTS.md` antes de trocar a configuração da execução.
 
 ## Contrato de conteúdo
 

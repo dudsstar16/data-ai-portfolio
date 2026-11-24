@@ -8,7 +8,7 @@ Preencha esta matriz antes de substituir campos `[X]` no currículo. Registre ap
 | --- | --- | --- | --- |
 | Continuidade em dados e BI | Mesma equipe e área de Dados e Relacionamento com o Cliente; continuidade de dashboards, bases e análises de NPS e CES | Registros da transição, lista de responsabilidades e alinhamento com a liderança | Bullet 1 |
 | Descoberta e desenho de solução | Levantamento de dores, definição do Job to Be Done, desenho e prototipação de fluxos de automação e IA aplicada | Registros de discovery, documentação de fluxo e alinhamentos com a equipe | Bullet 2 |
-| Automações e agentes de IA | Construção de agentes conversacionais e de desenvolvimento com Python, LLMs e APIs; guardrails, saídas estruturadas, testes, validação e revisão humana quando necessária; volume e impacto ainda devem ser medidos | Repositórios internos, documentação de fluxo, testes e aceite da equipe | Bullet 3 |
+| Automações e agentes de IA | Construção de agentes conversacionais e de desenvolvimento com Python, LLMs e APIs; agentes especialistas por assunto e chatbots no Microsoft Copilot Studio integrados a fluxos do Power Automate que buscam dados (também praticados na Residência em IA da UnB); guardrails, saídas estruturadas, testes, validação e revisão humana quando necessária; volume e impacto ainda devem ser medidos | Repositórios internos, documentação de fluxo, testes e aceite da equipe | Bullet 3 |
 
 ## CNP Seguros Holding
 

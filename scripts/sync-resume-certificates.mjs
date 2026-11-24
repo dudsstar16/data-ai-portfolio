@@ -10,6 +10,7 @@ const selected = catalog.certificates
   .map(certificate => ({ certificate, score: scoreItem(certificate, profile.competencyPillars).score }))
   .sort((left, right) =>
     right.score - left.score ||
+    (right.certificate.durationHours ?? 0) - (left.certificate.durationHours ?? 0) ||
     (left.certificate.displayOrder ?? 999) - (right.certificate.displayOrder ?? 999) ||
     left.certificate.title.localeCompare(right.certificate.title, "pt-BR")
   )
