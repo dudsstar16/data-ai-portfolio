@@ -36,5 +36,5 @@ Registro documental em frases curtas e simples sobre o que foi feito e melhorado
 ## Últimas Entregas Consolidadas (Git)
 
 <!-- git-log:start -->
-- **2026-11-23** (`e45019f`): feat(portfolio): add local memory, curate certificates and publish Primora, SyntonIA and BSBora projects.
+- **2026-11-24** (`c14ed09`): chore(content): automate portfolio updates.
 <!-- git-log:end -->
